@@ -11,13 +11,15 @@ const Navbar = () => {
                         <div className="container m-auto px-2 md:px-12 lg:px-7">
                             <div className="flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0">
                                 <div className="w-full px-6 flex justify-between lg:w-max md:px-0">
-                                    <a href="#" aria-label="logo" className="flex space-x-2 items-center">
-                                        <div aria-hidden="true" className="flex space-x-1">
-                                            <div className="h-4 w-4 rounded-full bg-gray-900"></div>
-                                            <div className="h-6 w-2 bg-sky-500"></div>
-                                        </div>
-                                        <span className="text-base font-bold text-gray-400">Edovera</span>
-                                    </a>
+                                    <Link href="/">
+                                        <a href="#" aria-label="logo" className="flex space-x-2 items-center">
+                                            <div aria-hidden="true" className="flex space-x-1">
+                                                <div className="h-4 w-4 rounded-full bg-gray-900"></div>
+                                                <div className="h-6 w-2 bg-sky-500"></div>
+                                            </div>
+                                            <span className="text-base font-bold text-gray-400">Edovera</span>
+                                        </a>
+                                    </Link>
                                     <label htmlFor="hbr" className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
                                         <div aria-hidden="true" className="m-auto h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
                                         <div aria-hidden="true" className="m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
@@ -41,24 +43,24 @@ const Navbar = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <a href="#" className="block md:px-4 transition hover:text-sky-700">
-                                                    <span>Services</span>
-                                                </a>
+                                                <Link href="/products">
+                                                    <a className="block md:px-4 transition hover:text-sky-700">
+                                                        <span>Products</span>
+                                                    </a>
+                                                </Link>
                                             </li>
+
                                         </ul>
                                     </div>
 
-                                    <div className="w-full space-y-2 border-sky-200 flex flex-col -ml-1 sm:flex-row lg:space-y-0 md:w-max lg:border-l">
-                                        <button type="button" title="Start buying" className="w-full py-2.5 px-5 text-center rounded-full transition active:bg-sky-200 focus:bg-sky-100 sm:w-max">
-                                            <span className="block text-sky-800 font-semibold lg:text-sm">
-                                                Sign up
-                                            </span>
-                                        </button>
-                                        <button type="button" title="Start buying" className="w-full py-2.5 px-5 text-center rounded-full transition bg-gradient-to-b from-sky-400 to-cyan-300 active:from-sky-300 focus:from-cyan-400 sm:w-max">
-                                            <span className="block text-sky-900 font-semibold lg:text-sm">
-                                                Login
-                                            </span>
-                                        </button>
+                                    <div className=" w-full space-y-2 border-sky-200 flex flex-col -ml-1 sm:flex-row lg:space-y-0 md:w-max lg:border-l">
+                                        <Link href="/orders">
+                                            <a type="button" title="Start buying" className="mx-2 w-full py-2.5 px-5 text-center rounded-full transition bg-gradient-to-b from-sky-400 to-cyan-300 active:from-sky-300 focus:from-cyan-400 sm:w-max">
+                                                <span className="block text-sky-900 font-semibold lg:text-sm">
+                                                    Orders
+                                                </span>
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
