@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="relative w-full">
                 <header>
                     <input type="checkbox" name="hbr" id="hbr" className="hbr peer" hidden aria-hidden="true" />
-                    <nav className="fixed z-10 w-full border-b bg-white bg-opacity-70 backdrop-blur navbar peer-checked:navbar-active md:absolute md:bg-transparent">
+                    <nav className="fixed z-10 w-full border-b bg-green-600 bg-opacity-70 backdrop-blur navbar peer-checked:navbar-active md:absolute lg:fixed md:bg-transparent">
                         <div className="container m-auto px-2 md:px-12 lg:px-7">
                             <div className="flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0">
                                 <div className="w-full px-6 flex justify-between lg:w-max md:px-0">
@@ -17,7 +17,7 @@ const Navbar = () => {
                                                 <div className="h-4 w-4 rounded-full bg-gray-900"></div>
                                                 <div className="h-6 w-2 bg-sky-500"></div>
                                             </div>
-                                            <span className="text-base font-bold text-gray-400">Edovera</span>
+                                            <span className="text-lg font-bold text-black">Edovera</span>
                                         </a>
                                     </Link>
                                     <label htmlFor="hbr" className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">

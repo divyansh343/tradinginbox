@@ -28,11 +28,11 @@ const Users = () => {
         getAllUsers()
     }, [])
 
-    console.log(users);
 
     return (
         <div>
-            <section className="container mx-auto pt-20 p-6 font-mono">
+            <div className="mx-10 container pt-20 heading font-bold mb-8 text-4xl text-primary">Registerd Users</div>
+            <section className="container mx-auto p-6 font-mono">
                 <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
                     <div className="w-full overflow-x-auto">
                         <table className="w-full">

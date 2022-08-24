@@ -28,7 +28,6 @@ const Products = () => {
         getAllProducts()
     }, [])
 
-    console.log(products);
     return (
         <>
             <div className="mx-10 container pt-20 heading font-bold mb-8 text-4xl text-primary">All products</div>
@@ -36,7 +35,7 @@ const Products = () => {
                 {
                     products.map((item) => (
                         <>
-                            <div className="w-full max-w-sm mx-4 my-4 bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                            <div key={item.product_id} className="w-full max-w-sm mx-4 my-4 bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
                                     <Image
                                         height={720}
