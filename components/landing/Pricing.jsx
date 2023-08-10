@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <>
       
-      {/* <div className='grid justify-center mx-5 mb-10'>
+      <div className='grid justify-center mx-5 mb-10'>
         <div className="relative p-8 md:p-12 bg-base-200 text-base-content rounded-3xl w-full md:w-[26rem] group">
 
           <div className="space-y-8 relative z-10"><p className="text-primary tracking-wide font-semibold md:text-lg">🍜 VIP Membership </p><div className="flex items-baseline flex-wrap gap-x-2">
@@ -59,7 +59,7 @@ const Pricing = () => {
           <div className="absolute inset-2 blur-lg bg-accent/75 -z-10 group-hover:inset-1 group-hover:bg-accent/100 duration-200 animate-tilt"></div>
 
         </div>
-      </div> */}
+      </div>
 
     </>
 
