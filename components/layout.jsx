@@ -1,14 +1,17 @@
 import Footer from "./footer"
 import Navbar from "./navbar"
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-    <div>
-        <Navbar /> 
-        <div>
+    <div className="bg-gradient-to-r
+    from-base-200
+    via-base-300
+    to-accent background-animate `}" data-theme="synthwave">
+      <Navbar />
+      <div>
         {children}
-        </div>
-        <Footer />
+      </div>
+      <Footer />
     </div>
   )
 }
