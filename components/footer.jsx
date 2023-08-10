@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div data-theme="forest">
+            <div data-theme="luxury">
                 <footer className="footer p-10 bg-base-100 border-t-2 text-base-content">
 
                     <div>
