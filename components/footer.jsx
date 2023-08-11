@@ -12,6 +12,7 @@ const Footer = () => {
                         {/* <Image src={logoImg} height={50} width={50} alt="" /> */}
                         <p className='text-2xl font-bold'>Crypto k🔺</p>
                         <p className='text-md'>Top Notch Crypto Analysis & Signals.</p>
+                        <p className='text-md'>@2023</p>
                     </div>
                     <div>
                         <span className="footer-title">Services</span>
@@ -57,8 +58,10 @@ const Footer = () => {
 
 
                 </div>
+                <div className='grid justify-end'>
+                    <a className="link link-primary text-xs p-5">By - Divyansh</a>
+                </div>
             </div>
-
         </>
     )
 }
