@@ -47,7 +47,7 @@ const Hero = () => {
 
                 {/* <h1 className="text-3xl md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">🔺VIP Signals🔻</h1> */}
 
-                <div className="mt-2 lg:mt-12 grid place-items-center lg:place-items-start">
+                <div className="mt-0 lg:mt-12 grid place-items-center lg:place-items-start">
                   <div className="avatar-group -space-x-3 ">
                     <div className="avatar">
                       <div className="w-18">
