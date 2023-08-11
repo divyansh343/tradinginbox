@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="text-center xl:col-span-2 lg:text-left md:px-16 lg:px-0">
               <div className="max-w-sm mx-auto sm:max-w-md md:max-w-full">
 
-                <h1 className="text-4xl mt-5 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">Crypto K🔺</h1>
+                <h1 className="text-4xl mt-3 lg:mt-5 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">Crypto K🔺</h1>
 
                 <h1 className="text-3xl my-4 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">
                   <ReactTypingEffect
@@ -47,7 +47,7 @@ const Hero = () => {
 
                 {/* <h1 className="text-3xl md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">🔺VIP Signals🔻</h1> */}
 
-                <div className="mt-8 lg:mt-12 grid place-items-center lg:place-items-start">
+                <div className="mt-2 lg:mt-12 grid place-items-center lg:place-items-start">
                   <div className="avatar-group -space-x-3 ">
                     <div className="avatar">
                       <div className="w-18">
