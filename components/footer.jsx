@@ -5,13 +5,13 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div data-theme="luxury">
-                <footer className="footer p-10 bg-base-100 border-t-2 text-base-content">
+            <div className='bg-base-200' >
+                <footer className="footer p-10 bg-base-200 border-t-2 text-base-content">
 
                     <div>
                         {/* <Image src={logoImg} height={50} width={50} alt="" /> */}
-                        <p className='text-lg'>Suprr.Link</p>
-                        <p className='text-md'>Shareable profile link for social media users.</p>
+                        <p className='text-2xl font-bold'>Crypto k🔺</p>
+                        <p className='text-md'>Top Notch Crypto Analysis & Signals.</p>
                     </div>
                     <div>
                         <span className="footer-title">Services</span>
@@ -31,11 +31,11 @@ const Footer = () => {
                         <div className='grid place-items-center  '>
                             <div className="stats shadow bg-white text-secondary drop-shadow-lg">
                                 <div className="stat">
-                                    <div className="stat-title text-secondary">Worldwide</div>
-                                    <div className="stat-value">19,000<span className='inline-block text-md   mr-1'>
+                                    <div className="stat-title text-secondary">🪙BTC target</div>
+                                    <div className="stat-value">$32,000<span className='inline-block text-md   mr-1'>
                                         {/* <HiTrendingUp /> */}
                                     </span></div>
-                                    <div className="stat-desc text-secondary">Users Joined So Far</div>
+                                    <div className="stat-desc text-secondary">ETH, LTC, DOGE...</div>
                                 </div>
                             </div>
                         </div>
@@ -43,27 +43,19 @@ const Footer = () => {
 
 
                 </footer>
-                <div className='mx-5 lg-mx-20 pb-20'>
+                <div className='px-5 lg-px-20 bg-base-200 pb-20'>
                     <p className="pt-6 text-sm  font-thin text-primary-focus lg:mt-4 lg:ml-4 font-pj">
-                        Trading is risky & most day traders lose money. This site & the products & services we offer informational & educational purposes only. All content is to be considered hypothetical, selected after the fact, in order to demonstrate our product and should not be construed as financial advice. Decisions to buy, sell, hold or trade in securities, commodities and other investments involve risk and are best made based on the advice of qualified financial professionals. Past performance does not guarantee future results.
+                        Trading is risky & most traders lose money. This site & the products & services we offer informational & educational purposes only. All content is to be considered hypothetical, selected after the fact, in order to demonstrate our product and should not be construed as financial advice. Decisions to buy, sell, hold or trade in securities, commodities and other investments involve risk and are best made based on the advice of qualified financial professionals. Trading in USD@-M Futures is subjected to risk.
                     </p>
 
                     <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 font-pj">
-                        Hypothetical or Simulated performance results have certain limitations, unlike an actual performance record, simulated results do not represent actual trading. Also, since the trades have not been executed, the results may have under-or-over compensated for the impact, if any, of certain market factors, such as lack of liquidity. Simulated trading programs in general are also subject to the fact that they are designed with the benefit of hindsight. No representation is being made that any account will or is likely to achieve profit or losses similar to those shown.
+                        Engaging in USD@-M Futures trading presents its own set of risks, and it&apos;s vital to recognize this aspect.
+
+                        Testimonials showcased on this platform may not accurately represent the experiences of all clients or customers. They should not be taken as a guarantee of future performance or accomplishments.
                     </p>
 
-                    <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 font-pj">
-                        Testimonials appearing on this website may not be representative of other clients or customers and is not a guarantee of future performance or success.
-                    </p>
 
-                    <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 font-pj">
-                        As a provider of technical analysis tools for charting platforms, we do not have access to the personal trading accounts or brokerage statements of our customers. As a result, we have no reason to believe our customers perform better or worse than traders as a whole based on any content or tool we provide.
-                    </p>
 
-                    <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 font-pj">
-                    As a provider of technical analysis tools for charting platforms, we do not have access to the personal trading accounts or brokerage statements of our customers. As a result, we have no reason to believe our customers perform better or worse than traders as a whole based on any content or tool we provide.
-                    </p>
-                  
                 </div>
             </div>
 

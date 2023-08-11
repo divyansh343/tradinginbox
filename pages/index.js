@@ -7,12 +7,14 @@ import Hero from '../components/landing/Hero'
 import Digits from '../components/landing/Digits'
 import Section from '../components/landing/Section'
 import Testimonials from '../components/landing/Testimonials'
+import Sheet from '../components/landing/Sheet'
 
 export default function Home() {
   return (
     <div className=''>
       <Hero/>
       <Section/>
+      <Sheet />
       <Digits/>
       <Pricing />
       <Testimonials />

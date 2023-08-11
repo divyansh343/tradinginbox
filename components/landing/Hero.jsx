@@ -40,7 +40,7 @@ const Hero = () => {
                       `Analysis`,
                       `Siganls`,
                       `Updates`,
-                      `Giveaways`,
+                      `Airdrops`,
                     ]}
                   />
                 </h1>
@@ -84,20 +84,24 @@ const Hero = () => {
                     </div>
 
                   </div>
-                  <div className="rating mt-10 mb-2 lg:mt-2">
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+                  <div className='grid justify-center'>
+                    <div className="rating mt-10 mb-2 lg:mt-2">
+                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+                    </div>
                   </div>
-                  <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md font-pj">
+                  {/* <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md font-pj">
                     More than
                     <span className="font-thin px-1 text-primary">3200 Already joined </span>
-                    {/* <span className="font-bold px-2">Already joined</span> */}
+                  </p> */}
+                  <p className="pt-8 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
+                    We are the #1 provider of Crypto Signals. 
                   </p>
-                  <p className="pt-3 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
-                    We are the #1 provider of Crypto Signals . Trusted by over 10,000+ traders.
+                  <p className="pt-1 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
+                  Trusted by over 1,000+ traders.
                   </p>
                 </div>
               </div>

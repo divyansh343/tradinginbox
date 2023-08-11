@@ -7,7 +7,7 @@ import { FaTelegram } from 'react-icons/fa';
 const Navbar = () => {
   return (
     <>
-      <div data-theme="lofi" className="navbar bg-base-100">
+      <div className="navbar bg-base-100">
         <div className="flex-1">
           <Link href="/">
             <div className="btn btn-ghost normal-case text-lg lg:text-lg font-semibold tracking-wide">
@@ -29,11 +29,9 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
         
-          <Link href="/login">
             <div className="btn font-normal text-base btn-primary btn-sm normal-case mx-1">
             <span className={`px-1 inline-block text-blue-500  `}><FaTelegram /></span>
               Join Now</div>
-          </Link>
           {/* <Link href="/register">
             <button className="btn font-normal text-base btn-primary btn-sm normal-case">Sign up</button>
           </Link> */}
