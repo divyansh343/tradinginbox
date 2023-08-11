@@ -97,13 +97,14 @@ const Hero = () => {
                     More than
                     <span className="font-thin px-1 text-primary">3200 Already joined </span>
                   </p> */}
-                  <p className="pt-8 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
+               
+                </div>
+                <p className="pt-8 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
                     We are the #1 provider of Crypto Signals. 
                   </p>
                   <p className="pt-1 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
                   Trusted by over 1,000+ traders.
                   </p>
-                </div>
               </div>
 
               <div className="mt-10 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
