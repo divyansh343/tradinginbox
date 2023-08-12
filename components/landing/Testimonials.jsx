@@ -5,7 +5,7 @@ import { IoPeopleSharp } from 'react-icons/io5'
 
 const Testimonials = () => {
   return (
-    <div className='border-t-2'>
+    <div className='border-t-2 overflow-hidden'>
       <section className="bg-base-100  p-4 py-16 md:py-32">
 
         <div className="text-center mb-20 space-y-4 md:space-y-6">

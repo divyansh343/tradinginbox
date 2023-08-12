@@ -47,7 +47,7 @@ const Hero = () => {
 
                 {/* <h1 className="text-3xl md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">🔺VIP Signals🔻</h1> */}
 
-                <div className="mt-0 lg:mt-12 grid place-items-center lg:place-items-start">
+                <div className="mt-5 lg:mt-12 grid place-items-center lg:place-items-start">
                   <div className="avatar-group -space-x-3 ">
                     <div className="avatar">
                       <div className="w-18">
@@ -85,7 +85,7 @@ const Hero = () => {
 
                   </div>
                   <div className='grid justify-center'>
-                    <div className="rating mt-10 mb-2 lg:mt-2">
+                    <div className="rating mt-4 mb-2 lg:mt-2">
                       <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                       <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                       <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
@@ -107,7 +107,7 @@ const Hero = () => {
                   </p>
               </div>
 
-              <div className="mt-10 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
+              <div className="mt-5 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
                 <Link href="/register">
                   <button className="btn mx-1 normal-case btn-primary lg:btn-base    text-base lg:text-lg  font-medium">
                     <span className={`px-1 inline-block text-blue-500 `}><FaTelegram /></span>
