@@ -4,6 +4,7 @@ import React from 'react'
 import { FaTelegram } from 'react-icons/fa';
 
 const Navbar = ({etheme,handleChange}) => {
+  
   const options = [
    {
      label: "Light",
