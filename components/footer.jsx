@@ -59,7 +59,7 @@ const Footer = () => {
 
                 </div>
                 <div className='grid justify-end'>
-                    <a className="link link-primary text-xs p-5">By - Divyansh</a>
+                    <a href="https://suprr.link/divyansh" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">🥑Designed by - Divyansh</a>
                 </div>
             </div>
         </>
