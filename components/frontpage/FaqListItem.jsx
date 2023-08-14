@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const FaqListItem = ({ que, ans }) => {
-  const [toggle, settoggle] = useState(0)
+  const [toggle, settoggle] = useState(1)
   return (
     <>
       <li>

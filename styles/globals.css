@@ -49,3 +49,17 @@ a {
     background-position: 50% 20%;
   }
 } */
+
+.input {
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  height: 6vh;
+  width: 40vw;
+}
+.mainInput {
+  position: relative;
+  margin-top: 50%;
+}

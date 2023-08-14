@@ -4,7 +4,7 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("wireframe")
+  const [theme, settheme] = useState("garden")
 
   const handleChange = (e) => {
     settheme(e.target.value);
