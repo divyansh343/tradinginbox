@@ -8,16 +8,23 @@ import Digits from '../components/landing/Digits'
 import Section from '../components/landing/Section'
 import Testimonials from '../components/landing/Testimonials'
 import Sheet from '../components/landing/Sheet'
+import StageSection from '../components/frontpage/StageSection'
+import Faq from '../components/frontpage/Faq'
+import Strip from '../components/frontpage/Strip'
 
 export default function Home() {
   return (
     <div className=''>
-      <Hero/>
+      <Section />
+      <StageSection />
+      <Faq />
+      {/* <Strip /> */}
+      {/* <Hero/>
       <Section/>
       <Sheet />
       <Digits/>
       <Pricing />
-      <Testimonials />
+      <Testimonials /> */}
     </div>
   )
 }

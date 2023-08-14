@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div className='bg-base-200' >
+            <div data-theme="synthwave" className='bg-base-300' >
                 <footer className="footer p-10 bg-base-200 border-t-2 text-base-content">
 
                     <div>
@@ -44,7 +44,7 @@ const Footer = () => {
 
 
                 </footer>
-                <div className='px-5 lg-px-20 bg-base-200 pb-20'>
+                {/* <div className='px-5 lg-px-20 bg-base-200 pb-20'>
                     <p className="pt-6 text-sm  font-thin text-primary-focus lg:mt-4 lg:ml-4 font-pj">
                         Trading is risky & most traders lose money. This site & the products & services we offer informational & educational purposes only. All content is to be considered hypothetical, selected after the fact, in order to demonstrate our product and should not be construed as financial advice. Decisions to buy, sell, hold or trade in securities, commodities and other investments involve risk and are best made based on the advice of qualified financial professionals. Trading in USD@-M Futures is subjected to risk.
                     </p>
@@ -57,7 +57,7 @@ const Footer = () => {
 
 
 
-                </div>
+                </div> */}
                 <div className='grid justify-end'>
                     <a href="https://suprr.link/divyansh" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">🥑Designed by - Divyansh</a>
                 </div>
