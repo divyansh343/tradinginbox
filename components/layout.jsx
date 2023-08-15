@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
     <div className="bg-base-100" data-theme={theme}>
       <Navbar ethmem={theme} handleChange={handleChange} />
       
-      <div>
+      <div className="">
         {children}
       </div>
       <Footer />

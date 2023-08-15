@@ -13,12 +13,14 @@ import Faq from '../components/frontpage/Faq'
 import Strip from '../components/frontpage/Strip'
 import Shutter from '../components/frontpage/Shutter'
 import Services from '../components/frontpage/Services'
+import Stars from '../components/frontpage/Stars'
 
 export default function Home() {
   return (
     <div className=''>
       <Section />
       <Services/>
+      <Stars />
       <StageSection />
       <Faq />
       <Shutter />
