@@ -3,54 +3,94 @@ import React from 'react'
 // import { HiTrendingUp } from 'react-icons/hi'
 // import logoImg from '../../assets/images/power.png'
 const Footer = () => {
-    return (
-        <>
-            <div  className='bg-base-300' >
-                <footer className="footer p-10 bg-base-200 border-t-2 text-base-content">
-
-                    <div>
-                        {/* <Image src={logoImg} height={50} width={50} alt="" /> */}
-                        <p className='text-2xl font-bold'>Crypto k🔺</p>
-                        <p className='text-md'>Top Notch Crypto Analysis & Signals.</p>
-                        <p className='text-md'>@2023</p>
-                    </div>
-                    <div>
-                        <span className="footer-title">Services</span>
-                        <a className="link link-hover">Branding</a>
-                        <a className="link link-hover">Design</a>
-                        <a className="link link-hover">Marketing</a>
-                        <a className="link link-hover">Advertisement</a>
-                    </div>
-                    <div>
-                        <span className="footer-title">Company</span>
-                        <a className="link link-hover">About us</a>
-                        <a className="link link-hover">Contact</a>
-                        <a className="link link-hover">Jobs</a>
-                        <a className="link link-hover">Press kit</a>
-                    </div>
-                    <div>
-                        <div className='grid place-items-center  '>
-                            <div className="stats shadow bg-white text-secondary drop-shadow-lg">
-                                <div className="stat">
-                                    <div className="stat-title text-secondary">🪙BTC target</div>
-                                    <div className="stat-value">$32,000<span className='inline-block text-md   mr-1'>
-                                        {/* <HiTrendingUp /> */}
-                                    </span></div>
-                                    <div className="stat-desc text-secondary">ETH, LTC, DOGE...</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </footer>
-             
-                <div className='grid justify-end bg-base-200'>
-                    <a href="https://suprr.link/divyansh" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">🥑Designed by - Divyansh</a>
-                </div>
+  return (
+    <>
+      <div className='p-6'>
+        <div className="px-[12px] md:px-[36px] xl:px-0 mt-[70px]">
+          <div className="flex flex-col items-center gap-2 mb-14 md:flex-row md:justify-between">
+            {/* <img class="h-full w-full object-cover max-w-[162px]" src="./assets/images/logo.svg" alt="logo"> */}
+            <div className="flex items-center flex-col gap-5 md:flex-row lg:gap-[30px]">
+              <p className="text-heading-6  font-bold">Ready to get started?</p>
+              <button type="button"> <a className="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-md bg-base-100 text-primary hover:bg-base-200 hover:text-secondary w-fit" href="#"><span className="block text-inherit w-full h-full rounded-md text-lg  font-semibold">Create an Account</span></a></button>
             </div>
-        </>
-    )
+          </div>
+          <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div>
+          <div className="text-gray-600 grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
+            <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Contact</h5>
+              <p className="text-text mb-5">4517 Washington Ave. Manchester, Kentucky 39495
+              </p>
+              <p className="text-text underline">(239) 555-0108
+              </p>
+              <p className="text-text underline">contact@agon.com
+              </p>
+            </div>
+            <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">About Us</h5>
+              <ul>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Mission &amp; Vision</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Our Team</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Careers</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Press &amp; Media</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Advertising</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Testimonials</a></li>
+              </ul>
+            </div>
+            {/* <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Discover</h5>
+              <ul>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Our Blog</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Plans &amp; Pricing</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Knowledge Base</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Cookie Policy</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Office Center</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">News &amp; Events</a></li>
+              </ul>
+            </div> */}
+            <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Support</h5>
+              <ul>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">FAQs</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Editor Help</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Community</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Live Chatting</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Contact Us</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Support Center</a></li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Useful links</h5>
+              <ul>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Request an offer</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">How it works</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Pricing</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Reviews</a></li>
+                <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Stories</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-full bg-gray-200 h-[1px] mb-[46px]"></div>
+          <div className="text-gray-400 lg:flex lg:items-center lg:justify-between">
+            <div className="md:flex md:items-center md:gap-6">
+              <p className="text-lead font-bold">©Agon Official 2022
+              </p>
+              <div className="flex items-center justify-between md:gap-6"><a className="text-text" href="#">Privacy policy</a><a className="text-text" href="#">Cookies</a><a className="text-text" href="#">Terms of service</a></div>
+            </div>
+            <div className="flex items-center justify-center gap-5 mt-5 lg:mt-0"><a className="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1" href="#">
+              {/* <img class="h-full w-full object-cover" src="./assets/images/icons/icon-facebook-green.svg" alt="facebook icon"> */}
+            </a><a className="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1" href="#">
+                {/* <img class="h-full w-full object-cover" src="./assets/images/icons/icon-instagram-green.svg" alt="instagram icon"> */}
+              </a><a className="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1" href="#">
+                {/* <img class="h-full w-full object-cover" src="./assets/images/icons/icon-twitter-green.svg" alt="twitter icon"> */}
+              </a><a className="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1" href="#">
+                {/* <img class="h-full w-full object-cover" src="./assets/images/icons/icon-linkedin-green.svg" alt="linkedin icon"> */}
+              </a></div>
+          </div>
+        </div>
+      </div>
+
+    </>
+  )
 }
 
 export default Footer

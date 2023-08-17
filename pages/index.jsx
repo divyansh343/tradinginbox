@@ -14,14 +14,16 @@ import Strip from '../components/frontpage/Strip'
 import Shutter from '../components/frontpage/Shutter'
 import Services from '../components/frontpage/Services'
 import Stars from '../components/frontpage/Stars'
+import BoxSection from '../components/frontpage/BoxSection'
 
 export default function Home() {
   return (
     <div className=''>
       <Section />
       <Services/>
+      <BoxSection/>
       <Stars />
-      <StageSection />
+      {/* <StageSection /> */}
       <Faq />
       <Shutter />
       {/* <Strip /> */}

@@ -4,13 +4,13 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("garden")
+  const [theme, settheme] = useState("winter")
 
   const handleChange = (e) => {
     settheme(e.target.value);
   }
   return (
-    <div className="bg-base-100" data-theme={theme}>
+    <div className="bg-base-200" data-theme={theme}>
       <Navbar ethmem={theme} handleChange={handleChange} />
       
       <div className="">
