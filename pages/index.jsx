@@ -15,13 +15,18 @@ import Shutter from '../components/frontpage/Shutter'
 import Services from '../components/frontpage/Services'
 import Stars from '../components/frontpage/Stars'
 import BoxSection from '../components/frontpage/BoxSection'
+import Gallery from '../components/frontpage/Gallery'
+import MarketSection from '../components/frontpage/MarketSection'
 
 export default function Home() {
   return (
     <div className=''>
       <Section />
       <Services/>
-      <BoxSection/>
+      {/* <BoxSection/> */}
+<MarketSection/>
+      <StageSection />
+      <Gallery />
       <Stars />
       {/* <StageSection /> */}
       <Faq />

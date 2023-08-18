@@ -3,6 +3,8 @@ import React from 'react'
 const StageSection = () => {
   return (
     <div div className='mx-5 lg:mx-10 h-screen py-20'>
+      <div className="text-center mb-20 space-y-4 md:space-y-6"><h2 className="text-4xl md:text-5xl tracking-wide font-black leading-tight md:leading-tight">Trust the Experts in Influencer Engagement</h2>
+      </div>
       <div className="flex flex-col md:flex-row items-center gap-4">
         <div className="flex-1 w-full card card-compact md:card-normal bg-base-100 text-left">
           <div className="card-body flex-row md:flex-col items-center md:items-start gap-4 md:gap-8">

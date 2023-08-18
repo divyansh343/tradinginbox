@@ -5,17 +5,11 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='p-6'>
+      <div data-theme="forest" className='p-6'>
         <div className="px-[12px] md:px-[36px] xl:px-0 mt-[70px]">
-          <div className="flex flex-col items-center gap-2 mb-14 md:flex-row md:justify-between">
-            {/* <img class="h-full w-full object-cover max-w-[162px]" src="./assets/images/logo.svg" alt="logo"> */}
-            <div className="flex items-center flex-col gap-5 md:flex-row lg:gap-[30px]">
-              <p className="text-heading-6  font-bold">Ready to get started?</p>
-              <button type="button"> <a className="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-md bg-base-100 text-primary hover:bg-base-200 hover:text-secondary w-fit" href="#"><span className="block text-inherit w-full h-full rounded-md text-lg  font-semibold">Create an Account</span></a></button>
-            </div>
-          </div>
-          <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div>
-          <div className="text-gray-600 grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
+          
+          {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
+          <div className=" grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
             <div>
               <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Contact</h5>
               <p className="text-text mb-5">4517 Washington Ave. Manchester, Kentucky 39495
@@ -27,7 +21,7 @@ const Footer = () => {
             </div>
             <div>
               <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">About Us</h5>
-              <ul>
+              <ul className=''>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Mission &amp; Vision</a></li>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Our Team</a></li>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Careers</a></li>

@@ -4,7 +4,7 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("winter")
+  const [theme, settheme] = useState("lofi")
 
   const handleChange = (e) => {
     settheme(e.target.value);
@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
         {children}
       </div>
       <Footer />
-      <Label/>
+      {/* <Label/> */}
     </div>
   )
 }
