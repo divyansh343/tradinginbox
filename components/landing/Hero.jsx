@@ -18,125 +18,45 @@ import { FaTelegram } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div className="relative bg-base-100">
-      <div className="absolute bottom-0 right-0 overflow-hidden lg:inset-y-0">
-        {/* <Image height={500} width={500} priority className="w-auto h-full" src="https://d33wubrfki0l68.cloudfront.net/1e0fc04f38f5896d10ff66824a62e466839567f8/699b5/images/hero/3/background-pattern.png" alt="" /> */}
-      </div>
-      <section className="relative py-12 sm:py-16 lg:pt-10 lg:pb-36">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="grid grid-cols-1 gap-y-8 lg:items-center lg:grid-cols-2 sm:gap-y-20 xl:grid-cols-5">
-            <div className="text-center xl:col-span-2 lg:text-left md:px-16 lg:px-0">
-              <div className="max-w-sm mx-auto sm:max-w-md md:max-w-full">
-
-                <h1 className="text-4xl mt-3 lg:mt-5 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">K Crypto🔺</h1>
-
-                <h1 className="text-3xl my-4 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">
-                  <ReactTypingEffect
-                    typingDelay={400}
-                    speed={60}
-                    eraseSpeed={30}
-                    eraseDelay={1800}
-                    text={[
-                      `Analysis`,
-                      `Siganls`,
-                      `Updates`,
-                      `Airdrops`,
-                    ]}
-                  />
-                </h1>
-
-                {/* <h1 className="text-3xl md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">🔺VIP Signals🔻</h1> */}
-
-                <div className="mt-5 lg:mt-12 grid place-items-center lg:place-items-start">
-                  <div className="avatar-group -space-x-3 ">
-                    <div className="avatar">
-                      <div className="w-18">
-                        <Image height={40} width={40} alt="" src={twoImg} />
-                      </div>
-                    </div>
-
-                    <div className="avatar">
-                      <div className="w-18">
-                        <Image height={40} width={40} alt="" src={sixImg} />
-                      </div>
-                    </div>
-                    <div className="avatar">
-                      <div className="w-18">
-                        <Image height={40} width={40} alt="" src={fourImg} />
-                      </div>
-                    </div>
-                    <div className="avatar">
-                      <div className="w-18">
-                        <Image height={40} width={40} alt="" src={fiveImg} />
-                      </div>
-                    </div>
-                    <div className="avatar">
-                      <div className="w-18">
-                        <Image height={40} width={40} alt="" src={sevenImg} />
-                      </div>
-                    </div>
-
-
-                    <div className="avatar">
-                      <div className="w-18">
-                        <Image height={40} width={40} alt="" src={nineImg} />
-                      </div>
-                    </div>
-
-                  </div>
-                  <div className='grid justify-center'>
-                    <div className="rating mt-4 mb-2 lg:mt-2">
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
-                    </div>
-                  </div>
-                  {/* <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md font-pj">
-                    More than
-                    <span className="font-thin px-1 text-primary">3200 Already joined </span>
-                  </p> */}
-               
+    <section className="pt-12 lg:pt-24 ">
+      <div className="px-5 lg:px-12 mx-auto max-w-7xl">
+        <div className="w-full mx-auto text-center md:w-11/12 xl:w-9/12 md:text-center">
+          <h1 className="mb-4 text-4xl font-extrabold  leading-none tracking-wide  text-primary md:text-6xl md:tracking-tight">
+            <span className='tracking-wide'>Crafting </span> <span className="block w-full py-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 curvy to-purple-500 lg:inline">Your Brand&apos;s Story</span>
+          </h1>
+          <p className="px-0 mb-4  text-lg text-primary md:text-xl lg:px-24">
+          with Authentic Creators. Join us to Redefine What&apos;s Possible.
+          </p>
+          <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
+            {/* <a href="#_" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-primary rounded-2xl sm:w-auto sm:mb-0">
+              Get Started
+              <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+            </a>
+            <a href="#_" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg bg-gray-100 rounded-2xl sm:w-auto sm:mb-0">
+              Learn More
+              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+            </a> */}
+          </div>
+        </div>
+        <div className="w-full mx-auto mt-20 text-center md:w-7/12">
+          <div className="relative z-0 w-full mt-8">
+            <div className="relative overflow-hidden shadow-2xl">
+              <div className="flex items-center flex-none px-4 bg-primary rounded-b-none h-3 rounded-xl">
+                <div className="flex space-x-1.5">
+                  <div className="w-1 h-1 border-2 border-white rounded-full"></div>
+                  <div className="w-1 h-1 border-2 border-white rounded-full"></div>
+                  <div className="w-1 h-1 border-2 border-white rounded-full"></div>
                 </div>
-                <p className="pt-8 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
-                    We are the #1 provider of Crypto Signals. 
-                  </p>
-                  <p className="pt-1 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
-                  Trusted by over 1,000+ traders.
-                  </p>
               </div>
-
-              <div className="mt-5 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
-                <Link href="/register">
-                  <button className="btn mx-1 normal-case btn-primary lg:btn-base    text-base lg:text-lg  font-medium">
-                    <span className={`px-1 inline-block text-blue-500 `}><FaTelegram /></span>
-                    Join Telegram
-                  </button>
-                </Link>
-
-
-              </div>
-              {/* <div className='mt-8'>
-              <div className="tabs tabs-boxed font-medium ">
-                <p onClick={() => { setThemeChange("light") }} className={`tab  font-medium ${themeChange === "light" ? "tab-active" : null}`}>Light</p>
-                <p onClick={() => { setThemeChange("night") }} className={`tab  font-medium ${themeChange === "night" ? "tab-active" : null}`}>Night</p>
-                <p onClick={() => { setThemeChange("aqua") }}
-                  className={`tab hidden md:flex
-                  font-medium ${themeChange === "aqua" ? "tab-active" : null}`}>Aqua</p>
-                <p onClick={() => { setThemeChange("forest") }} className={`tab hidden md:flex  font-medium ${themeChange === "forest" ? "tab-active" : null}`}>Forest</p>
-                <p onClick={() => { setThemeChange("lofi") }} className={`tab  font-medium ${themeChange === "lofi" ? "tab-active" : null}`}>Classic</p>
-                <p onClick={() => { setThemeChange("halloween") }} className={`tab  font-medium ${themeChange === "halloween" ? "tab-active" : null}`}>Halloween</p>
-              </div>
-            </div> */}
-            </div>
-            <div className="xl:col-span-3 shadow-lg">
-              <Image height={800} width={1200} className="mx-auto drop-shadow-lg lg:px-20 border-sky-200 border-2  rounded-xl" src={heroImg} alt="" />
+              <video autoPlay muted loop playsinline="" controls="" className="rounded-b-3xl aspect-auto w-full sm:w-[50rem]  border-2 md:border-4 border-base-content/20" width="800" height="500">
+                <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692363900/SnapSave.io-From_Zero_to_Hero__Dominate_Your_Niche_with_Ainfluencer_s_Influencer_Marketing_in_2023_online-video-cutter.com_otsvak.mp4" type="video/mp4" />
+              </video>
+              {/* <img src="https://cdn.devdojo.com/images/march2021/green-dashboard.jpg"> */}
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   )
 }
 

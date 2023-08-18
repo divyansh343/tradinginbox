@@ -8,13 +8,15 @@ import inf4 from '../../assets/images/influencers/inf4.jpg'
 import inf5 from '../../assets/images/influencers/inf5.jpg'
 import inf6 from '../../assets/images/influencers/inf6.jpg'
 
-const Gallery = () => {
+const Brands = () => {
   return (
-    <div className='px-5 lg:px-16'>
-      <div className="text-center my-20 space-y-4 md:space-y-6"><h2 className="text-4xl md:text-5xl   font-black leading-tight md:leading-tight">Real Stories, Real Brands, Real Impact...</h2>
+    <div>
+       <div className='px-5 lg:px-16'>
+      <div className="text-center my-20 space-y-4 md:space-y-6">
+        <h2 className="text-4xl md:text-5xl   font-black leading-tight md:leading-tight">Trusted by Leading Brands</h2>
       {/* <p className="text-base-content-secondary">Unlock advanced features with the lifetime deal!</p> */}
       </div>
-      <div className="projects grid grid-cols-2 gap-x-2 gap-y-1.5 md:grid-cols-4">
+      <div className="projects grid grid-cols-2 gap-x-2 gap-y-1.5 md:grid-cols-8">
         <div className="project space-y-2" data-filter="branding">
           <a  className="flex">
             {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio1.jpg" alt=""> */}
@@ -77,7 +79,8 @@ const Gallery = () => {
        
       </div>
     </div>
+    </div>
   )
 }
 
-export default Gallery
+export default Brands

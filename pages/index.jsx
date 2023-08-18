@@ -18,23 +18,26 @@ import BoxSection from '../components/frontpage/BoxSection'
 import Gallery from '../components/frontpage/Gallery'
 import MarketSection from '../components/frontpage/MarketSection'
 import Form from '../components/frontpage/Form'
+import Banner from '../components/frontpage/Banner'
+import Brands from '../components/frontpage/Brands'
 
 export default function Home() {
   return (
     <div className=''>
-      <Section />
+      <Hero />
       <Services />
+      <Section />
+      <Banner />
       {/* <BoxSection/> */}
       {/* <MarketSection /> */}
-      <StageSection />
       <Gallery />
+      <StageSection />
+      <Brands/>
       <Stars />
-      {/* <StageSection /> */}
       <Faq />
       <Form />
       {/* <Shutter /> */}
       {/* <Strip /> */}
-
     </div>
   )
 }

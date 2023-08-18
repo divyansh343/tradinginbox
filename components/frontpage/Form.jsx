@@ -29,12 +29,12 @@ const Form = () => {
             </div>
             <form className="flex-1" action="/">
               <div className="flex flex-col gap-6 mb-6 lg:flex-row xl:gap-[30px]">
-                <input className="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md  py-5 px-[30px]" type="text" placeholder="Enter your name" />
-                <input className="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md  py-5 px-[30px]" type="text" placeholder="Company (optional)" />
+                <input className="outline-none flex-1 placeholder:text-primary placeholder:text-md  py-5 px-[30px]" type="text" placeholder="Enter your name" />
+                <input className="outline-none flex-1 placeholder:text-primary placeholder:text-md  py-5 px-[30px]" type="text" placeholder="Company (optional)" />
               </div>
               <div className="flex flex-col gap-6 mb-6 lg:flex-row xl:gap-[30px]">
-                <input className="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md  py-5 px-[30px]" type="text" placeholder="Your email" />
-                <input className="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md  py-5 px-[30px]" type="text" placeholder="Phone number" />
+                <input className="outline-none flex-1 placeholder:text-primary placeholder:text-md  py-5 px-[30px]" type="text" placeholder="Your email" />
+                <input className="outline-none flex-1 placeholder:text-primary placeholder:text-md  py-5 px-[30px]" type="text" placeholder="Phone number" />
               </div>
               <textarea className="w-full py-5 resize-none outline-0 px-[30px] max-h-[150px] mb-[35px] md:mb-[56px]" name="" cols="100" rows="10" placeholder="Tell us about yourself"></textarea>
               <div className="flex flex-col gap-5">
