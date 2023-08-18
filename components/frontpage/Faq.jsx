@@ -16,7 +16,7 @@ const Faq = () => {
     },
   ]
   return (
-    <div className='px-5 lg:px-10 lg:h-screen bg-base-200'> 
+    <div className='px-5 lg:px-10 lg:h-screen bg-white'> 
       <div className="py-24 px-5 max-w-7xl mx-auto flex flex-col md:flex-row gap-12 md:gap-16">
         <div className="flex flex-col text-left basis-1/2">
           <p className="inline-block font-semibold text-gradient-warm mb-4">FAQ</p>
