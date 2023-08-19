@@ -13,7 +13,7 @@ import inf8 from '../../assets/images/influencers/inf8.png'
 const Gallery = () => {
   return (
     <div className='px-5 lg:px-16'>
-      <div className="text-center my-20 space-y-4 md:space-y-6"><h2 className="text-4xl md:text-5xl   font-black leading-tight md:leading-tight">Real Stories, Real Brands, Real Impact...</h2>
+      <div className="text-center my-20 space-y-4 md:space-y-6"><h2 className="text-3xl md:text-4xl   font-black leading-tight md:leading-tight">Real Stories, Real Brands, Real Impact...</h2>
       {/* <p className="text-base-content-secondary">Unlock advanced features with the lifetime deal!</p> */}
       </div>
       <div className="projects grid grid-cols-2 gap-x-2 gap-y-1.5 md:grid-cols-4">
