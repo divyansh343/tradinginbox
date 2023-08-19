@@ -21,8 +21,8 @@ const Hero = () => {
     <section className="pt-12 lg:pt-24">
       <div className="px-5 lg:px-12 mx-auto max-w-7xl">
         <div className="w-full mx-auto text-center md:w-11/12 xl:w-9/12 md:text-center">
-          <h1 className="mb-4 text-4xl font-extrabold  leading-none tracking-wide curvy  text-primary md:text-7xl md:tracking-tight">
-            <span className='tracking-normal'>
+          <h1 className="mb-4 text-3xl font-extrabold  leading-none text-primary md:text-5xl md:tracking-tight">
+            <span className='tracking-normal curvy text-3xl lg:text-5xl'>
             <ReactTypingEffect
                     typingDelay={400}
                     speed={60}
@@ -37,7 +37,7 @@ const Hero = () => {
                   />
               </span> <span className="block w-full py-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400  to-purple-500 lg:inline">Your Brand&apos;s Story</span>
           </h1>
-          <p className="px-0 mb-4  text-lg text-primary md:text-xl lg:px-24">
+          <p className="px-0 my-4 font-extralight text-sm text-primary md:text-lg lg:px-24">
           with Authentic Creators. Join us to Redefine What&apos;s Possible.
           </p>
           <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">

@@ -93,7 +93,8 @@ const Navbar = ({ etheme, handleChange, settheme }) => {
           <div aria-current="page" className="flex gap-2 items-center  hover:bg-base-200 rounded">
             <Link href="/">
               <div aria-current="page" aria-label="Homepage" className="flex-0  btn btn-ghost px-2" data-svelte-h="svelte-pw6yxt">
-                <div className="font-title inline-flex text-2xl md:text-3xl curvy underline"><span className="normal-case">Charterd</span> <span className="normal-case  text-blue-500  ">Media</span>
+                <div className="font-title inline-flex text-xl md:text-2xl "><span className="normal-case">Charterd</span> <span className="normal-case  text-blue-500  ">Media</span>
+                {/* <p className=''>India&apos;s leading marketing agency</p> */}
                 </div>
                 {/* <Image alt='' src={cm} className=" aspect-auto  w-full border-2 md:border-4 border-base-content/20" width="150" height="50">
 

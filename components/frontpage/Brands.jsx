@@ -22,13 +22,13 @@ const Brands = () => {
           <div className="project space-y-2" data-filter="branding">
             <a className="flex">
               {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio1.jpg" alt=""> */}
-              <Image alt='' src={inf1} className=" aspect-square border-primary rounded-3xl w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+              <Image alt='' src={inf1} className=" aspect-square border-primary rounded-full w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
 
               </Image>
             </a>
             <a className="flex">
               {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio6.jpg" alt=""> */}
-              <Image alt='' src={inf2} className=" aspect-square border-primary rounded-3xl w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+              <Image alt='' src={inf2} className=" aspect-square border-primary rounded-full w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
 
               </Image>
             </a>
@@ -36,13 +36,13 @@ const Brands = () => {
           <div className="project space-y-2" data-filter="designing">
             <a className="flex">
               {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio2.jpg" alt=""> */}
-              <Image alt='' src={inf3} className=" aspect-square border-primary rounded-3xl w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+              <Image alt='' src={inf3} className=" aspect-square border-primary rounded-full w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
 
               </Image>
             </a>
             <a className="flex">
               {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio7.jpg" alt=""> */}
-              <Image alt='' src={inf4} className=" aspect-square border-primary rounded-3xl w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+              <Image alt='' src={inf4} className=" aspect-square border-primary rounded-full w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
 
               </Image>
             </a>
@@ -50,13 +50,13 @@ const Brands = () => {
           <div className="project space-y-2" data-filter="photography">
             <a className="flex">
               {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio3.jpg" alt=""> */}
-              <Image alt='' src={inf5} className=" aspect-square border-primary rounded-3xl w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+              <Image alt='' src={inf5} className=" aspect-square border-primary rounded-full w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
 
               </Image>
             </a>
             <a className="flex">
               {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio8.jpg" alt=""> */}
-              <Image alt='' src={inf6} className=" aspect-square border-primary rounded-3xl w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+              <Image alt='' src={inf6} className=" aspect-square border-primary rounded-full w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
 
               </Image>
             </a>
@@ -64,13 +64,13 @@ const Brands = () => {
           <div className="project space-y-2" data-filter="development">
             <a className="flex">
               {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio4.jpg" alt=""> */}
-              <Image alt='' src={inf7} className=" aspect-square border-primary rounded-3xl w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+              <Image alt='' src={inf7} className=" aspect-square border-primary rounded-full w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
 
               </Image>
             </a>
             <a className="flex">
               {/* <img class="h-full w-full object-cover" src="assets/images/portfolio-2/portfolio9.jpg" alt=""> */}
-              <Image alt='' src={inf8} className=" aspect-square border-primary rounded-3xl w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+              <Image alt='' src={inf8} className=" aspect-square border-primary rounded-full w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
 
               </Image>
             </a>

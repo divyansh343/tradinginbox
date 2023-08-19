@@ -2,7 +2,7 @@ import React from 'react'
 
 const BoxSection = () => {
   return (
-    <div>
+    <div className='grid justify-center '>
       <section className="bg-base-100 py-14 lg:py-20">
         <div className="container px-5 lg:px-28">
           {/* <div className="heading mb-5 text-center">
@@ -11,9 +11,9 @@ const BoxSection = () => {
           </div> */}
           <div className='grid content-center'>
 
-            <div className="mt-14 bg-red-500 border-primary shadow grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2" >
+            <div className="mt-14 bg-red-600 border-primary bg-opacity-70 shadow grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2" >
               <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                <h4 className="text-3xl lg:text-5xl font-bold curvy">YouTube Collabration</h4>
+                <h4 className="text-2xl lg:text-4xl font-bold curvy">YouTube Collabration</h4>
                 <p className="mt-6 text-md  ">
                 From scripting to editing, we create captivating videos that capture attention and tell your brand&apos;s story. High-quality visuals and engaging storytelling keep your audience coming back for more.
                 </p>
@@ -24,9 +24,9 @@ const BoxSection = () => {
                   </svg>
                 </a> */}
               </div>
-              <div className="lg:ltr:pl-24 lg:rtl:pr-24">
+              <div className="lg:ltr:pl-24 grid justify-end lg:rtl:pr-24">
                 {/* <img src="assets/images/modern-saas/optimization.png" alt="" class="rounded-2xl"> */}
-                <video autoPlay muted loop playsinline="" controls="" className="rounded-2xl aspect-auto w-full sm:w-[28rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
+                <video autoPlay muted loop playsinline="" controls="" className="rounded-2xl aspect-auto w-full sm:w-[24rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
                   <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -35,7 +35,7 @@ const BoxSection = () => {
             <div className="mt-10 bg-blue-400 border-primary shadow bg-opacity-40 grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-16 lg:grid-cols-2" >
           
               <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                <h4 className="text-3xl lg:text-5xl font-bold curvy">Social Media Collabrtion</h4>
+                <h4 className="text-2xl lg:text-3xl font-bold curvy">Social Media Collabrtion</h4>
                 <p className="mt-6 text-md ">
                 Craft a content strategy that resonates. Our experts help you define your niche, target audience, and content themes, ensuring every video aligns with your brand&apos;s goals and speaks to your viewers.
                 </p>
@@ -46,10 +46,10 @@ const BoxSection = () => {
                   </svg>
                 </a> */}
               </div>
-              <div className="lg:ltr:pl-24 lg:rtl:pr-24">
+              <div className="lg:ltr:pl-24 grid justify-end  lg:rtl:pr-24">
                 {/* <img src="assets/images/modern-saas/migrate-modernize.png" alt="" class="rounded-2xl">
                  */}
-                <video autoPlay muted loop playsinline="" controls="" className="rounded-2xl aspect-auto w-full sm:w-[28rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
+                <video autoPlay muted loop playsinline="" controls="" className="rounded-2xl aspect-auto w-full sm:w-[24rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
                   <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
                 </video>
               </div>

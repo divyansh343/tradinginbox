@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div data-theme="forest" className='p-6'>
-        <div className="px-[12px] md:px-[36px] xl:px-0 mt-[70px]">
+        <div className="px-[2px] md:px-[36px] xl:px-0 mt-[70px]">
           
           {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
           <div className=" grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
@@ -64,10 +64,10 @@ const Footer = () => {
           </div>
           <div className="w-full bg-gray-200 h-[1px] mb-[20px]"></div>
           <div className="text-gray-400 flex items-center justify-between">
-              <p className="text-sm ">@Charterd Media 2023
+              <p className="text-sm ">@CharterdMedia
               </p>
        
-              <a href='https://suprr.link/divyansh' target='_blank' rel='noreferrer' className='curvy text-lg lg:text-xl  lg:mr-6 hover:shadow-lg hover:underline cursor-pointer'>- Designed By <span className='text-primary '>Divyansh</span></a>
+              <a href='https://suprr.link/divyansh' target='_blank' rel='noreferrer' className=' text-sm hover:shadow-lg hover:underline cursor-pointer'>-Designed by<span className='text-primary ml-1 '>Divyansh</span></a>
           </div>
         </div>
       </div>
