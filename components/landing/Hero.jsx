@@ -18,11 +18,11 @@ import { FaTelegram } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <section className="pt-12 lg:pt-24 ">
+    <section className="pt-12 lg:pt-24">
       <div className="px-5 lg:px-12 mx-auto max-w-7xl">
         <div className="w-full mx-auto text-center md:w-11/12 xl:w-9/12 md:text-center">
-          <h1 className="mb-4 text-4xl font-extrabold  leading-none tracking-wide  text-primary md:text-6xl md:tracking-tight">
-            <span className='tracking-wide'>Crafting </span> <span className="block w-full py-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400  to-purple-500 lg:inline">Your Brand&apos;s Story</span>
+          <h1 className="mb-4 text-4xl font-extrabold  leading-none tracking-wide curvy  text-primary md:text-7xl md:tracking-tight">
+            <span className='tracking-normal'>Crafting </span> <span className="block w-full py-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400  to-purple-500 lg:inline">Your Brand&apos;s Story</span>
           </h1>
           <p className="px-0 mb-4  text-lg text-primary md:text-xl lg:px-24">
           with Authentic Creators. Join us to Redefine What&apos;s Possible.

@@ -20,7 +20,7 @@ const Strip = () => {
         <p className="md:text-lg opacity-90 mb-2">Let&apos;s talk Growth</p>
         <h2 className="font-extrabold text-4xl md:text-4xl tracking-tight
      hover:drop-shadow hover:underline  cursor-pointer  md:mb-2">
-          +91 6263965062
+         +91-8821934797
         </h2>
       </div>
     </>

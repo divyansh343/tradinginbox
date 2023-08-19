@@ -31,13 +31,13 @@ export default function Home() {
       <BoxSection/>
       {/* <MarketSection /> */}
       <Gallery />
-      <StageSection />
-      <Brands/>
+      {/* <StageSection /> */}
       <Stars />
+      <Brands/>
       <Faq />
-      <Form />
+      {/* <Form /> */}
       {/* <Shutter /> */}
-      {/* <Strip /> */}
+      <Strip />
     </div>
   )
 }

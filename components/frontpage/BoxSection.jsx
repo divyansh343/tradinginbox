@@ -11,7 +11,7 @@ const BoxSection = () => {
           </div> */}
           <div className='grid content-center'>
 
-            <div className="mt-14 bg-red-400 border-primary shadow grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2" >
+            <div className="mt-14 bg-red-500 border-primary shadow grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2" >
               <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                 <h4 className="text-5xl font-bold curvy">YouTube Collabration</h4>
                 <p className="mt-6 text-lg  ">
@@ -26,7 +26,7 @@ const BoxSection = () => {
               </div>
               <div className="lg:ltr:pl-24 lg:rtl:pr-24">
                 {/* <img src="assets/images/modern-saas/optimization.png" alt="" class="rounded-2xl"> */}
-                <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[28rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
+                <video autoPlay muted loop playsinline="" controls="" className="rounded-2xl aspect-auto w-full sm:w-[28rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
                   <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -49,7 +49,7 @@ const BoxSection = () => {
               <div className="lg:ltr:pl-24 lg:rtl:pr-24">
                 {/* <img src="assets/images/modern-saas/migrate-modernize.png" alt="" class="rounded-2xl">
                  */}
-                <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[28rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
+                <video autoPlay muted loop playsinline="" controls="" className="rounded-2xl aspect-auto w-full sm:w-[28rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
                   <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
                 </video>
               </div>
