@@ -31,7 +31,7 @@ const Services = () => {
                 </div>
                 <a href="services-detail.html" className="my-8 inline-block text-lg font-extrabold text-primary  ">Influencer Marketing</a>
                 <p className="mb-10 text-md  transition line-clamp-3 ">
-                Building influencer relationships. We do communication and  management.
+                Building influencer relationships. We do communication and  campaign management.
                 </p>
                 <a href="services-detail.html" className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-primary transition group-hover:text-white ">
