@@ -2,6 +2,7 @@ import { useState } from "react"
 import Footer from "./footer"
 import Label from "./landing/Label"
 import Navbar from "./navbar"
+import Whole from "./Whole"
 
 const Layout = ({ children }) => {
   const [theme, settheme] = useState("winter")
@@ -10,14 +11,14 @@ const Layout = ({ children }) => {
     settheme(e.target.value);
   }
   return (
-    <div className="bg-base-200" data-theme={theme}>
-      <Navbar ethmem={theme} handleChange={handleChange} />
-      
+    <div className="bg-base-100" data-theme={theme}>
+      {/* <Navbar ethmem={theme} handleChange={handleChange} /> */}
+      <Whole ethmem={theme} handleChange={handleChange}  />
       <div className="">
         {children}
       </div>
-      <Footer />
-      <Label/>
+      {/* <Footer /> */}
+      {/* <Label/> */}
     </div>
   )
 }
