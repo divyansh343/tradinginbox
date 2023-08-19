@@ -7,13 +7,13 @@ import Whole from "./Whole"
 const Layout = ({ children }) => {
   const [theme, settheme] = useState("winter")
 
-  const handleChange = (e) => {
-    settheme(e.target.value);
-  }
+  // const handleChange = (e) => {
+  //   settheme(e.target.value);
+  // }
   return (
     <div className="bg-base-100" data-theme={theme}>
       {/* <Navbar ethmem={theme} handleChange={handleChange} /> */}
-      <Whole ethmem={theme} handleChange={handleChange}  />
+      {/* <Whole ethmem={theme} handleChange={handleChange}  /> */}
       <div className="">
         {children}
       </div>

@@ -15,10 +15,13 @@ import Shutter from '../components/frontpage/Shutter'
 import Services from '../components/frontpage/Services'
 import Stars from '../components/frontpage/Stars'
 import BoxSection from '../components/frontpage/BoxSection'
+import { BsFillSunFill, BsMoonFill } from 'react-icons/bs'
+import { useState } from 'react'
 
 export default function Home() {
+  const [etheme, settheme] = useState("lofi")
   return (
-    <div className=''>
+    <div  data-theme={etheme}  className=''>
       <div className=" h-full w-full min-h-screen flex items-center flex-col p-8 xl:p-28 lg:p-28 text-primary section">
 
         <div className="container w-full lg:w-[55%] xl:w-[55%] h-full"><h3 className="text-[11px] text-dark-200 flex items-center Menlo">
@@ -37,7 +40,21 @@ export default function Home() {
 
             {/* <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" alt="Spotify Logo" height="12" width="12" class="mr-2" /> */}
 
-            Not Playing – Spotify</a></h3>
+            On Spotify</a>
+          <label className="swap swap-rotate p-2 mx-2">
+
+              {/* <!-- this hidden checkbox controls the state --> */}
+              <input onChange={etheme === "lofi" ? () => settheme("forest") : () => settheme("lofi")} type="checkbox" />
+              <span className='swap-on text-2xl text-primary'>
+                <BsFillSunFill />
+              </span>
+
+              {/* <!-- moon icon --> */}
+              <span className='swap-off text-xl text-primary'>
+                <BsMoonFill />
+              </span>
+            </label>
+            </h3>
 
           <div className="mt-6">
 
@@ -55,7 +72,7 @@ export default function Home() {
 
             <h1 className="text-[18px] my-6 font-[400] tracking-[0.25px] leading-[32px] text-dark-100">Tech Stack</h1>
 
-            <p className="text-[15px] mt-[20px] lowercase font-[300] tracking-[0.25px] leading-[32px]">
+            <p className="text-[15px] mt-[20px]  font-[300] tracking-[0.25px] leading-[32px]">
               React, Next, Node, Express, MongoDb,
             </p>
             <p className="text-[15px] mb-[30px] lowercase font-[300] tracking-[0.25px] leading-[32px]">
@@ -97,8 +114,8 @@ export default function Home() {
               <path d="M402.74 37.59c-12.547 0-27.973-16.277-28.629-16.965-7.043-8.191-14.168-15.477-24.648-15.477-11.488 0-24.984 15.258-25.125 15.41l-1.168 1.273c-7.441 8.102-14.469 15.758-26.984 15.758-12.547 0-27.973-16.277-28.629-16.965-7.043-8.191-14.168-15.477-24.648-15.477-11.488 0-24.984 15.258-25.125 15.41l-1.101 1.16c-8.497 8.868-15.203 15.872-27.047 15.872-12.551 0-27.98-16.277-28.629-16.965-7.047-8.192-14.176-15.477-24.648-15.477-11.488 0-24.984 15.257-25.125 15.41l-1.18 1.285c-7.434 8.097-14.465 15.742-26.977 15.742-12.551 0-27.98-16.277-28.63-16.965C47.402 12.427 40.273 5.142 29.8 5.142A28.001 28.001 0 004.988 20.099a2.37 2.37 0 01-3.203.988A2.37 2.37 0 01.8 17.884C6.503 7.107 17.612.404 29.796.404c12.473 0 20.754 8.422 28.168 17.043 3.977 4.23 16.391 15.395 25.11 15.395 10.433 0 16.19-6.27 23.483-14.207l1.145-1.246C108.268 16.74 122.733.405 136.35.405c12.473 0 20.754 8.422 28.168 17.043 3.976 4.23 16.391 15.395 25.109 15.395 9.82 0 15.316-5.73 23.629-14.406l1.039-1.086c.535-.617 15-16.95 28.613-16.95 12.48 0 20.762 8.423 28.168 17.044 3.977 4.223 16.391 15.39 25.109 15.39 10.438 0 16.203-6.273 23.5-14.222l1.137-1.235c.566-.648 15.031-16.983 28.641-16.983 12.48 0 20.762 8.421 28.168 17.043 3.976 4.222 16.391 15.39 25.109 15.39 10.004 0 19.32-5.39 24.324-14.066a2.362 2.362 0 013.238-.87 2.372 2.372 0 01.871 3.234c-5.852 10.164-16.746 16.465-28.434 16.465l.001-.001z" fill="#e2e2e2"></path></svg><a className="relative flex items-center my-6 cursor-pointer lg:my-0 xl:my-0 group" href="https://iframe.so/" target="_blank" rel="noopener noreferrer">
 
               <div className="flex items-center">
-                <h1 className="font-[500] mr-2 text-dark-100">Iframe</h1>
-                <p className="hidden lg:block xl:block text-[15px] my-[8px] font-[300] tracking-[0.25px] leading-[32px]">Create quality browser mockups for product presentations</p>
+                <h1 className="font-[500] mr-2 text-dark-100">Suprr.link -</h1>
+                <p className="hidden lg:block xl:block text-[15px] my-[8px] font-[300] tracking-[0.25px] leading-[32px]">Create Suprr Profile link.</p>
               </div>
 
               <div className="flex-1 mx-3 border-t-2 border-dotted">
@@ -107,8 +124,8 @@ export default function Home() {
               <h3 className="Menlo text-[14px] font-[300] text-dark-200">2022</h3></a><a className="relative flex items-center my-6 cursor-pointer lg:my-0 xl:my-0 group" href="https://moodly.site/" target="_blank" rel="noopener noreferrer">
 
               <div className="flex items-center">
-                <h1 className="font-[500] mr-2 text-dark-100">Moodly</h1>
-                <p className="hidden lg:block xl:block text-[15px] my-[8px] font-[300] tracking-[0.25px] leading-[32px]">Better sense of focus through ambient nature sounds</p>
+                <h1 className="font-[500] mr-2 underline text-dark-100">Charterd media -</h1>
+                <p className="hidden lg:block xl:block text-[15px] my-[8px] font-[300] tracking-[0.25px] leading-[32px]">Better sense of focus through ambient</p>
               </div>
 
               <div className="flex-1 mx-3 border-t-2 border-dotted">
