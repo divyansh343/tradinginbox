@@ -11,7 +11,7 @@ const Footer = () => {
           {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
           <div className=" grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
             <div>
-              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Contact</h5>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Contact</h5>
               <p className="text-text mb-5">Indore, MP
               </p>
               <p className="text-text my-2 underline cursor-pointer">+91-8821934797
@@ -20,7 +20,7 @@ const Footer = () => {
               </p>
             </div>
             <div>
-              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Our Services</h5>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Our Services</h5>
               <ul className=''>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Brand Collabration</a></li>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Influencer Marketing</a></li>
@@ -30,7 +30,7 @@ const Footer = () => {
               </ul>
             </div>
             {/* <div>
-              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Discover</h5>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Discover</h5>
               <ul>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Our Blog</a></li>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Plans &amp; Pricing</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
               </ul>
             </div> */}
             <div>
-              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">By Cities</h5>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">By Cities</h5>
               <ul>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Influencer Agency In Delhi</a></li>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Influencer Agency In Mumbai</a></li>
@@ -52,7 +52,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-[18px]">Useful links</h5>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Useful links</h5>
               <ul>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Collabrations</a></li>
                 <li className="mb-2"><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Influencers</a></li>
@@ -67,7 +67,7 @@ const Footer = () => {
               <p className="text-sm font-bold">@Charterd Media 2023
               </p>
        
-              <a href='https://suprr.link/divyansh' target='_blank' rel='noreferrer' className='curvy text-xl lg:mr-6 hover:shadow-lg hover:underline cursor-pointer'>Designed By <span className='text-primary '>Divyansh</span></a>
+              <a href='https://suprr.link/divyansh' target='_blank' rel='noreferrer' className='curvy text-md lg:text-xl  lg:mr-6 hover:shadow-lg hover:underline cursor-pointer'>Designed By <span className='text-primary '>Divyansh</span></a>
           </div>
         </div>
       </div>

@@ -90,7 +90,7 @@ const Navbar = ({ etheme, handleChange, settheme }) => {
     <>
       <header className="sticky top-0 -mt-1 bg-base-100 backdrop-blur border-b-secondary  shadow z-40">
         <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-3">
-          <div data-theme="fantasy" aria-current="page" className="flex gap-2 items-center  hover:bg-base-200 rounded">
+          <div aria-current="page" className="flex gap-2 items-center  hover:bg-base-200 rounded">
             <Link href="/">
               <div aria-current="page" aria-label="Homepage" className="flex-0  btn btn-ghost px-2" data-svelte-h="svelte-pw6yxt">
                 <div className="font-title inline-flex text-2xl md:text-3xl curvy underline"><span className="normal-case">Charterd</span> <span className="normal-case  text-blue-500  ">Media</span>
