@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import cm from '../assets/images/cm2.jpg'
 
 const Navbar = ({ etheme, handleChange }) => {
 
@@ -86,50 +87,53 @@ const Navbar = ({ etheme, handleChange }) => {
   ];
   return (
     <>
-      <header data-theme="forest" className="sticky top-0 bg-base-100 backdrop-blur shadow z-40">
+      <header className="sticky top-0 bg-base-100 backdrop-blur shadow z-40">
         <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-3">
-          <a aria-current="page" className="flex gap-2 items-center hover:bg-base-200 rounded">
+          <div  aria-current="page" className="flex gap-2 items-center  hover:bg-base-200 rounded">
 
-            <div aria-current="page" aria-label="Homepage" className="flex-0 btn btn-ghost px-2" data-svelte-h="svelte-pw6yxt">
-              <svg width="32" height="32" viewBox="0 0 415 415" xmlns="http://www.w3.org/2000/svg"><rect x="82.5" y="290" width="250" height="125" rx="62.5" fill="#1AD1A5"></rect><circle cx="207.5" cy="135" r="130" fill="black" fillOpacity=".3"></circle><circle cx="207.5" cy="135" r="125" fill="white"></circle><circle cx="207.5" cy="135" r="56" fill="#FF9903"></circle></svg> <div  className="font-title inline-flex text-lg md:text-2xl"><span className="normal-case">Charterd</span> <span  className="uppercase text-[#1AD1A5]">Media</span>
+            <div aria-current="page" aria-label="Homepage" className="flex-0 curvy btn btn-ghost px-2" data-svelte-h="svelte-pw6yxt">
+             <div  className="font-title inline-flex text-2xl md:text-3xl"><span className="normal-case">Charterd</span> <span  className="uppercase text-primary">Media</span>
               </div>
+              {/* <Image alt='' src={cm} className=" aspect-auto  w-full border-2 md:border-4 border-base-content/20" width="150" height="50">
+
+              </Image> */}
             </div>
 
-          </a>
+          </div>
           <div className="flex-1 hidden md:flex items-center justify-start gap-4 lg:gap-12 text-sm">
- 
+
             <a className="link link-hover text-base-content-secondary font-medium" >How it works</a>
             <a className="link link-hover text-base-content-secondary font-medium" >Reviews</a>
-         
+
           </div>
           <div className="space-x-4 hidden md:block">
             {/* <a className="btn btn-sm btn-neutral" href="/app/dashboard">Login</a>
             <a className="btn btn-gradient btn-sm" href="/app/new">Make site</a> */}
             <select value={etheme} onChange={handleChange}
-            className="select select-sm select-primary w-full max-w-xs mx-1">
-            <option disabled selected>Choose Theme?</option>
-            {options.map((option) => (
-              <>
-                <option value={option.value}>{option.label}</option>
-              </>
-            ))}
-          </select>
+              className="select select-sm select-primary w-full max-w-xs mx-1">
+              <option disabled selected>Choose Theme?</option>
+              {options.map((option) => (
+                <>
+                  <option value={option.value}>{option.label}</option>
+                </>
+              ))}
+            </select>
           </div>
           <div className="md:hidden">
             {/* <a className="btn btn-gradient btn-sm" href="/app/new">Make site</a> */}
             <select value={etheme} onChange={handleChange}
-            className="select select-sm select-primary w-full max-w-xs mx-1">
-            <option disabled selected>Choose Theme?</option>
-            {options.map((option) => (
-              <>
-                <option value={option.value}>{option.label}</option>
-              </>
-            ))}
-          </select>
+              className="select select-sm select-primary w-full max-w-xs mx-1">
+              <option disabled selected>Choose Theme?</option>
+              {options.map((option) => (
+                <>
+                  <option value={option.value}>{option.label}</option>
+                </>
+              ))}
+            </select>
           </div>
         </div>
       </header>
-   
+
     </>
   )
 }

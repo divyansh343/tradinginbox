@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="px-5 lg:px-12 mx-auto max-w-7xl">
         <div className="w-full mx-auto text-center md:w-11/12 xl:w-9/12 md:text-center">
           <h1 className="mb-4 text-4xl font-extrabold  leading-none tracking-wide  text-primary md:text-6xl md:tracking-tight">
-            <span className='tracking-wide'>Crafting </span> <span className="block w-full py-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 curvy to-purple-500 lg:inline">Your Brand&apos;s Story</span>
+            <span className='tracking-wide'>Crafting </span> <span className="block w-full py-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400  to-purple-500 lg:inline">Your Brand&apos;s Story</span>
           </h1>
           <p className="px-0 mb-4  text-lg text-primary md:text-xl lg:px-24">
           with Authentic Creators. Join us to Redefine What&apos;s Possible.
@@ -38,17 +38,17 @@ const Hero = () => {
             </a> */}
           </div>
         </div>
-        <div className="w-full mx-auto mt-20 text-center md:w-7/12">
+        <div className="w-full mx-auto mt-10 text-center md:w-7/12">
           <div className="relative z-0 w-full mt-8">
             <div className="relative overflow-hidden shadow-2xl">
               <div className="flex items-center flex-none px-4 bg-primary rounded-b-none h-3 rounded-xl">
                 <div className="flex space-x-1.5">
-                  <div className="w-1 h-1 border-2 border-white rounded-full"></div>
-                  <div className="w-1 h-1 border-2 border-white rounded-full"></div>
-                  <div className="w-1 h-1 border-2 border-white rounded-full"></div>
+                  <div className="w-0.5 h-1 border-2 border-white rounded-full"></div>
+                  <div className="w-0.5 h-1 border-2 border-white rounded-full"></div>
+                  <div className="w-0.5 h-1 border-2 border-white rounded-full"></div>
                 </div>
               </div>
-              <video autoPlay muted loop playsinline="" controls="" className="rounded-b-3xl aspect-auto w-full sm:w-[50rem]  border-2 md:border-4 border-base-content/20" width="800" height="500">
+              <video autoPlay muted loop playsinline="" controls="" className="rounded-b-lg aspect-auto w-full sm:w-[50rem]  border-2 md:border-4 border-base-content/20" width="800" height="500">
                 <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692363900/SnapSave.io-From_Zero_to_Hero__Dominate_Your_Niche_with_Ainfluencer_s_Influencer_Marketing_in_2023_online-video-cutter.com_otsvak.mp4" type="video/mp4" />
               </video>
               {/* <img src="https://cdn.devdojo.com/images/march2021/green-dashboard.jpg"> */}

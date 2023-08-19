@@ -28,7 +28,7 @@ export default function Home() {
       <Services />
       <Section />
       <Banner />
-      {/* <BoxSection/> */}
+      <BoxSection/>
       {/* <MarketSection /> */}
       <Gallery />
       <StageSection />
