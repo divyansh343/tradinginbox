@@ -149,7 +149,7 @@ const Navbar = ({ etheme, handleChange, settheme }) => {
             <label className="swap swap-rotate p-2 mx-2">
 
               {/* <!-- this hidden checkbox controls the state --> */}
-              <input onChange={etheme === "lofi" ? () => settheme("night") : () => settheme("lofi")} type="checkbox" />
+              <input onChange={etheme === "lofi" ? () => settheme("forest") : () => settheme("lofi")} type="checkbox" />
               <span className='swap-on text-2xl text-primary'>
                 <BsFillSunFill />
               </span>
