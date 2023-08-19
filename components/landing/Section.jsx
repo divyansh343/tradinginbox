@@ -11,7 +11,7 @@ import sec4 from '../../assets/images/sec4.jpeg'
 
 const Section = () => {
   return (
-    <div>
+    <div className='mb-10'>
       <section className=" p-6  md:py-20">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
 
