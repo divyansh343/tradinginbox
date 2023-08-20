@@ -122,9 +122,10 @@ const Navbar = ({ etheme, handleChange, settheme }) => {
           </div>
           <div className="flex-1 hidden md:flex items-center justify-end gap-4 lg:gap-12 text-md">
 
-            <a className="link link-hover text-base-content-secondary font-medium" >Influencers</a>
-            <a className="link link-hover text-base-content-secondary font-medium" >Collabrations</a>
-            <a className="link link-hover text-base-content-secondary font-medium" >Contact</a>
+            <a href='#service' className="link link-hover text-base-content-secondary font-medium" >Services</a>
+            <a  href='#collab' className="link link-hover text-base-content-secondary font-medium" >Collabrations</a>
+            <a href='#influencers' className="link link-hover text-base-content-secondary font-medium" >Influencers</a>
+            <a  href='#contact' className="link link-hover text-base-content-secondary font-medium" >Contact</a>
 
           </div>
           <div className="space-x-4 hidden md:block">

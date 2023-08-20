@@ -2,7 +2,7 @@ import React from 'react'
 
 const BoxSection = () => {
   return (
-    <div className='grid justify-center '>
+    <div id="collab" className='grid justify-center '>
       <section className="bg-base-100 py-14 lg:py-20">
         <div className="container px-5 lg:px-28">
           {/* <div className="heading mb-5 text-center">

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className="  overflow-hidden">
+    <div id="service" className="  overflow-hidden">
       <div className="py-24 px-4 max-w-7xl mx-auto">
         <div className="flex flex-col text-center w-full my-10">
           <p className="mx-auto font-medium text-gradient-cold mb-4">Our Services</p>
