@@ -1,11 +1,23 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import cm from '../assets/images/cm2.jpg'
 import { BsFillMoonFill, BsFillSunFill, BsMoonFill } from 'react-icons/bs';
+import TextTransition, { presets } from "react-text-transition";
 
 const Navbar = ({ etheme, handleChange, settheme }) => {
-
+  const [index, setIndex] = useState(0);
+  const TEXTS = [
+    "CharterdMedia",
+    "Influencer Marketing Agency",
+  ];
+  useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      4000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
   const options = [
     {
       label: "Light",
@@ -93,8 +105,13 @@ const Navbar = ({ etheme, handleChange, settheme }) => {
           <div aria-current="page" className="flex gap-2 items-center  hover:bg-base-200 rounded">
             <Link href="/">
               <div aria-current="page" aria-label="Homepage" className="flex-0  btn btn-ghost px-2" data-svelte-h="svelte-pw6yxt">
-                <div className="font-title inline-flex text-xl md:text-2xl "><span className="normal-case">Charterd</span> <span className="normal-case  text-blue-500  ">Media</span>
-                {/* <p className=''>India&apos;s leading marketing agency</p> */}
+                <div className="font-title inline-flex text-xl md:text-2xl ">
+                  {/* <span className="normal-case">Charterd</span> <span className="normal-case  text-blue-500  ">Media</span> */}
+                  <span className='normal-case text-lg'>
+                    <TextTransition springConfig={presets.gentle}>
+                      {TEXTS[index % TEXTS.length]}
+                    </TextTransition>
+                  </span>
                 </div>
                 {/* <Image alt='' src={cm} className=" aspect-auto  w-full border-2 md:border-4 border-base-content/20" width="150" height="50">
 
@@ -103,7 +120,7 @@ const Navbar = ({ etheme, handleChange, settheme }) => {
             </Link>
 
           </div>
-          <div className="flex-1 hidden md:flex items-center justify-center gap-4 lg:gap-12 text-md">
+          <div className="flex-1 hidden md:flex items-center justify-end gap-4 lg:gap-12 text-md">
 
             <a className="link link-hover text-base-content-secondary font-medium" >Influencers</a>
             <a className="link link-hover text-base-content-secondary font-medium" >Collabrations</a>

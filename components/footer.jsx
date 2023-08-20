@@ -14,8 +14,8 @@ const Footer = () => {
               <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Contact</h5>
               <p className="text-text mb-5">Indore, MP
               </p>
-              <p className="text-text my-2 underline cursor-pointer">+91-8821934797
-              </p>
+              <a href="tel:+918821934797" className="text-text my-2 underline cursor-pointer">+91-8821934797
+              </a>
               <p className="text-text cursor-pointer ">contact@chareterdmedia.com
               </p>
             </div>

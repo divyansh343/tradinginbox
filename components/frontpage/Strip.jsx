@@ -18,10 +18,10 @@ const Strip = () => {
     <>
       <div className="text-center bg-[#a01ed1] text-white py-5">
         <p className="md:text-lg opacity-90 mb-2">Let&apos;s talk Growth</p>
-        <h2 className="font-extrabold text-4xl md:text-4xl tracking-tight
+        <a href="tel:+918821934797" className="font-extrabold text-4xl md:text-4xl tracking-tight
      hover:drop-shadow hover:underline  cursor-pointer  md:mb-2">
          +91-8821934797
-        </h2>
+        </a>
       </div>
     </>
   )
