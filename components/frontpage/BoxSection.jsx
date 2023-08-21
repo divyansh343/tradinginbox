@@ -2,8 +2,8 @@ import React from 'react'
 
 const BoxSection = () => {
   return (
-    <div>
-      <section className="bg-base-200 py-14 lg:py-20">
+    <div className='grid justify-center'>
+      <section className="bg-base-200 py-14  lg:py-20">
         <div className="container px-5 lg:px-28">
           <div className="heading mb-5 text-center">
             <h6 className="!text-secondary">Drive more lead with Plurk</h6>
@@ -11,7 +11,7 @@ const BoxSection = () => {
           </div>
           <div className='grid content-center'>
 
-            <div className="mt-14 bg-base-300 border-primary shadow grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2" >
+            <div className="mt-14 bg-base-300 border-secondary border-2 shadow grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2" >
               <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                 <h4 className="">Tenancy Optimization</h4>
                 <p className="mt-6 text-lg font-semibold ">
@@ -25,16 +25,12 @@ const BoxSection = () => {
                   </svg>
                 </a>
               </div>
-              <div className="lg:ltr:pl-24 lg:rtl:pr-24">
+              <div className="lg:ltr:pl-24  grid justify-end lg:rtl:pr-24">
                 {/* <img src="assets/images/modern-saas/optimization.png" alt="" class="rounded-2xl"> */}
                 <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[28rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
-                  <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
+                  <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692626317/144763_720p_rramjd.mp4" type="video/mp4" />
                 </video>
               </div>
-            </div>
-
-            <div className="mt-10 bg-base-300 border-primary shadow bg-opacity-40 grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-16 lg:grid-cols-2" >
-          
               <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                 <h4 className="">Migrate and Modernize</h4>
                 <p className="mt-6 text-lg font-semibold">
@@ -48,7 +44,7 @@ const BoxSection = () => {
                   </svg>
                 </a>
               </div>
-              <div className="lg:ltr:pl-24 lg:rtl:pr-24">
+              <div className="lg:ltr:pl-24 grid justify-end lg:rtl:pr-24">
                 {/* <img src="assets/images/modern-saas/migrate-modernize.png" alt="" class="rounded-2xl">
                  */}
                 <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[28rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
@@ -56,6 +52,11 @@ const BoxSection = () => {
                 </video>
               </div>
             </div>
+
+            {/* <div className="mt-10 bg-base-300 border-primary shadow bg-opacity-40 grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-16 lg:grid-cols-2" >
+          
+             
+            </div> */}
           </div>
         </div>
       </section>

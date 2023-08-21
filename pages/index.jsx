@@ -19,14 +19,15 @@ import BoxSection from '../components/frontpage/BoxSection'
 export default function Home() {
   return (
     <div className=''>
+      <Hero/>
       <Section />
       <Services/>
       <BoxSection/>
       <Stars />
       {/* <StageSection /> */}
-      <Faq />
+      {/* <Faq /> */}
       <Shutter />
-      {/* <Strip /> */}
+      <Strip />
       
     </div>
   )
