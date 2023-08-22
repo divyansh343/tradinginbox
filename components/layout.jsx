@@ -6,14 +6,14 @@ import Navbar from "./navbar"
 const Layout = ({ children }) => {
   const [theme, settheme] = useState("winter")
 
-  const listenScrollEvent = () => {
-      window.scrollY > 1000
-        ? settheme("forest")
-        : settheme("winter")
-    }
-  useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent)
-  })
+  // const listenScrollEvent = () => {
+  //     window.scrollY > 1100
+  //       ? settheme("forest")
+  //       : settheme("winter")
+  //   }
+  // useEffect(() => {
+  //   window.addEventListener("scroll", listenScrollEvent)
+  // })
   
 
   const handleChange = (e) => {
