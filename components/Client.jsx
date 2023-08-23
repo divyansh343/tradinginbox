@@ -16,7 +16,7 @@ const Client = () => {
         </div>
       </div>
       <div className="container flex py-28 justify-center items-center">
-        <div className="flex flex-wrap -mx-4">
+        <div className="flex flex-wrap mx-4">
           <div className="w-full px-4">
             <div className="flex flex-wrap items-center gap-10 md:gap-56 justify-center">
               <Image
