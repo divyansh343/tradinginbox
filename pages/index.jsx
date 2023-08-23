@@ -19,6 +19,7 @@ import Wide from '../components/Wide'
 import wide2 from '../assets/images/wide2.jpeg'
 import wide3 from '../assets/images/wide3.jpeg'
 import Cta from '../components/Cta'
+import Client from '../components/Client'
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         </Image>
       </div>
       {/* wide 2 */}
+      <Client />
       {/* wide 3 */}
       <div className='grid justify-center'>
         <div className="overlay"></div>
