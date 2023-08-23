@@ -14,21 +14,36 @@ import Strip from '../components/frontpage/Strip'
 import Shutter from '../components/frontpage/Shutter'
 import Services from '../components/frontpage/Services'
 import Stars from '../components/frontpage/Stars'
-import BoxSection from '../components/frontpage/BoxSection'
+// import BoxSection from '../components/frontpage/BoxSection'
+import Wide from '../components/Wide'
+import wide2 from '../assets/images/wide2.jpeg'
+import wide3 from '../assets/images/wide3.jpeg'
+import Cta from '../components/Cta'
 
 export default function Home() {
   return (
     <div className=''>
-      <Hero/>
-      <Section />
-      <Services/>
-      <BoxSection/>
-      <Stars />
-      {/* <StageSection /> */}
-      {/* <Faq /> */}
+      <Hero />
+      <Sheet />
+      <Wide />
       <Shutter />
-      <Strip />
-      
+      {/* wide 2 */}
+      <div className='grid justify-center'>
+        <div className="overlay"></div>
+        <Image alt='' src={wide2} className=" aspect-auto w-full border-2 md:border-4 border-base-content" width="1300" height="550">
+        </Image>
+      </div>
+      {/* wide 2 */}
+      {/* wide 3 */}
+      <div className='grid justify-center'>
+        <div className="overlay"></div>
+        <Image alt='' src={wide3} className=" aspect-auto w-full border-2 md:border-4 border-base-content" width="1300" height="550">
+        </Image>
+      </div>
+      {/* wide 3 */}
+      <Cta />
+    
+
     </div>
   )
 }

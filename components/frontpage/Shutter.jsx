@@ -1,24 +1,27 @@
+import Image from 'next/image';
 import React from 'react'
-import VideoPlayer from "react-background-video-player";
-
+import sheet from '../../assets/images/wide.jpg'
 const Shutter = () => {
   return (
-    <section className="bg-base-100 p-6  md:py-20">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
+    <section className="bg-base-100 grid justify-center  ">
+      <div className=" mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
 
-        <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[38rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
-          <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692619763/g913wgIdETKmM6qz_ljjuiu.mp4" type="video/mp4" />
-        </video>
+        <div className="grid justify-center lg:justify-start text-white space-y-6 py-16 px-10  max-w-lg">
+          <p className="text-[#c0c0c0] text-base">THE GEAR CAGE
+          </p>
+          <h2 className="text-3xl md:text-4xl tracking-wide text-start lg:text-center md:text-start ">The tools that we use.</h2>
+          <p className="text-white tracking-wider text-sm leading-5">The say that no place is boring if youve had a good nights sleep and have a pocket full of unexposed film. While we dont shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.,</p>
 
-        <div className="grid justify-center lg:justify-start space-y-6 md:space-y-8 max-w-lg"><h2 className="text-3xl md:text-4xl tracking-tight font-black text-center md:text-start leading-tight md:leading-tight">Convert your visitors into customers</h2>
-          <p className="text-base-content-secondary">Our team of seasoned analysts keeps a vigilant eye on the ever-changing crypto landscape,</p>
-          {/* <p className="text-base-content-secondary"> Identifying emerging trends, market sentiment shifts, and potential opportunities before they become widely known. Through in-depth technical and fundamental analysis.</p> */}
-          <div className='grid justify-center lg:justify-start'>
-            <a className="btn btn-gradient text-white font-normal btn-base" href="">Make site</a>
+          <div className='grid  justify-center lg:justify-start'>
+            <a className="btn bg-white rounded-2xl hover:b-2  text-base normal-case tracking-wider font-normal text-black btn-md" href="/app/new">Check it out</a>
           </div>
 
 
         </div>
+        <Image alt='' src={sheet} className="  w-full  border-2 md:border-4 border-base-content" width="600" height="400">
+        </Image>
+
+
       </div>
     </section>
   )
