@@ -4,11 +4,11 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("winter")
+  const [theme, settheme] = useState("synthwave")
 
   // const listenScrollEvent = () => {
   //     window.scrollY > 1100
-  //       ? settheme("forest")
+  //       ? settheme("synthwave")
   //       : settheme("winter")
   //   }
   // useEffect(() => {
@@ -22,7 +22,6 @@ const Layout = ({ children }) => {
   return (
     <div className="bg-base-200" data-theme={theme}>
       <Navbar ethmem={theme} handleChange={handleChange} />
-      
       <div className="">
         {children}
       </div>

@@ -87,7 +87,7 @@ const Navbar = ({ etheme, handleChange }) => {
   return (
     <>
       {/* <header className="sticky top-0 bg-base-100/80 backdrop-blur shadow z-40"> */}
-      <header className="sticky top-0 bg-base-100 backdrop-blur -pb-1 shadow z-40">
+      <header className="sticky top-0 bg-base-100/80 backdrop-blur -pb-1 shadow z-40">
         <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-3">
           <a aria-current="page" className="flex gap-2 items-center hover:bg-base-200 rounded">
 
