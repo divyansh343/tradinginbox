@@ -3,11 +3,11 @@ import React from 'react'
 import sheet from '../../assets/images/portraits/four.jpeg'
 import inf1 from '../../assets/images/influencers/inf1.jpg'
 import inf2 from '../../assets/images/influencers/inf2.jpg'
-import inf3 from '../../assets/images/influencers/inf3.jpg'
+import inf3 from '../../assets/images/influencers/inf7.jpg'
 import inf4 from '../../assets/images/influencers/inf4.jpg'
 import inf5 from '../../assets/images/influencers/inf5.jpg'
 import inf6 from '../../assets/images/influencers/inf6.jpg'
-import inf7 from '../../assets/images/influencers/inf7.jpg'
+import inf7 from '../../assets/images/influencers/inf3.jpeg'
 import inf8 from '../../assets/images/influencers/inf8.png'
 
 const Gallery = () => {

@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div data-theme="forest" className='p-6'>
+      <div  data-theme="forest" className='p-6 bg-black'>
         <div className="px-[2px] md:px-[36px] xl:px-0 mt-[70px]">
           
           {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
