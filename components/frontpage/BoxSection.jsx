@@ -27,7 +27,7 @@ const BoxSection = () => {
               <div className="lg:ltr:pl-24 grid justify-end lg:rtl:pr-24">
                 {/* <img src="assets/images/modern-saas/optimization.png" alt="" class="rounded-2xl"> */}
                 <video autoPlay muted loop playsinline="" controls="" className="rounded-2xl aspect-auto w-full sm:w-[24rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
-                  <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
+                  <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692854518/krypto/livestreaming_-_26774_540p_lw1mss.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -50,7 +50,7 @@ const BoxSection = () => {
                 {/* <img src="assets/images/modern-saas/migrate-modernize.png" alt="" class="rounded-2xl">
                  */}
                 <video autoPlay muted loop playsinline="" controls="" className="rounded-2xl aspect-auto w-full sm:w-[24rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
-                  <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
+                  <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692854556/krypto/social_media_-_35344_540p_qttrlp.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
