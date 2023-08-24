@@ -21,10 +21,10 @@ const Hero = () => {
   return (
     <div className='main'>
       <div className="overlay"></div>
-      <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1692619781/-klI7zU73jD75DOy_vbnjls.mp4" autoPlay loop muted />
+      <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1692876860/Video_2023_08_24_16_40_19_qwsty8.mp4" autoPlay loop muted />
       <div className="content ">
         <h1 className='text-3xl lg:text-5xl font-extrabold mt-50 px-5'>
-         Aperture Studios
+          Aperture Studios
         </h1>
         <div className='pt-50'>
           <p className='text-base lg:text-lg font-extrabold px-5'>Unleash the Power of Conversion with </p>

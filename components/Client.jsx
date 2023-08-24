@@ -7,7 +7,7 @@ const Client = () => {
     <div className='py-10'>
       <div className="flex flex-col text-center w-full my-8">
         <div className="mb-3">
-          <h2 className="text-4xl lg:text-5xl font-medium text-white">Past Clients
+          <h2 className="text-4xl lg:text-[40px] font-medium text-white">Past Clients
           </h2>
         </div>
         <div className="md:w-2/3 mx-auto leading-relaxed text-base text-white">

@@ -8,9 +8,9 @@ const Cta = () => {
           <div className="text-center aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
 
 
-            <h2 className="text-3xl md:text-5xl font-semibold tracking-wide text-center ">Need help with photography</h2>
-            <h2 className="text-3xl md:text-5xl font-semibold tracking-wide mt-2  text-center  ">or videography?</h2>
-            <div className="md:w-2/3 mx-auto leading-relaxed text-base mt-5 text-white">
+            <h2 className="text-3xl md:text-[40px] font-semibold tracking-wide text-center ">Need help with photography</h2>
+            <h2 className="text-3xl md:text-[40px] font-semibold tracking-wide mt-2  text-center  ">or videography?</h2>
+            <div className="md:w-2/3 mx-auto leading-relaxed text-[24px] mt-5 text-white">
               <h3 className="text-[#c0c0c0] text-2xl">We&apos;re here for you!
               </h3>
             </div>
