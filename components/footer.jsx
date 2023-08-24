@@ -67,7 +67,7 @@ const Footer = () => {
               <p className="text-sm ">@CharterdMedia
               </p>
        
-              <a href='https://suprr.link/divyansh' target='_blank' rel='noreferrer' className=' text-sm hover:shadow-lg hover:underline cursor-pointer'>-Designed by<span className='text-primary ml-1 '>Divyansh</span></a>
+              <a href='https://divyanshpal.netlify.app' target='_blank' rel='noreferrer' className=' text-sm hover:shadow-lg hover:underline cursor-pointer'>-by<span className='text-primary ml-1 '>Divyansh</span></a>
           </div>
         </div>
       </div>
