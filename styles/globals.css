@@ -80,12 +80,6 @@ video {
   height: 100%;
   object-fit: cover;
 }
-.vid {
-  /* width: 100%;
-  height: 100%; */
-  opacity: 70;
-  object-fit: cover;
-}
 
 .content {
   position: absolute;
@@ -94,9 +88,11 @@ video {
   top: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: white;
 }
+
 .wide {
   position: absolute;
   width: 100%;
@@ -104,17 +100,9 @@ video {
   top: 0;
   display: flex;
   flex-direction: column;
-  /* justify-content: end;
-  align-items: end; */
+  justify-content: center;
+  align-items: center;
   color: white;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .btn-gradient {
@@ -138,6 +126,3 @@ video {
   transition-duration: 0.1s;
 }
 
-.text-stroke{
-  -webkit-text-stroke: 3px white;
-}
