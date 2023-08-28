@@ -4,7 +4,7 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("synthwave")
+  const [theme, settheme] = useState("winter")
 
   // const listenScrollEvent = () => {
   //     window.scrollY > 1100

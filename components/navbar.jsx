@@ -86,7 +86,7 @@ const Navbar = ({ etheme, handleChange }) => {
   ];
   return (
     <>
-      {/* <header className="sticky top-0 bg-base-100/80 backdrop-blur shadow z-40"> */}
+      {/* <header className="sticky top-0 bg-base-100/90 backdrop-blur shadow z-40"> */}
       <header className="sticky top-0 bg-base-100/80 backdrop-blur -pb-1 shadow z-40">
         <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-3">
           <a aria-current="page" className="flex gap-2 items-center hover:bg-base-200 rounded">
@@ -115,12 +115,12 @@ const Navbar = ({ etheme, handleChange }) => {
             ))}
           </select> */}
           </div>
-          <div className="space-x-4 hidden md:block">
-            <a className="btn btn-sm btn-neutral" href="/app/dashboard">Login</a>
-            <a className="btn btn-gradient text-white font-normal btn-sm" href="/app/new">Make site</a>
+          <div className="space-x-4 mt-2 hidden md:block">
+            {/* <a className="btn btn-sm btn-neutral" href="/app/dashboard">Login</a> */}
+            <a className="btn btn-gradient text-white font-normal btn-sm" href="/app/new">Contact</a>
           </div>
-          <div className="md:hidden">
-            <a className="btn btn-gradient text-white font-normal btn-sm" href="/app/new">Make site</a>
+          <div className="md:hidden mt-2">
+            <a className="btn btn-gradient text-white font-normal btn-sm" href="/app/new">Contact</a>
           </div>
         </div>
       </header>
