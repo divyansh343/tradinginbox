@@ -5,7 +5,7 @@ import lright from '../../assets/images/leaves-right.png'
 
 const Stars = () => {
   return (
-    <div className='py-24'>
+    <div className='py-24 bg-base-100'>
       <div className="flex justify-center items-center gap-2 md:gap-4 md:text-lg" aria-label="Rated 4.8 stars out of 5 stars"><div className="w-14 md:w-20 opacity-30 invert dark:invert-0"><span ><span ></span>
 
         <Image alt="Website rating decoration leave left" src={lleft} sizes="100vw" />

@@ -3,7 +3,7 @@ import React from 'react'
 const BoxSection = () => {
   return (
     <div className='grid justify-center'>
-      <section className="bg-base-200 py-14  lg:py-20">
+      <section className="bg-base-100 py-14  lg:py-20">
         <div className="container px-5 lg:px-28">
           <div className="heading mb-5 text-center">
             <h6 className="!text-secondary">Drive more lead with Plurk</h6>
@@ -11,10 +11,10 @@ const BoxSection = () => {
           </div>
           <div className='grid content-center'>
 
-            <div className="mt-14 bg-base-300 border-secondary border-2 shadow grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2" >
+            <div className="mt-14 bg-[#fafaf7] shadow grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2" >
               <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                 <h4 className="">Tenancy Optimization</h4>
-                <p className="mt-6 text-lg font-semibold ">
+                <p className="mt-6 text-lg ">
                   Optimize your SaaS solutions’ tenancy by leveraging our deep understanding of the unit economics of SaaS products. We can
                   take existing single-tenant applications and securely deliver a cost optimized multi-tenant solution.
                 </p>
@@ -33,7 +33,7 @@ const BoxSection = () => {
               </div>
               <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                 <h4 className="">Migrate and Modernize</h4>
-                <p className="mt-6 text-lg font-semibold">
+                <p className="mt-6 text-lg">
                   Migrating a legacy system involves taking your old infrastructure and transferring it to the cloud. This does provide
                   potential cost and efficiency benefits. However, it fails to give your application a growth perspective.
                 </p>

@@ -15,6 +15,7 @@ import Shutter from '../components/frontpage/Shutter'
 import Services from '../components/frontpage/Services'
 import Stars from '../components/frontpage/Stars'
 import BoxSection from '../components/frontpage/BoxSection'
+import Principles from '../components/frontpage/Principles'
 
 export default function Home() {
   return (
@@ -22,7 +23,8 @@ export default function Home() {
       <Hero/>
       <Section />
       <Services/>
-      <BoxSection/>
+      {/* <Principles /> */}
+      {/* <BoxSection/> */}
       <Stars />
       {/* <StageSection /> */}
       {/* <Faq /> */}

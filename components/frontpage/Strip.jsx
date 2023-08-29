@@ -16,8 +16,8 @@ const Strip = () => {
     //   </div>
     // </div>
     <>
-      <div className="text-center bg-[#a01ed1] text-white py-5">
-        <p className="md:text-lg opacity-90 mb-2">Let&apos;s talk Growth</p>
+      <div className="text-center bg-secondary text-white py-5">
+        <p className="md:text-lg opacity-90 mb-2">🛖 Ready to Begin?</p>
         <h2 className="font-extrabold text-4xl md:text-4xl tracking-tight
      hover:drop-shadow hover:underline  cursor-pointer  md:mb-2">
           +91 6263965062

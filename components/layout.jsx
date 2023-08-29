@@ -4,16 +4,16 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("winter")
+  const [theme, settheme] = useState("lemonade")
 
-  // const listenScrollEvent = () => {
-  //     window.scrollY > 1100
-  //       ? settheme("synthwave")
-  //       : settheme("winter")
-  //   }
-  // useEffect(() => {
-  //   window.addEventListener("scroll", listenScrollEvent)
-  // })
+  const listenScrollEvent = () => {
+      window.scrollY > 800
+        ? settheme("forest")
+        : settheme("winter")
+    }
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent)
+  })
   
 
   const handleChange = (e) => {

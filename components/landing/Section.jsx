@@ -19,7 +19,7 @@ const Section = () => {
             <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
           </video>
 
-          <div className="space-y-6 md:space-y-8 max-w-lg"><h2 className="text-3xl md:text-5xl tracking-tight font-black leading-tight md:leading-tight">Fast-Track execution</h2>
+          <div className="space-y-6 md:space-y-8 max-w-lg"><h2 className="text-3xl md:text-5xl tracking-tight font-black leading-tight md:leading-tight">We have Aced in Driving more visitors through web</h2>
             <p className="text-base-content-secondary">Crafting Success in 7 Days: Web Development and Strategy Execution Rolled into One.</p>
             <p className="text-base-content-secondary">Elevate Your Business with Expert Web Development and Swift Execution</p>
 
