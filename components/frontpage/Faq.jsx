@@ -6,17 +6,27 @@ const Faq = () => {
   const faqdata = [
     {
       id: "1",
-      que: "What do I get exactly",
-      ans: "You get a workbook online with 10 exercises to practice your language skills 📚 Each exercise contains 10 questions with answers. Exercises are custom-made for you based on your language level & your favorite topics 😍",
+      que: " How can influencer marketing benefit my business?",
+      ans: "Influencer marketing can provide numerous benefits, including expanded brand reach, improved credibility, increased engagement, and a direct link to your target audience. It can also help you tap into new markets and enhance your brand's authenticity.",
     },
     {
-      id: "1",
-      que: "What do I get exactly",
-      ans: "You get a workbook online with 10 exercises to practice your language skills 📚 Each exercise contains 10 questions with answers. Exercises are custom-made for you based on your language level & your favorite topics 😍",
+      id: "2",
+      que: "What makes your influencer marketing platform unique?",
+      ans: "Our platform offers a curated network of authentic influencers, cutting-edge campaign management tools, and data-driven insights to optimize your campaigns. We focus on building meaningful partnerships that go beyond one-off collaborations, fostering long-term success.",
+    },
+    {
+      id: "3",
+      que: "Is influencer marketing suitable for small businesses?",
+      ans: "Yes, influencer marketing can be tailored to fit businesses of all sizes. It's about finding the right influencers whose reach aligns with your brand's goals, regardless of your company's scale.",
+    },
+    {
+      id: "4",
+      que: "What type of support do you offer throughout the campaign?",
+      ans: "Our team offers dedicated support throughout the campaign journey, from helping you identify the right influencers to providing guidance on content strategy, performance optimization, and analyzing results.",
     },
   ]
   return (
-    <div className='px-5 lg:px-10 lg:h-screen bg-base-200'> 
+    <div className='px-5 lg:px-10 py-10 bg-base-100 '> 
       <div className="py-24 px-5 max-w-7xl mx-auto flex flex-col md:flex-row gap-12 md:gap-16">
         <div className="flex flex-col text-left basis-1/2">
           <p className="inline-block font-semibold text-gradient-warm mb-4">FAQ</p>

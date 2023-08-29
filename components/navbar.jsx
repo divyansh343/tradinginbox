@@ -169,7 +169,7 @@ const Navbar = ({ etheme, handleChange }) => {
               </>
             ))}
           </select> */}
-            {/* <a className="btn bg-gradient-to-r from-primary  to-secondary normal-case text-white font-normal btn-sm" href="/app/new">Contact</a> */}
+            <a className="btn bg-gradient-to-r from-primary  to-secondary normal-case text-white font-normal btn-sm" href="/app/new">Contact</a>
           </div>
         </div>
       </header>

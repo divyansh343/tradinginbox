@@ -24,11 +24,11 @@ export default function Home() {
       <Section />
       <Services/>
       {/* <Principles /> */}
-      {/* <BoxSection/> */}
+      <BoxSection/>
+      <StageSection />
       <Stars />
-      {/* <StageSection /> */}
-      {/* <Faq /> */}
       <Shutter />
+      <Faq/>
       <Strip />
       
     </div>
