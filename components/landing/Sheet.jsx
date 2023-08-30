@@ -6,7 +6,7 @@ import { FaChartLine } from 'react-icons/fa'
 const Sheet = () => {
   return (
     <div>
-      <section className="bg-base-100 p-10 py-16 md:py-32">
+      <section className="bg-base-100  py-16 md:py-32">
         <div className="flex flex-col text-center w-full my-10">
           <div className="mb-3">
             <h2 className="text-4xl lg:text-[40px] font-medium text-white">What we do

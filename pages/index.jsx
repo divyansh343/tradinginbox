@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Pricing from '../components/landing/Pricing'
-import Hero from '../components/landing/Hero'
 import Digits from '../components/landing/Digits'
 import Section from '../components/landing/Section'
 import Testimonials from '../components/landing/Testimonials'
@@ -20,6 +19,7 @@ import wide2 from '../assets/images/wide2.jpeg'
 import wide3 from '../assets/images/wide3.jpeg'
 import Cta from '../components/Cta'
 import Client from '../components/Client'
+import Hero from '../components/landing/Hero'
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
       <Shutter />
       {/* wide 2 */}
       <div className='grid justify-center'>
-        <div className="overlay"></div>
+        <div></div>
         <Image alt='' src={wide2} className=" aspect-auto w-full border-2 md:border-4 border-base-content" width="1300" height="550">
         </Image>
       </div>
@@ -38,7 +38,7 @@ export default function Home() {
       <Client />
       {/* wide 3 */}
       <div className='grid justify-center'>
-        <div className="overlay"></div>
+        <div></div>
         <Image alt='' src={wide3} className=" aspect-auto w-full border-2 md:border-4 border-base-content" width="1300" height="550">
         </Image>
       </div>

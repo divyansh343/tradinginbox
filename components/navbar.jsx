@@ -89,7 +89,7 @@ const Navbar = ({ etheme, handleChange }) => {
     <>
       {/* <header className="sticky top-0 bg-base-100/80 backdrop-blur shadow z-40"> */}
       <header className="sticky top-0 bg-base-100 backdrop-blur -pb-1 shadow z-40">
-        <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4  py-3 lg:py-1">
+        <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4  lg:py-1">
           <a aria-current="page" className="flex gap-2 items-center rounded">
             <div aria-current="page" aria-label="Homepage" className="flex-0  px-2" data-svelte-h="svelte-pw6yxt">
               <Image alt='' src={sheet} className=" aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="110" height="80">
@@ -120,8 +120,8 @@ const Navbar = ({ etheme, handleChange }) => {
           </select> */}
           </div>
         
-          <div className="invisible">
-            <a className="btn mt-2 text-black font-normal bg-white rounded-2xl tracking-wider btn-sm">Get template</a>
+          <div className="=">
+            <a className="btn mt-6 text-black font-normal bg-white rounded-2xl tracking-wider btn-sm">Contact</a>
           </div>
         </div>
       </header>

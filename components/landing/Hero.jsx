@@ -20,17 +20,17 @@ const Hero = () => {
   // }, []);
   return (
     <div className='main'>
-      <div className="content"></div>
-      <video className='' src="https://res.cloudinary.com/the-social-charts/video/upload/v1693121720/ss2_zjqdo7.mp4" autoPlay loop muted />
-      {/* <div className="">
-        <h1 className='text-3xl lg:text-5xl font-extrabold mt-50 px-5'>
-          Aperturefdgdfgfdg Studios
-        </h1>
-        <div className='pt-50'>
-          <p className='text-base lg:text-lg font-extrabold px-5'>Unleash the Power of Conversion with </p>
-        </div>
-      </div> */}
+    <div className="overlay"></div>
+    <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1693121720/ss2_zjqdo7.mp4" autoPlay loop muted />
+    <div className="content ">
+      <h1 className='text-3xl md:text-6xl tracking-wide drop-shadow-2xl font-semibold px-5'>
+      Apperture Studios
+      </h1>
+      <div className='py-5'>
+        <p className='text-md text-[#c0c0c0] lg:text-md  drop-shadow-2xl px-5'>Photographer & Filmmaker</p>
+      </div>
     </div>
+  </div>
   )
 }
 
