@@ -6,31 +6,36 @@ import ReactTypingEffect from 'react-typing-effect'
 import TextTransition, { presets } from "react-text-transition";
 
 const Hero = () => {
-  // const [index, setIndex] = useState(0);
-  // const TEXTS = [
-  //   "Web Development",
-  //   "Seo Works",
-  // ];
-  // useEffect(() => {
-  //   const intervalId = setInterval(() =>
-  //     setIndex(index => index + 1),
-  //     2000 // every 3 seconds
-  //   );
-  //   return () => clearTimeout(intervalId);
-  // }, []);
+  const [index, setIndex] = useState(0);
+  const TEXTS = [
+    "Capturing Moments",
+    "Crafting Stories",
+  ];
+  useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      2000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
   return (
-    <div className='main'>
-    <div className="overlay"></div>
-    <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1693121720/ss2_zjqdo7.mp4" autoPlay loop muted />
-    <div className="content ">
-      <h1 className='text-3xl md:text-6xl tracking-wide drop-shadow-2xl font-semibold px-5'>
-      Apperture Studios
-      </h1>
-      <div className='py-5'>
-        <p className='text-md text-[#c0c0c0] lg:text-md  drop-shadow-2xl px-5'>Photographer & Filmmaker</p>
+    <div className='main -mt-20'>
+      <div className="overlay"></div>
+      <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1693121720/ss2_zjqdo7.mp4" autoPlay loop muted />
+      <div className="content pb-10">
+        <div className='py-5'>
+          <p className='text-md text-[#c0c0c0] lg:text-md  drop-shadow-2xl px-5'>Filmmaker & Photographer</p>
+        </div>
+        <h1 className='text-3xl md:text-5xl tracking-wide drop-shadow-2xl font-semibold px-5'>
+          <TextTransition springConfig={presets.gentle}>
+            {TEXTS[index % TEXTS.length]}
+          </TextTransition>
+        </h1>
+        <div className='pb-5 -mt-5'>
+          <p className='text-md text-[#c0c0c0] lg:text-md  drop-shadow-2xl px-5'>Your Vision Brought to Life by Our Lens</p>
+        </div>
       </div>
     </div>
-  </div>
   )
 }
 

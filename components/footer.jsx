@@ -8,13 +8,13 @@ import yt from '../assets/images/yt.png'
 const Footer = () => {
   return (
     <>
-      <div  className='p-6 bg-black'>
+      <div className='p-6 bg-black a grid justify-center'>
         <div className="px-[2px] md:px-[36px] xl:px-0 mt-[70px]">
 
           {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
           <div className=" grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
             <div>
-            <Image alt='' src={sheet} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="110" height="80">
+              <Image alt='' src={sheet} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="110" height="80">
               </Image>
               <h5 className="text-heading text-[#c0c0c0] mt-5 text-sm">Photographers & videographers capturing the world around us.</h5>
               <p className="text-sm text-white mb-5">Indore, MP
@@ -68,14 +68,21 @@ const Footer = () => {
           <div className="w-full bg-black h-[1px] mb-[20px]"></div>
           <div className="text-gray-400 flex items-center justify-between">
             <p className="text-sm ">
-            © Aperture Photography, Inc. All rights reserved. Licensing.
+              © Aperture Photography, Inc. All rights reserved. Licensing.
             </p>
             <div className='flex gap-4'>
-            <Image alt='' src={wp} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="30" height="30"></Image>
-              <Image alt='' src={yt} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="30" height="30"></Image>
-              <Image alt='' src={insta} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="30" height="30"></Image>
+              <a target='_blank' rel='noreferrer' href="https://wa.me/916262812849">
+                <Image alt='' src={wp} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="30" height="30"></Image>
+              </a>
+              <a target='_blank' rel='noreferrer' href="https://www.youtube.com/@thatsarpit">
+                <Image alt='' src={yt} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="30" height="30"></Image>
+              </a>
+              <a target='_blank' rel='noreferrer' href="https://www.instagram.com/thatsarpit/">
+                <Image alt='' src={insta} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="30" height="30"></Image>
+              </a>
+
             </div>
-             
+
             {/* <a href='https://suprr.link/divyansh' target='_blank' rel='noreferrer' className=' text-sm shadow-lg underline cursor-pointer'>-Designed by<span className='text-primary ml-1 '>Divyansh</span></a> */}
           </div>
         </div>

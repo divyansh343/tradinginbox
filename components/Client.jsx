@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import sheet from '../assets/images/boxx.jpg'
+import sheet from '../assets/images/rhymon.png'
 
 const Client = () => {
   return (
@@ -18,31 +18,31 @@ const Client = () => {
       <div className="container flex py-28 justify-center items-center">
         <div className="flex flex-wrap mx-4">
           <div className="w-full px-4">
-            <div className="flex flex-wrap items-center gap-10 md:gap-56 justify-center">
+            <div className="flex items-center gap-10 md:gap-10 justify-center">
               <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="80" height="80"
+                width="200" height="200"
                 src={sheet}
                 href="#"
                 Alt="Brand Image"
               />
               <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="80" height="80"
+                width="200" height="200"
                 src={sheet}
                 href="#"
                 Alt="Brand Image"
               />
               <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="80" height="80"
+                width="200" height="200"
                 src={sheet}
                 href="#"
                 Alt="Brand Image"
               />
               <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="80" height="80"
+                width="200" height="200"
                 src={sheet}
                 href="#"
                 Alt="Brand Image"
