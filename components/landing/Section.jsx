@@ -20,7 +20,8 @@ const Section = () => {
           </video>
 
           <div className="space-y-6 md:space-y-8 max-w-lg"><h2 className="text-3xl md:text-5xl tracking-tight font-black leading-tight md:leading-tight">We have Aced in Driving more visitors through web</h2>
-            <p className="text-base-content-secondary">Crafting Success in 7 Days: Web Development and Strategy Execution Rolled into One.</p>
+            <p className="text-base-content-secondary"> <span className='text-secondary border-b border-1'>What you sell matters,</span> sure. But how you represent it, matters the most! The key is to find your audience&apos;s concerns and give them a solution.
+</p>
             <p className="text-base-content-secondary">Elevate Your Business with Expert Web Development and Swift Execution</p>
 
           </div>

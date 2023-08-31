@@ -24,8 +24,8 @@ export default function Home() {
       <Section />
       <Services/>
       {/* <Principles /> */}
-      <BoxSection/>
-      <StageSection />
+      {/* <BoxSection/> */}
+      {/* <StageSection /> */}
       <Stars />
       <Shutter />
       <Faq/>
