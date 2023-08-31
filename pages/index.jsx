@@ -26,8 +26,8 @@ export default function Home() {
     <div className=''>
       <Hero />
       <Sheet />
-      <Wide />
-      <Shutter />
+      {/* <Wide />
+      <Shutter /> */}
       {/* wide 2 */}
       <div className='grid justify-center'>
         <div></div>
