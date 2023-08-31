@@ -68,7 +68,7 @@ const Footer = () => {
           <div className="w-full bg-black h-[1px] mb-[20px]"></div>
           <div className="text-gray-400 flex items-center justify-between">
             <p className="text-sm ">
-              © Aperture Photography, Inc. All rights reserved. Licensing.
+             I Love You
             </p>
             <div className='flex gap-4'>
               <a target='_blank' rel='noreferrer' href="https://wa.me/916262812849">

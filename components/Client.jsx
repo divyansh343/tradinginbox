@@ -15,7 +15,7 @@ const Client = () => {
           </h3>
         </div>
       </div>
-      <div className="container flex py-28 justify-center items-center">
+      <div className="container flex py-10 justify-center items-center">
         <div className="flex flex-wrap mx-4">
           <div className="w-full px-4">
             <div className="flex items-center gap-10 md:gap-10 justify-center">
