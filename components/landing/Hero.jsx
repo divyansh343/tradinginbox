@@ -31,7 +31,7 @@ const Hero = () => {
             {TEXTS[index % TEXTS.length]}
           </TextTransition>
         </h1>
-        <div className='pb-5 -mt-5'>
+        <div className='pb-5 -mt-2'>
           <p className='text-md text-[#c0c0c0] lg:text-md  drop-shadow-2xl px-5'>Your Vision Brought to Life by Our Lens</p>
         </div>
       </div>
