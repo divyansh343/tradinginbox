@@ -9,7 +9,7 @@ const Services = () => {
         <div className="flex flex-col text-center w-full my-10">
           <p className="mx-auto font-medium text-gradient-cold mb-4">Our Services</p>
           <div className="mb-8">
-            <h2 className="sm:text-4xl text-3xl font-bold text-base-content">11X Services for online businesses
+            <h2 className="sm:text-4xl text-3xl font-bold text-base-content">11x Services for online businesses
             </h2>
           </div>
           <div className="md:w-2/3 mx-auto leading-relaxed text-base text-base-content-secondary">begins with strategic selection.
@@ -69,7 +69,7 @@ const Services = () => {
                     <path d="M13.5789 20H10.421C10.1419 20 9.87412 19.8891 9.67672 19.6917C9.47931 19.4943 9.36841 19.2265 9.36841 18.9474V1.05263C9.36841 0.773456 9.47931 0.505715 9.67672 0.308309C9.87412 0.110902 10.1419 0 10.421 0H13.5789C13.8581 0 14.1259 0.110902 14.3233 0.308309C14.5207 0.505715 14.6316 0.773456 14.6316 1.05263V18.9474C14.6316 19.2265 14.5207 19.4943 14.3233 19.6917C14.1259 19.8891 13.8581 20 13.5789 20Z" fill="white"></path>
                   </svg>
                 </div>
-                <a href="services-detail.html" className="my-8 inline-block text-lg font-extrabold  ">Online Marketing</a>
+                <a href="services-detail.html" className="my-8 inline-block text-lg font-extrabold  ">Digital Marketing</a>
                 <p className="mb-10 text-md  transition line-clamp-3 ">
                 Extend your reach through collaborations with influencers and creators. 
                 </p>

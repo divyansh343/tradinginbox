@@ -18,8 +18,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  /* font-family: "Poppins", sans-serif; */
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: "SuisseIntl"; */
+  font-family: "CircularStd";
 }
 
 a {
@@ -48,6 +49,20 @@ a {
     background-position: 50% 20%;
   }
 } */
+
+@font-face {
+  font-family: "CircularStd";
+  src: url('../assets/fonts/CircularStd-Book.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SuisseIntl";
+  src: url('../assets/fonts/SuisseIntl-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .input {
   border-radius: 15px;

@@ -4,7 +4,7 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("acid")
+  const [theme, settheme] = useState("emerald")
 
   // const listenScrollEvent = () => {
   //     window.scrollY > 800
@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
   // useEffect(() => {
   //   window.addEventListener("scroll", listenScrollEvent)
   // })
-  
 
   const handleChange = (e) => {
     settheme(e.target.value);

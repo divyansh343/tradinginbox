@@ -6,23 +6,23 @@ const Faq = () => {
   const faqdata = [
     {
       id: "1",
-      que: " How can influencer marketing benefit my business?",
-      ans: "Influencer marketing can provide numerous benefits, including expanded brand reach, improved credibility, increased engagement, and a direct link to your target audience. It can also help you tap into new markets and enhance your brand's authenticity.",
+      que: "How can a professionally designed website benefit my business?",
+      ans: "A professionally designed website not only enhances your online presence but also builds credibility, improves user experience, and can lead to higher conversion rates. It's a vital tool for attracting and retaining customers.",
     },
     {
       id: "2",
-      que: "What makes your influencer marketing platform unique?",
-      ans: "Our platform offers a curated network of authentic influencers, cutting-edge campaign management tools, and data-driven insights to optimize your campaigns. We focus on building meaningful partnerships that go beyond one-off collaborations, fostering long-term success.",
+      que: "Do you offer custom web design services?",
+      ans: "Absolutely! We provide custom web design services that align with your brand identity, goals, and target audience. Our designs are unique, user-friendly, and optimized for mobile devices.",
     },
     {
       id: "3",
-      que: "Is influencer marketing suitable for small businesses?",
-      ans: "Yes, influencer marketing can be tailored to fit businesses of all sizes. It's about finding the right influencers whose reach aligns with your brand's goals, regardless of your company's scale.",
+      que: "Can you assist with website maintenance and updates?",
+      ans: "Yes, we offer ongoing maintenance and support services to ensure your website remains secure, up-to-date, and optimized for peak performance.",
     },
     {
       id: "4",
-      que: "What type of support do you offer throughout the campaign?",
-      ans: "Our team offers dedicated support throughout the campaign journey, from helping you identify the right influencers to providing guidance on content strategy, performance optimization, and analyzing results.",
+      que: "How do you approach SEO to improve search engine rankings?",
+      ans: "Our SEO process involves thorough keyword research, on-page optimization, content creation, strategic link building, and continuous monitoring. We follow industry best practices to elevate your website's rankings.",
     },
   ]
   return (

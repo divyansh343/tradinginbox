@@ -23,9 +23,9 @@ export default function Home() {
       <Hero/>
       <Section />
       <Services/>
-      {/* <Principles /> */}
-      {/* <BoxSection/> */}
-      {/* <StageSection /> */}
+      <Principles />
+      <BoxSection/>
+      <StageSection />
       <Stars />
       <Shutter />
       <Faq/>
