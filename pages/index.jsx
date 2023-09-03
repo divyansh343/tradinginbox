@@ -17,7 +17,7 @@ export default function Home() {
           {/* <div className="h-[2px] w-[2px] bg-dark-200 mx-2 rounded-full">
           </div> */}
 
-          <a href="https://en.wikipedia.org/wiki/Kochi" target="_blank" rel="noopener noreferrer" className="transition-all duration-300 cursor-pointer grayscale hover:grayscale-0 hover:text-dark-100"><span className="inline-block text-md"><LuLocate /></span> Chhindwara, MP</a>
+          <a href="https://en.wikipedia.org/wiki/Chhindwara" target="_blank" rel="noopener noreferrer" className="transition-all duration-300 cursor-pointer grayscale hover:grayscale-0 hover:text-dark-100"><span className="inline-block text-md"><LuLocate /></span> Chhindwara, MP</a>
 
           <div className="h-[2px] w-[2px] bg-dark-200 mx-2 rounded-full">
           </div>
@@ -34,7 +34,7 @@ export default function Home() {
           <label className="swap swap-rotate p-2 mx-2">
 
             {/* <!-- this hidden checkbox controls the state --> */}
-            <input onChange={etheme === "lofi" ? () => settheme("forest") : () => settheme("lofi")} type="checkbox" />
+            <input onChange={etheme === "lofi" ? () => settheme("halloween") : () => settheme("lofi")} type="checkbox" />
             <span className='swap-on text-xl text-primary'>
               <BsFillSunFill />
             </span>
