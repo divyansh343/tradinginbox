@@ -4,22 +4,22 @@ import React, { useEffect, useState } from 'react'
 import sheet from '../assets/images/sign.png'
 
 const Navbar = ({ etheme, handleChange }) => {
-  const [nav, setnav] = useState("bg-opacity-0")
+  // const [nav, setnav] = useState("bg-opacity-0")
 
-  const listenScrollEvent = () => {
-      window.scrollY > 300
-        ? setnav("hidden")
-        : setnav("bg-opacity-0")
-    }
-  useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent)
-  })
+  // const listenScrollEvent = () => {
+  //     window.scrollY > 300
+  //       ? setnav("hidden")
+  //       : setnav("bg-opacity-0")
+  //   }
+  // useEffect(() => {
+  //   window.addEventListener("scroll", listenScrollEvent)
+  // })
   
   
   return (
     <>
       {/* <header className="sticky top-0 bg-base-100/80 backdrop-blur shadow z-40"> */}
-      <header className={`${nav} sticky top-0 bg-base-100 backdrop-blur -pb-1 shadow  z-40 `}>
+      <header className={`bg-opacity-0  top-0 bg-base-100 backdrop-blur -pb-1 shadow  z-40 `}>
         <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4  lg:py-1">
           <a aria-current="page" className="flex gap-2 items-center rounded">
             <div aria-current="page" aria-label="Homepage" className="flex-0  px-2" data-svelte-h="svelte-pw6yxt">
