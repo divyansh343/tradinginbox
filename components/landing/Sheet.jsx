@@ -6,6 +6,7 @@ import one from '../../assets/images/portfolio/1.png'
 import two from '../../assets/images/portfolio/2.png'
 import three from '../../assets/images/portfolio/3.png'
 import four from '../../assets/images/portfolio/4.png'
+import Link from 'next/link'
 
 const Sheet = () => {
   return (
@@ -17,14 +18,15 @@ const Sheet = () => {
             </h2>
           </div>
           <div className="md:w-2/3 mx-auto leading-relaxed text-base text-white">
-            <h3 className="text-[#c0c0c0] text-3xl">Here are few glimpse of previous videos 
+            <h3 className="text-[#c0c0c0] text-md">Here are few glimpse of previous videos
             </h3>
           </div>
         </div>
         <div className="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
-
-          <Image alt='' src={one} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
-          </Image>
+          <Link href="/project1">
+            <Image alt='' src={one} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
+            </Image>
+          </Link>
           <div className="space-y-6 md:space-y-8 max-w-lg">
             <Image alt='' src={two} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
             </Image>

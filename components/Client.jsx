@@ -11,7 +11,7 @@ const Client = () => {
           </h2>
         </div>
         <div className="md:w-2/3 mx-auto leading-relaxed text-base text-white">
-          <h3 className="text-[#c0c0c0] text-2xl">Trusted by your favourite companies
+          <h3 className="text-[#c0c0c0] text-md">Trusted by your favourite companies
           </h3>
         </div>
       </div>

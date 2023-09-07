@@ -20,6 +20,7 @@ import wide3 from '../assets/images/wide3.jpeg'
 import Cta from '../components/Cta'
 import Client from '../components/Client'
 import Hero from '../components/landing/Hero'
+import Para from '../components/Para'
 
 export default function Home() {
   return (
@@ -43,9 +44,8 @@ export default function Home() {
         </Image>
       </div>
       {/* wide 3 */}
+      <Para/>
       <Cta />
-    
-
     </div>
   )
 }

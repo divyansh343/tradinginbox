@@ -32,7 +32,7 @@ const Hero = () => {
           </TextTransition>
         </h1>
         <div className='pb-5 -mt-2'>
-          <p className='text-md text-[#c0c0c0] lg:text-md  drop-shadow-2xl px-5'>Your Vision Brought to Life by Our Lens</p>
+          <p className='text-md text-[#c0c0c0] lg:text-md  drop-shadow-2xl px-5'>Your Transforming Your Unique Vision into Reality Through Our Expert Lens</p>
         </div>
       </div>
     </div>
