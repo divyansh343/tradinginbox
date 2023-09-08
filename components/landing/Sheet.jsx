@@ -23,22 +23,28 @@ const Sheet = () => {
           </div>
         </div>
         <div className="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
-          <Link href="/project1">
+          <Link href="/project_1">
             <Image alt='' src={one} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
             </Image>
           </Link>
-          <div className="space-y-6 md:space-y-8 max-w-lg">
-            <Image alt='' src={two} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
-            </Image>
-          </div>
+          {/* <div className="space-y-6 md:space-y-8 max-w-lg"> */}
+            <Link href="/project_2">
+              <Image alt='' src={two} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
+              </Image>
+            </Link>
+          {/* </div> */}
         </div>
         <div className="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
+        <Link href="/project_2">
           <Image alt='' src={three} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
           </Image>
-          <div className="space-y-6 md:space-y-8 max-w-lg">
+          </Link>
+          {/* <div className="space-y-6 md:space-y-8 max-w-lg"> */}
+          <Link href="/project_2">
             <Image alt='' src={four} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
             </Image>
-          </div>
+            </Link>
+          {/* </div> */}
         </div>
       </section>
     </div>

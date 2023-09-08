@@ -7,7 +7,7 @@ const Client = () => {
     <div className='py-10'>
       <div className="flex flex-col text-center w-full my-8">
         <div className="mb-3">
-          <h2 className="text-4xl lg:text-[40px] font-medium text-white">Past Clients
+          <h2 className="text-4xl lg:text-5xl font-semibold text-white">Past Clients
           </h2>
         </div>
         <div className="md:w-2/3 mx-auto leading-relaxed text-base text-white">
@@ -15,7 +15,7 @@ const Client = () => {
           </h3>
         </div>
       </div>
-      <div className="container flex py-10 justify-center items-center">
+      <div className=" grid py-10 justify-center ">
         <div className="flex flex-wrap mx-4">
           <div className="w-full px-4">
             <div className="flex items-center gap-10 md:gap-10 justify-center">

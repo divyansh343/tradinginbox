@@ -40,7 +40,7 @@ export default function Home() {
       {/* wide 3 */}
       <div className='grid justify-center'>
         <div></div>
-        <Image alt='' src={wide3} className=" aspect-auto w-full border-2 md:border-4 border-base-content" width="1300" height="550">
+        <Image alt='' src={wide3} className=" aspect-auto bg-cover w-full border-2 md:border-4 border-base-content" width="1300" height="550">
         </Image>
       </div>
       {/* wide 3 */}

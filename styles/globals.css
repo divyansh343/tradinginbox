@@ -72,7 +72,7 @@ a {
 
 .main {
   width: 100%;
-  height: 92vh;
+  height: 100vh;
 }
 
 video {
@@ -99,14 +99,14 @@ video {
   color: white;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-}
+/* .overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.4);
+} */
 .btn-gradient {
   animation: shimmer 3s ease-out infinite alternate !important;
   border-width: 0 !important;

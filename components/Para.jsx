@@ -5,13 +5,11 @@ const Para = () => {
   return (
     <div>
       <Parallax
-        blur={{ min: -15, max: 15 }}
-        bgImage={sheet}
+        bgImage
         bgImageAlt="the dog"
         strength={300}
       >
         {/* Blur transition from min to max */}
-        <div style={{ height: '200px' }} />
       </Parallax>
     </div>
   )

@@ -8,21 +8,21 @@ import yt from '../assets/images/yt.png'
 const Footer = () => {
   return (
     <>
-      <div className='p-6 bg-black a grid justify-center'>
+      <div className='px-10 pb-5 bg-black a grid justify-center'>
         <div className="px-[2px] md:px-[36px] xl:px-0 mt-[70px]">
 
           {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
-          <div className=" grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
+          <div className=" grid gird-cols-1 gap-8 mb-10 md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
             <div>
               <Image alt='' src={sheet} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="110" height="80">
               </Image>
               <h5 className="text-heading text-[#c0c0c0] mt-5 text-sm">Photographers & videographers capturing the world around us.</h5>
-              <p className="text-sm text-white mb-5">Indore, MP
+              {/* <p className="text-sm text-white mb-5">Indore, MP
               </p>
               <a href="tel:+918821934797" className="text-sm my-2 text-white underline cursor-pointer">+91-8821934797
               </a>
               <p className="text-sm cursor-pointer  text-white">contact@chareterdmedia.com
-              </p>
+              </p> */}
             </div>
             <div className='invisible'>
               <h5 className="text-heading-5  font-bold text-white mb-5 text-sm">Our Services</h5>
@@ -34,41 +34,35 @@ const Footer = () => {
                 <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Niche Marketing</a></li>
               </ul>
             </div>
-            {/* <div>
-              <h5 className="text-heading-5  font-bold text-white mb-5 text-sm">Discover</h5>
+         
+           
+            <div >
+              <h5 className="text-heading-5 uppercase tracking-wider  font-bold text-[#c0c0c0] mb-5 text-sm">BUSINESS AREAS</h5>
+              <ul>
+                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Product Photography</a></li>
+                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Art Photography</a></li>
+                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Drone Photography</a></li>
+                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Wildlife Photography</a></li>
+              </ul>
+            </div>
+            <div>
+            <h5 className="text-heading-5 uppercase tracking-wider  font-bold text-[#c0c0c0] mb-5 text-sm">Pages</h5>
               <ul>
                 <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Our Blog</a></li>
                 <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Plans &amp; Pricing</a></li>
                 <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Knowledge Base</a></li>
                 <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Cookie Policy</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Office Center</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">News &amp; Events</a></li>
-              </ul>
-            </div> */}
-            <div >
-              <h5 className="text-heading-5  font-bold text-white mb-5 text-sm">By Cities</h5>
-              <ul>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Influencer Agency In Delhi</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Influencer Agency In Mumbai</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Influencer Agency In Lucknow</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Influencer Agency In Indore</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="text-heading-5  font-bold text-white mb-5 text-sm">Useful links</h5>
-              <ul>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Collabrations</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Influencers</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Events</a></li>
-                {/* <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Reviews</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Stories</a></li> */}
+                {/* <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Office Center</a></li>
+                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">News &amp; Events</a></li> */}
               </ul>
             </div>
           </div>
-          <div className="w-full bg-black h-[1px] mb-[20px]"></div>
+          <div className="w-full bg-black h-[1px] "></div>
+          <div className='bg-[#ffffff]  md:px-[36px] opacity-10 h-[3px] mb-8 rounded'>
+          </div>
           <div className="text-gray-400 flex items-center justify-between">
             <p className="text-sm ">
-             I Love You
+              I Love You
             </p>
             <div className='flex gap-4'>
               <a target='_blank' rel='noreferrer' href="https://wa.me/916262812849">
@@ -86,6 +80,8 @@ const Footer = () => {
             {/* <a href='https://suprr.link/divyansh' target='_blank' rel='noreferrer' className=' text-sm shadow-lg underline cursor-pointer'>-Designed by<span className='text-primary ml-1 '>Divyansh</span></a> */}
           </div>
         </div>
+        {/* <div className='bg-[#ffffff] opacity-10 mx-[36px] h-1 mb-8 mt-4 rounded'>
+        </div> */}
       </div>
     </>
   )
