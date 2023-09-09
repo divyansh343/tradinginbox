@@ -31,7 +31,9 @@ const Services = () => {
                 </div>
                 <a href="services-detail.html" className="my-8 inline-block text-lg font-extrabold   ">Website Development</a>
                 <p className="mb-10 text-md  transition line-clamp-3 ">
-                Building influencer relationships. We do communication and  campaign management.
+                Our team of visionary designers transforms your ideas into visually captivating designs that resonate with your brand&apos;s essence.
+
+
                 </p>
                 <a href="services-detail.html" className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className=" transition group-hover:text-white ">
@@ -51,7 +53,7 @@ const Services = () => {
                 </div>
                 <a href="services-detail.html" className="my-8 inline-block text-lg font-extrabold   ">SEO</a>
                 <p className="mb-10 text-md  transition line-clamp-3 ">
-                We work hand-in-hand with influencers to produce high-quality, compelling content
+                SEO services designed to drive your website to the top of search engine results and deliver exceptional online visibility.
                 </p>
                 <a href="services-detail.html" className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className=" transition group-hover:text-white ">
@@ -71,7 +73,7 @@ const Services = () => {
                 </div>
                 <a href="services-detail.html" className="my-8 inline-block text-lg font-extrabold  ">Digital Marketing</a>
                 <p className="mb-10 text-md  transition line-clamp-3 ">
-                Extend your reach through collaborations with influencers and creators. 
+                Effectively reaching and engaging your target audience is our commitment, and we&apos;re here to be your trusted ally.
                 </p>
                 <a href="services-detail.html" className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className=" transition group-hover:text-white ">

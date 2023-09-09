@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
     settheme(e.target.value);
   }
   return (
-    <div className="bg-base-200" data-theme={theme}>
+    <div className="bg-base-100" data-theme={theme}>
       <Navbar ethmem={theme} handleChange={handleChange} />
       <div className="">
         {children}

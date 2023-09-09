@@ -2,7 +2,7 @@ import React from 'react'
 
 const StageSection = () => {
   return (
-    <section className="py-24 bg-base-100 lg:px-20">
+    <section className="py-24 bg-base-100 px-10 lg:px-20">
         <div className="container">
             <div className="text-center max-w-xl mx-auto">
                 {/* <h6 className="font-normal uppercase mb-2">How it <span className="font-semibold">Work</span></h6> */}
