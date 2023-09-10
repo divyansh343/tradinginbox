@@ -16,7 +16,7 @@ const Label = () => {
           </Image>
         </div></div></div></a> */}
 
-      <div className="fixed left-4 bottom-4 md:left-8 md:bottom-8 bg-gradient-to-r from-primary  to-secondary text-white flex justify-center items-center z-50 rounded-2xl shadow-xl p-1.5 md:px-4 md:py-2"><a className="flex items-center justify-start gap-2 md:gap-3 cursor-pointer select-none group md:justify-center md:flex-1" href="https://www.producthunt.com/posts/workbookpdf/" target="_blank" rel="noreferrer"> 
+      <div className="fixed left-4 bottom-4 md:left-8 bg-gradient-to-r from-primary  to-secondary text-white flex justify-center items-center z-50 rounded-2xl shadow-xl p-1.5 md:px-4 md:py-2"><a className="flex items-center justify-start gap-2 md:gap-3 cursor-pointer select-none group md:justify-center md:flex-1" href="https://www.producthunt.com/posts/workbookpdf/" target="_blank" rel="noreferrer"> 
       {/* <Image
       className='rounded'
         alt='divyansh'

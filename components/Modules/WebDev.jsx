@@ -15,7 +15,7 @@ import Image from 'next/image';
 const WebDev = () => {
   return (
     <div>
-      <div className='py-20 px-5 grid justify-center lg:px-20 '>
+      <div className='py-20  lg:h-screen px-5 grid justify-center lg:px-20 '>
         <p className=" text-4xl lg:text-5xl font-bold mb-5">
           Web Development Service
           {/* <span className='text-primary' className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">showcase</span> your saas */}
@@ -35,7 +35,7 @@ const WebDev = () => {
         </div>
       </div>
       <div className='py-20 px-5  lg:px-20 grid justify-center'>
-        <p className=" text-xl lg:text-2xl  mb-5 grid justify-center">
+        <p className="text-2xl  mb-5 grid justify-center">
           Why Web Development Matters?
         </p>
 
@@ -193,7 +193,7 @@ const WebDev = () => {
             <h1 className="text-2xl font-medium">Technologies we work with</h1>
           </div>
 
-          <div className="py-16">
+          <div className="py-16 pl-10">
             <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5">
               <div className="order-1">
                 <div className="flex flex-col gap-5">
