@@ -26,10 +26,12 @@ const Label = () => {
       >
       </Image> */}
       <div className="hidden md:block leading-tight md:leading-normal"><p className="font-medium">
-       Let&apos;s talk
-        <span className="underline underline-offset-2 decoration-2 pl-1 group-hover:decoration-4 duration-200">Product Hunt</span> now!</p>
+       Get 
+        <span className="underline underline-offset-2 decoration-2 pl-1 group-hover:decoration-4 duration-200">Free Consultation</span>
+         </p>
         
-        <p className="text-sm opacity-90">Woud love to Hear 🫶</p></div></a></div>
+        {/* <p className="text-sm opacity-90">Woud love to Hear 🫶</p> */}
+        </div></a></div>
     </>
   )
 }

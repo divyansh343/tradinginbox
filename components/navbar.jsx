@@ -145,13 +145,13 @@ const Navbar = ({ etheme, handleChange }) => {
             {/* <a className="link link-hover text-base-content-secondary font-medium" >Examples</a> */}
             {/*    <a className="link link-hover text-base-content-secondary font-medium" >Pricing</a> */}
             <Link href="/web_development">
-              <a className="link link-hover text-md  font-medium" >Web Development</a>
+              <a className="link link-hover text-base font-medium" >Web Development</a>
             </Link>
             <Link href="/seo">
-              <a className="link link-hover text-md  font-medium" >SEO Solutions</a>
+              <a className="link link-hover text-base font-medium" >SEO Solutions</a>
             </Link>
             <Link href="/digital_marketing">
-              <a className="link link-hover text-md  font-medium" >Ads Solutions</a>
+              <a className="link link-hover text-base font-medium" >Ads Solutions</a>
             </Link>
             {/* <select value={etheme} onChange={handleChange}
               className="select select-sm select-primary w-full max-w-xs mx-1">
@@ -163,9 +163,9 @@ const Navbar = ({ etheme, handleChange }) => {
               ))}
             </select> */}
           </div>
-          <div className="space-x-4 mt-2 hidden md:block">
+          <div className="space-x-4 mt-1 hidden md:block">
             {/* <a className="btn btn-sm btn-neutral" href="/app/dashboard">Login</a> */}
-            <a className="btn bg-primary normal-case text-white font-normal btn-sm" href="/app/new">Contact</a>
+            <a className="btn bg-blue-700 hover:bg-blue-600 normal-case text-white font-normal text-base tracking-wbase btn-base" href="tel:916263965062">Get Free Consultation</a>
           </div>
           <div className="md:hidden mt-2">
             {/* <select value={etheme} onChange={handleChange}
