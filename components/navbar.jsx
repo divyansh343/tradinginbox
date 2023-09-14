@@ -165,7 +165,7 @@ const Navbar = ({ etheme, handleChange }) => {
           </div>
           <div className="space-x-4 mt-1 hidden md:block">
             {/* <a className="btn btn-sm btn-neutral" href="/app/dashboard">Login</a> */}
-            <a className="btn bg-blue-700 hover:bg-blue-600 normal-case text-white font-normal text-base tracking-wbase btn-base" href="tel:916263965062">Get Free Consultation</a>
+            <a className="btn bg-blue-700 hover:bg-primary normal-case text-white font-normal text-base tracking-wbase btn-base" href="tel:916263965062">Get Free Consultation</a>
           </div>
           <div className="md:hidden mt-2">
             {/* <select value={etheme} onChange={handleChange}
@@ -177,7 +177,9 @@ const Navbar = ({ etheme, handleChange }) => {
                 </>
               ))}
             </select> */}
-            <a className="btn bg-primary normal-case text-white font-normal btn-sm" href="/app/new">Contact</a>
+            {/* <Link href="/"> */}
+              <a  href="tel:916263965062" className="btn normal-case text-white  bg-blue-700 hover:bg-primary font-normal btn-sm" >Let&apos;s Begin</a>
+            {/* </Link> */}
           </div>
         </div>
       </header>

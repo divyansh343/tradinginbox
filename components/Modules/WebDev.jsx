@@ -16,115 +16,247 @@ const WebDev = () => {
   return (
     <div>
       <div className='py-20  lg:h-screen px-5 grid justify-center lg:px-20 '>
-        <p className=" text-4xl lg:text-5xl font-bold mb-5">
-          Web Development Service
+        <p className=" grid justify-center text-center text-3xl lg:text-5xl text-secondary ">
+          Get your customized Website
           {/* <span className='text-primary' className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">showcase</span> your saas */}
         </p>
-        <p className="text-2xl font-semibold mb-5">
-          For Small Business, Industries, Online businesses
-          {/* <span className='text-primary' className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">showcase</span> your saas */}
+        <p className=" grid justify-center  text-4xl lg:text-6xl text my-5">
+          @ Rs 5999/- only
         </p>
-        <div className='lg:w-[800px] mt-10'>
-          <p className="text-lg  mb-5">
+
+        <div className='grid justify-center my-5 md:my-0'>
+          <button className='btn-md lg:btn-lg btn bg-blue-800 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>Let&apos;s Begin 🛖</button>
+        </div>
+        <p className=" grid justify-center text-orange-600 text-xl lg:text-3xl text mt-3">
+          and @ 1 year Hosting for free
+        </p>
+        <div className='lg:w-[700px] mt-10 grid justify-center'>
+          {/* <p className="text-lg  mb-5">
             Welcome, to our web development services, where innovation, creativity, and functionality converge to craft digital experiences that leave a lasting impact. In today&apos;s digital landscape, a compelling online presence is not just an option; it&apos;s a necessity.
 
-          </p>
+          </p> */}
           <p className="text-lg  mb-5">
             We are here to be your partner in turning your vision into a functional, user-friendly, and visually stunning website.
           </p>
         </div>
       </div>
-      <div className='py-20 px-5  lg:px-20 grid justify-center'>
-        <p className="text-2xl  mb-5 grid justify-center">
-          WHAT YOU WILL GET:
+
+      <div className='py-3 px-5  lg:px-20 grid justify-center'>
+        <p className="text-4xl  mb-16 grid justify-center">
+          What you will get &gt;
         </p>
 
-        <div className='lg:w-[800px] mt-5'>
-          <p className="text-base text-slate-600  mb-5">
+        <div className='lg:w-[700px] mt-5'>
+          {/* <p className="text-base text-slate-600  mb-5">
             Web development is the process of creating and maintaining websites. It plays a crucial role because:
 
-          </p>
-          <p className=' text-lg text-blue-700 mx-2'>1. Custom Web Design:</p>
+          </p> */}
+          <p className=' text-lg text-orange-600 mx-2'>1. Custom Web Design:</p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             Tailor-made websites that align with a client&apos;s brand and business objectives.
 
 
           </p>
-          <p className=' text-lg text-blue-700 mx-2'>2. Responsive Design: </p>
+          <p className=' text-lg text-orange-600 mx-2'>2. Responsive Design: </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             Ensuring the website is mobile-friendly and looks great on all devices.
 
           </p>
-          <p className=' text-lg text-blue-700 mx-2'>3.  Content Management Systems (CMS):</p>
+          <p className=' text-lg text-orange-600 mx-2'>3.  Content Management Systems (CMS):</p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             Offering CMS platforms like WordPress, Joomla, or Drupal for easy content updates.          </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>4. E-commerce Solutions: </p>
+          <p className=' text-lg text-orange-600 mx-2'>4. E-commerce Solutions: </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             Developing robust online stores with features like cart, checkout, and payment gateway integration.          </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>5. SEO-Ready Development:  </p>
+          <p className=' text-lg text-orange-600 mx-2'>5. SEO-Ready Development:  </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             Implementing on-page SEO best practices to make the site more search engine friendly.
           </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>6. UI/UX Design: </p>
+          <p className=' text-lg text-orange-600 mx-2'>6. UI/UX Design: </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             Creating intuitive and engaging user interfaces that offer a seamless user experience.
 
           </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>7. Web Analytics Setup: </p>
+          <p className=' text-lg text-orange-600 mx-2'>7. Web Analytics Setup: </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             Installing and configuring Google Analytics or other analytics tools to track website performance.
           </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>8. Social Media Integration: </p>
+          <p className=' text-lg text-orange-600 mx-2'>8. Social Media Integration: </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             Embedding social media feeds and share buttons to enhance online presence and user engagement.          </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>9.  Web Security: </p>
+          <p className=' text-lg text-orange-600 mx-2'>9.  Web Security: </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
             SSL certificates, secure coding practices, and other security features to protect against hacking and data breaches.       </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>10. Fast Load Times:  </p>
+          <p className=' text-lg text-orange-600 mx-2'>10. Fast Load Times:  </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
-          Optimizing for speed to ensure the website loads quickly, improving both user experience and SEO.   </p>
+            Optimizing for speed to ensure the website loads quickly, improving both user experience and SEO.   </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>11.  Content Writing Services:</p>
+          <p className=' text-lg text-orange-600 mx-2'>11.  Content Writing Services:</p>
           <p className="text-base text-slate-600 ml-2  mb-5">
-           Providing keyword-rich, high-quality content that is both SEO-friendly and engages the audience.    </p>
+            Providing keyword-rich, high-quality content that is both SEO-friendly and engages the audience.    </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>12.         Multimedia Elements:</p>
+          <p className=' text-lg text-orange-600 mx-2'>12.         Multimedia Elements:</p>
           <p className="text-base text-slate-600 ml-2  mb-5">
-    Adding video, interactive maps, and other multimedia elements to make the website more engaging.</p>
+            Adding video, interactive maps, and other multimedia elements to make the website more engaging.</p>
 
-          <p className=' text-lg text-blue-700 mx-2'>13.    API Integrations*: </p>
+          <p className=' text-lg text-orange-600 mx-2'>13.    API Integrations*: </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
-         Linking third-party services like CRMs, payment gateways, or email marketing tools via API.
+            Linking third-party services like CRMs, payment gateways, or email marketing tools via API.
 
-</p>
+          </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>14.  Progressive Web Apps (PWA): </p>
+          <p className=' text-lg text-orange-600 mx-2'>14.  Progressive Web Apps (PWA): </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
-         Offering PWA development for a more app-like experience on the web.
+            Offering PWA development for a more app-like experience on the web.
 
 
-    </p>
+          </p>
 
-          <p className=' text-lg text-blue-700 mx-2'>15.          Ongoing Support and Maintenance: </p>
+          <p className=' text-lg text-orange-600 mx-2'>15.          Ongoing Support and Maintenance: </p>
           <p className="text-base text-slate-600 ml-2  mb-5">
-         Regular updates, performance reviews, and 24/7 customer support to keep the website running smoothly.
-    </p>
+            Regular updates, performance reviews, and 24/7 customer support to keep the website running smoothly.
+          </p>
 
 
         </div>
       </div>
 
-      <section className="py-20 px-5 lg:px-20">
+      <div className="xl:py-24 py-16 px-5 lg:mx-28 ">
+        <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+
+          <div className="text-center grid justify-center">
+            <h1 className="text-3xl font-medium">Technologies we work with</h1>
+          </div>
+
+          <div className="py-16 pl-10">
+            <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5">
+              <div className="order-1">
+                <div className="flex flex-col gap-5">
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> React js</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Next js</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Wordpress</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Webflow</p>
+                </div>
+              </div>
+
+              <div className="order-3 xl:order-2">
+                <div className="flex flex-col gap-5">
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Tailwind </p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Bootstrap</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Figma</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span>Ui UX</p>
+                </div>
+              </div>
+
+              <div className="order-4 xl:order-3">
+                <div className="flex flex-col gap-5">
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span>Node JS</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> MongoDB</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Frontend</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Backend</p>
+                </div>
+              </div>
+
+              <div className="order-2 xl:order-4">
+                <div className="flex flex-col gap-5">
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> SQL</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> HTML</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> CSS</p>
+                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  </span> Javascript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <button className="flex items-center justify-center mx-auto">
+            <a href="#" className="bg-primary text-white rounded-lg text-sm font-semibold flex-none hover:shadow-lg  hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-6 py-3">Sign Up Now <i className="fa-solid fa-arrow-right ms-2"></i> </a>
+        </button> */}
+
+        </div>
+      </div>
+
+      {/* <div data-theme="" className="bg-base-200  shadow-xl border-primary border-2 rounded-2xl p-12 mx-5 lg:mx-20">
+
+        <div className="grid lg:grid-cols-3 grid-cols-1 items-center">
+          <div className="lg:col-span-2">
+            <h4 className="text-2xl font-semibold mb-10">Responsive design Principle</h4>
+
+            <div className="flex flex-wrap gap-10">
+              <div className="text-center grid justify-center ">
+                <span className='text-2xl'><MdOutlineLaptopWindows />
+                </span>
+                <h6>Windows</h6>
+              </div>
+
+              <div className="text-center grid justify-center">
+                <span className='text-2xl'><MdOutlineLaptopMac />
+                </span>
+                <h6>Mac</h6>
+              </div>
+
+              <div className="text-center grid justify-center">
+                <span className='text-2xl'><GoBrowser />
+                </span>
+                <h6>Browser</h6>
+              </div>
+
+              <div className="text-center grid justify-center">
+
+                <span className='text-2xl'><HiOutlineDeviceMobile />
+                </span>
+                <h6>Mobile</h6>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="inline-flex mt-14">
+              <a href="#" className="py-4 px-6 rounded border border-primary bg-primary text-white hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"> Get Propmt for Free</a>
+            </div>
+            <div className="mt-2">
+              <p className="inline-flex text-xs">Looking for other platforms? <a href="#" className="hover:text-primary"> Click Here</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div> */}
+
+      <div className='grid justify-center bg-base-200 py-30'>
+        <button className='btn-md lg:btn-lg btn bg-blue-800 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>Let&apos;s Build Your Dream Website!
+
+
+
+
+        </button>
+      </div>
+
+      <section className="py-20 mt-10 px-5 lg:px-20">
         <div className="container">
           <div className="text-center">
-            <h1 className="text-2xl font-medium">Our Web Development Services</h1>
+            <h1 className="text-3xl font-medium">Our Web Development Services</h1>
             <p className="font-medium text-slate-500 mt-2 mb-4">We are helping businesses to develop their web applications</p>
           </div>
 
@@ -198,121 +330,7 @@ const WebDev = () => {
         </div>
       </section>
 
-      <div data-theme="" className="bg-base-200  shadow-xl border-primary border-2 rounded-2xl p-12 mx-5 lg:mx-20">
 
-        <div className="grid lg:grid-cols-3 grid-cols-1 items-center">
-          <div className="lg:col-span-2">
-            <h4 className="text-2xl font-semibold mb-10">Responsive design Principle</h4>
-
-            <div className="flex flex-wrap gap-10">
-              <div className="text-center grid justify-center ">
-                <span className='text-2xl'><MdOutlineLaptopWindows />
-                </span>
-                <h6>Windows</h6>
-              </div>
-
-              <div className="text-center grid justify-center">
-                <span className='text-2xl'><MdOutlineLaptopMac />
-                </span>
-                <h6>Mac</h6>
-              </div>
-
-              <div className="text-center grid justify-center">
-                <span className='text-2xl'><GoBrowser />
-                </span>
-                <h6>Browser</h6>
-              </div>
-
-              <div className="text-center grid justify-center">
-
-                <span className='text-2xl'><HiOutlineDeviceMobile />
-                </span>
-                <h6>Mobile</h6>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="inline-flex mt-14">
-              <a href="#" className="py-2 px-4 rounded border border-primary bg-primary text-white hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"> Get Propmt for Free <i className="fa-solid fa-arrow-right ms-2"></i></a>
-            </div>
-            <div className="mt-2">
-              <p className="inline-flex text-xs">Looking for other platforms? <a href="#" className="hover:text-primary"> Click Here</a></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div className="xl:py-24 py-16 px-5 lg:mx-28 ">
-        <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
-
-          <div className="text-center grid justify-center">
-            <h1 className="text-2xl font-medium">Technologies we work with</h1>
-          </div>
-
-          <div className="py-16 pl-10">
-            <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5">
-              <div className="order-1">
-                <div className="flex flex-col gap-5">
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> React js</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Next js</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Wordpress</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Webflow</p>
-                </div>
-              </div>
-
-              <div className="order-3 xl:order-2">
-                <div className="flex flex-col gap-5">
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Tailwind </p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Bootstrap</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Figma</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span>Ui UX</p>
-                </div>
-              </div>
-
-              <div className="order-4 xl:order-3">
-                <div className="flex flex-col gap-5">
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span>Node JS</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> MongoDB</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Frontend</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Backend</p>
-                </div>
-              </div>
-
-              <div className="order-2 xl:order-4">
-                <div className="flex flex-col gap-5">
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> SQL</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> HTML</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> CSS</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
-                  </span> Javascript</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* <button className="flex items-center justify-center mx-auto">
-                    <a href="#" className="bg-primary text-white rounded-lg text-sm font-semibold flex-none hover:shadow-lg  hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-6 py-3">Sign Up Now <i className="fa-solid fa-arrow-right ms-2"></i> </a>
-                </button> */}
-
-        </div>
-      </div>
     </div>
   )
 }
