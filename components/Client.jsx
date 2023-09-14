@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import sheet from '../assets/images/rhymon.png'
+import img1 from '../assets/images/1.jpg'
+import img2 from '../assets/images/2.jpg'
+import img3 from '../assets/images/3.jpg'
 
 const Client = () => {
   return (
@@ -21,32 +23,32 @@ const Client = () => {
             <div className="flex items-center gap-10 md:gap-10 justify-center">
               <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="200" height="200"
-                src={sheet}
+                width="500" height="250"
+                src={img1}
                 href="#"
                 Alt="Brand Image"
               />
               <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="200" height="200"
-                src={sheet}
+                width="500" height="250"
+                src={img2}
                 href="#"
                 Alt="Brand Image"
               />
               <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="200" height="200"
-                src={sheet}
+                width="500" height="250"
+                src={img3}
                 href="#"
                 Alt="Brand Image"
               />
-              <Image
+              {/* <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="200" height="200"
+                width="500" height="250"
                 src={sheet}
                 href="#"
                 Alt="Brand Image"
-              />
+              /> */}
             </div>
           </div>
         </div>

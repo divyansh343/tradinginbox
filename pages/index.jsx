@@ -44,7 +44,7 @@ export default function Home() {
         </Image>
       </div>
       {/* wide 3 */}
-      <Para/>
+      <Para />
       <Cta />
     </div>
   )
