@@ -21,7 +21,7 @@ const StageSection = () => {
                             <div className="relative">
                                 <div className="text-center">
                                     <span className="inline-flex rounded-2xl relative z-0 bg-blue-500/10 dark:bg-blue-100/5 h-24 w-24 items-center justify-center" >
-                                        <Image className=' drop-shadow' src={pr1} height={60} width={60} alt='branding' />
+                                        <Image className=' ' src={pr1} height={60} width={60} alt='branding' />
                                     </span>
                                     <h5 className="text-xl font-semibold mb-3 mt-5">1. Crafting</h5>
                                     <p className="text-base font-normal text-gray-800">Crafting tailored
@@ -38,7 +38,7 @@ const StageSection = () => {
                             <div className="relative">
                                 <div className="text-center">
                                     <span className="inline-flex rounded-2xl relative z-0 bg-emerald-500/10 dark:bg-emerald-100/5 h-24 w-24 items-center justify-center" >
-                                        <Image className=' drop-shadow' src={pr2} height={60} width={60} alt='branding' />
+                                        <Image className=' ' src={pr2} height={60} width={60} alt='branding' />
                                     </span>
                                     <h5 className="text-xl font-semibold mb-3 mt-5">2. Branding</h5>
                                     <p className="text-gray-800 dark:text-gray-400">In branding, we <span className=' border-b-2  bg-emerald-500/10 mx-1'> target potential customers through organic ads </span> in social platforms YT, Google, Instagram, FB.</p>
@@ -53,7 +53,7 @@ const StageSection = () => {
                         <div>
                             <div className="text-center">
                                 <span className="inline-flex rounded-2xl  relative z-0 bg-amber-500/10 dark:bg-amber-100/5 h-24 w-24 items-center justify-center" >
-                                    <Image className=' drop-shadow' src={pr3} height={60} width={60} alt='branding' />
+                                    <Image className=' ' src={pr3} height={60} width={60} alt='branding' />
                                 </span>
                                 <h5 className="text-xl font-semibold mb-3 mt-5">3. Expanding</h5>
                                 <p className="text-gray-600 dark:text-gray-400">
