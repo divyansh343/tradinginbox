@@ -14,9 +14,9 @@ import Image from 'next/image';
 
 const WebDev = () => {
   return (
-    <div>
+    <div className='bg-blue-100/10'>
       <div className='py-20  lg:h-screen px-5 grid justify-center lg:px-20 '>
-        <p className=" grid justify-center text-center text-3xl lg:text-5xl text-secondary ">
+        <p className=" grid justify-center text-center text-3xl lg:text-5xl text-primary ">
           Get your customized Website
           {/* <span className='text-primary' className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">showcase</span> your saas */}
         </p>
@@ -244,8 +244,8 @@ const WebDev = () => {
 
       </div> */}
 
-      <div className='grid justify-center bg-base-200 py-30'>
-        <button className='btn-md lg:btn-lg btn bg-blue-800 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>Let&apos;s Build Your Dream Website!
+      <div className='grid justify-center py-30'>
+        <button className='btn-md lg:btn-lg cursor-pointer btn bg-blue-800 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>👋🏻Let&apos;s Build Your Dream Website!
 
 
 

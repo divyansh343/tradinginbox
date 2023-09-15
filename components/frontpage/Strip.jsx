@@ -16,11 +16,15 @@ const Strip = () => {
     //   </div>
     // </div>
     <>
-      <div className="text-center bg-secondary text-white py-5">
+      <div className="text-center bg-blue-600 text-white py-5">
         <p className="md:text-lg opacity-90 mb-2">🛖 Ready to Begin?</p>
-        <h2 className="font-extrabold text-4xl md:text-4xl tracking-tight
+        <h2 className="font-bold text-4xl md:text-4xl
      hover:drop-shadow hover:underline  cursor-pointer  md:mb-2">
-          +91 6263965062
+         Say Hello 62-639-650-62
+        </h2>
+        <h2 className="text-xl 
+     hover:drop-shadow hover:underline tracking-wide  cursor-pointer ">
+          contact@brandcraft.com
         </h2>
       </div>
     </>

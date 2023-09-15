@@ -27,7 +27,7 @@ const Label = () => {
       </Image> */}
       <div className="hidden md:block leading-tight md:leading-normal"><p className="font-medium">
       
-        <span className="underline underline-offset-2 decoration-2 pl-1 group-hover:decoration-4 duration-200"> Contact us</span>
+        <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="underline underline-offset-2 decoration-2 pl-1 group-hover:decoration-4 duration-200"> Contact us</button>
          </p>
         
         <p className="text-sm opacity-90">Woud love to Hear 🫶</p>

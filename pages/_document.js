@@ -13,6 +13,7 @@ class MyDocument extends Document {
                 <body>
                     <Main />
                     <NextScript />
+                    <script async src="https://tally.so/widgets/embed.js"></script>
                 </body>
             </Html>
         )

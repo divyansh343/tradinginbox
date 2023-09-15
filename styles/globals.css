@@ -89,9 +89,10 @@ a {
 }
 
 .wbg{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(147,142,226,1) 0%, rgba(221,222,255,0.9529936974789917) 43%, rgba(0,212,255,1) 100%);
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 }
+.nbg{
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);}
 
 .main {
   width: 100%;

@@ -141,17 +141,20 @@ const Navbar = ({ etheme, handleChange }) => {
               {/* <strong className="font-semibold tracking-tight text-base md:text-lg">MakeLanding</strong> */}
             </a>
           </Link>
-          <div className="flex-1 hidden md:flex items-center justify-start gap-3 lg:gap-12 text-sm">
-            {/* <a className="link link-hover text-base-content-secondary font-medium" >Examples</a> */}
-            {/*    <a className="link link-hover text-base-content-secondary font-medium" >Pricing</a> */}
+          <div className="flex-1 hidden md:flex items-center justify-start gap-2  lg:gap-12 text-sm">
+            {/* <a className="link link-hover text-base-content-secondary font-medium " >Examples</a> */}
+            {/*    <a className="link link-hover text-base-content-secondary font-medium " >Pricing</a> */}
             <Link href="/web_development">
-              <a className="link link-hover text-base font-medium" >Web Development</a>
+              <a className="link link-hover text-base font-medium cursor-pointer" >Web Development</a>
             </Link>
+            {/* <Link href="/seo">
+              <a className=" text-lg font-medium  border-b-2 cursor-pointer border-secondary" >Branding 1233*</a>
+            </Link> */}
             <Link href="/seo">
-              <a className="link link-hover text-base font-medium" >SEO Solutions</a>
+              <a className="link link-hover text-base font-medium cursor-pointer" >SEO Solutions</a>
             </Link>
             <Link href="/digital_marketing">
-              <a className="link link-hover text-base font-medium" >Ads Solutions</a>
+              <a className="link link-hover text-base font-medium cursor-pointer" >Ads Solutions</a>
             </Link>
             {/* <select value={etheme} onChange={handleChange}
               className="select select-sm select-primary w-full max-w-xs mx-1">
@@ -164,8 +167,7 @@ const Navbar = ({ etheme, handleChange }) => {
             </select> */}
           </div>
           <div className="space-x-4 mt-1 hidden md:block">
-            {/* <a className="btn btn-sm btn-neutral" href="/app/dashboard">Login</a> */}
-            <a className="btn bg-blue-700 hover:bg-primary normal-case text-white font-normal text-base tracking-wbase btn-base" href="tel:916263965062">Get Free Consultation</a>
+            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn bg-blue-600 hover:bg-primary normal-case text-white font-normal text-base tracking-wbase btn-base" href="tel:916263965062">Get  <span className='border-b-2'> Free 1 : 1 </span>Consultation</button>
           </div>
           <div className="md:hidden mt-2">
             {/* <select value={etheme} onChange={handleChange}
@@ -178,7 +180,7 @@ const Navbar = ({ etheme, handleChange }) => {
               ))}
             </select> */}
             {/* <Link href="/"> */}
-              <a  href="tel:916263965062" className="btn normal-case text-white  bg-blue-700 hover:bg-primary font-normal btn-sm" >Let&apos;s Begin</a>
+            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn normal-case text-white  bg-blue-600 hover:bg-primary font-normal btn-sm" ><span > 1 : 1 </span>Consultation</button>
             {/* </Link> */}
           </div>
         </div>
