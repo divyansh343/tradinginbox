@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import FaqListItem from './FaqListItem'
+import Image from 'next/image'
+import pointy from '../../assets/images/hanging.png'
 
 
 const Faq = () => {
@@ -26,11 +28,12 @@ const Faq = () => {
     },
   ]
   return (
-    <div className='px-5 lg:px-10 py-10 bg-blue-200/10 '> 
+    <div className='px-5 lg:px-10 py-10 bg-blue-100/10 '> 
       <div className="py-24 px-5 max-w-7xl mx-auto flex flex-col md:flex-row gap-12 md:gap-16">
         <div className="flex flex-col text-left basis-1/2">
           <p className="inline-block font-semibold text-gradient-warm mb-4">FAQ</p>
           <p className="sm:text-4xl text-3xl font-extrabold text-base-content">Frequently Asked Questions</p>
+          <Image src={pointy} className='w-44 mt-5' alt="11" height={400} width={400} />
         </div>
 
         <ul className="basis-1/2">

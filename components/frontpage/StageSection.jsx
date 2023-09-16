@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const StageSection = () => {
     return (
-        <section className="py-24 bg-base-100 px-10 lg:px-20">
+        <section className="py-24  px-10 lg:px-20 grid justify-center">
             <div className="container">
                 <div className="text-center max-w-xl mx-auto">
                     {/* <h6 className="font-normal uppercase mb-2">How it <span className="font-semibold">Work</span></h6> */}
@@ -19,13 +19,13 @@ const StageSection = () => {
                     <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
                         <div>
                             <div className="relative">
-                                <div className="text-center">
+                                <div className="text-center cursor-pointer">
                                     <span className="inline-flex rounded-2xl relative z-0 bg-blue-500/10 dark:bg-blue-100/5 h-24 w-24 items-center justify-center" >
                                         <Image className=' ' src={pr1} height={60} width={60} alt='branding' />
                                     </span>
                                     <h5 className="text-xl font-semibold mb-3 mt-5">1. Crafting</h5>
-                                    <p className="text-base font-normal text-gray-800">Crafting tailored
-                                    <span className='border-b-2  bg-blue-500/10 mx-1'>brand identity of your business </span> by appealing website & social media content.</p>
+                                    <p className="text-base font-normal text-gray-700">Crafting tailored
+                                    <span className='  bg-blue-500/10 mx-1'>brand identity of your business </span> by appealing website & social media content.</p>
 
                                     <div className="hidden lg:block">
                                         {/* <img src="assets/images/arrow-top.png" class="absolute -right-16 top-2/4 w-28"> */}
@@ -36,12 +36,12 @@ const StageSection = () => {
 
                         <div>
                             <div className="relative">
-                                <div className="text-center">
+                                <div className="text-center cursor-pointer">
                                     <span className="inline-flex rounded-2xl relative z-0 bg-emerald-500/10 dark:bg-emerald-100/5 h-24 w-24 items-center justify-center" >
                                         <Image className=' ' src={pr2} height={60} width={60} alt='branding' />
                                     </span>
                                     <h5 className="text-xl font-semibold mb-3 mt-5">2. Branding</h5>
-                                    <p className="text-gray-800 dark:text-gray-400">In branding, we <span className=' border-b-2  bg-emerald-500/10 mx-1'> target potential customers through organic ads </span> in social platforms YT, Google, Instagram, FB.</p>
+                                    <p className="text-gray-700 dark:text-gray-400">In branding, we <span className='   bg-emerald-500/10 mx-1'> target potential customers through organic ads </span> in social platforms YT, Google, Instagram, FB.</p>
 
                                     <div className="hidden lg:block">
                                         {/* <img src="assets/images/arrow-bottom.png" class="absolute -right-20 top-2/4 w-28"> */}
@@ -51,13 +51,13 @@ const StageSection = () => {
                         </div>
 
                         <div>
-                            <div className="text-center">
+                            <div className="text-center cursor-pointer">
                                 <span className="inline-flex rounded-2xl  relative z-0 bg-amber-500/10 dark:bg-amber-100/5 h-24 w-24 items-center justify-center" >
                                     <Image className=' ' src={pr3} height={60} width={60} alt='branding' />
                                 </span>
                                 <h5 className="text-xl font-semibold mb-3 mt-5">3. Expanding</h5>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    We Expand, Our campaign by reaching organic traffic &<span className=' border-b-2  bg-amber-500/10 mx-1'>
+                                <p className="text-gray-700 dark:text-gray-400">
+                                    We Expand, Our campaign by reaching organic traffic &<span className='   bg-amber-500/10 mx-1'>
                                     Creating a mature brand worthy name
                                         </span>  in online space.  
                                 </p>

@@ -24,9 +24,9 @@ const Hero = () => {
   return (
     <div className='main'>
       <div className="overlay "></div>
-      {/* <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1692619781/-klI7zU73jD75DOy_vbnjls.mp4" autoPlay loop muted /> */}
-      <div className="content bg-blue-600">
-        <h1 className='text-3xl text-white drop-shadow-2xl lg:text-7xl font-extrabold px-5'>
+      <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1692619781/-klI7zU73jD75DOy_vbnjls.mp4" autoPlay loop muted />
+      <div className="content">
+        <h1 className='text-3xl font-["Poppins"] text-white drop-shadow-2xl lg:text-7xl font-extrabold px-5'>
           One Stop Solution!
           <TextTransition className='mt-3' springConfig={presets.gentle}>
             {TEXTS[index % TEXTS.length]}

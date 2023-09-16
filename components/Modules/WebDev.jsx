@@ -14,7 +14,7 @@ import Image from 'next/image';
 
 const WebDev = () => {
   return (
-    <div className='bg-blue-100/10'>
+    <div className='bg-blue-50/10'>
       <div className='py-20  lg:h-screen px-5 grid justify-center lg:px-20 '>
         <p className=" grid justify-center text-center text-3xl lg:text-5xl text-primary ">
           Get your customized Website
@@ -25,9 +25,9 @@ const WebDev = () => {
         </p>
 
         <div className='grid justify-center my-5 md:my-0'>
-          <button className='btn-md lg:btn-lg btn bg-blue-800 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>Let&apos;s Begin 🛖</button>
+          <button className='btn-md lg:btn-lg btn bg-blue-600 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>Let&apos;s Begin ✨</button>
         </div>
-        <p className=" grid justify-center text-orange-600 text-xl lg:text-3xl text mt-3">
+        <p className=" grid justify-center text-blue-600 text-xl lg:text-3xl text mt-3">
           and @ 1 year Hosting for free
         </p>
         <div className='lg:w-[700px] mt-10 grid justify-center'>
@@ -47,80 +47,80 @@ const WebDev = () => {
         </p>
 
         <div className='lg:w-[700px] mt-5'>
-          {/* <p className="text-base text-slate-600  mb-5">
+          {/* <p className="text-base text-gray-600  mb-5">
             Web development is the process of creating and maintaining websites. It plays a crucial role because:
 
           </p> */}
-          <p className=' text-lg text-orange-600 mx-2'>1. Custom Web Design:</p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>1. Custom Web Design:</p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Tailor-made websites that align with a client&apos;s brand and business objectives.
 
 
           </p>
-          <p className=' text-lg text-orange-600 mx-2'>2. Responsive Design: </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>2. Responsive Design: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Ensuring the website is mobile-friendly and looks great on all devices.
 
           </p>
-          <p className=' text-lg text-orange-600 mx-2'>3.  Content Management Systems (CMS):</p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>3.  Content Management Systems (CMS):</p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Offering CMS platforms like WordPress, Joomla, or Drupal for easy content updates.          </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>4. E-commerce Solutions: </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>4. E-commerce Solutions: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Developing robust online stores with features like cart, checkout, and payment gateway integration.          </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>5. SEO-Ready Development:  </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>5. SEO-Ready Development:  </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Implementing on-page SEO best practices to make the site more search engine friendly.
           </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>6. UI/UX Design: </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>6. UI/UX Design: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Creating intuitive and engaging user interfaces that offer a seamless user experience.
 
           </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>7. Web Analytics Setup: </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>7. Web Analytics Setup: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Installing and configuring Google Analytics or other analytics tools to track website performance.
           </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>8. Social Media Integration: </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>8. Social Media Integration: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Embedding social media feeds and share buttons to enhance online presence and user engagement.          </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>9.  Web Security: </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>9.  Web Security: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             SSL certificates, secure coding practices, and other security features to protect against hacking and data breaches.       </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>10. Fast Load Times:  </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>10. Fast Load Times:  </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Optimizing for speed to ensure the website loads quickly, improving both user experience and SEO.   </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>11.  Content Writing Services:</p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>11.  Content Writing Services:</p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Providing keyword-rich, high-quality content that is both SEO-friendly and engages the audience.    </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>12.         Multimedia Elements:</p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>12.         Multimedia Elements:</p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Adding video, interactive maps, and other multimedia elements to make the website more engaging.</p>
 
-          <p className=' text-lg text-orange-600 mx-2'>13.    API Integrations*: </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>13.    API Integrations*: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Linking third-party services like CRMs, payment gateways, or email marketing tools via API.
 
           </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>14.  Progressive Web Apps (PWA): </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>14.  Progressive Web Apps (PWA): </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Offering PWA development for a more app-like experience on the web.
 
 
           </p>
 
-          <p className=' text-lg text-orange-600 mx-2'>15.          Ongoing Support and Maintenance: </p>
-          <p className="text-base text-slate-600 ml-2  mb-5">
+          <p className=' text-lg text-blue-600 mx-2'>15.          Ongoing Support and Maintenance: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
             Regular updates, performance reviews, and 24/7 customer support to keep the website running smoothly.
           </p>
 
@@ -135,56 +135,56 @@ const WebDev = () => {
             <h1 className="text-3xl font-medium">Technologies we work with</h1>
           </div>
 
-          <div className="py-16 pl-10">
+          <div className="py-16 pl-10 grid jus">
             <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5">
               <div className="order-1">
                 <div className="flex flex-col gap-5">
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> React js</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Next js</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Wordpress</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Webflow</p>
                 </div>
               </div>
 
               <div className="order-3 xl:order-2">
                 <div className="flex flex-col gap-5">
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Tailwind </p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Bootstrap</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Figma</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span>Ui UX</p>
                 </div>
               </div>
 
               <div className="order-4 xl:order-3">
                 <div className="flex flex-col gap-5">
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span>Node JS</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> MongoDB</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Frontend</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Backend</p>
                 </div>
               </div>
 
               <div className="order-2 xl:order-4">
                 <div className="flex flex-col gap-5">
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> SQL</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> HTML</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> CSS</p>
-                  <p className="flex items-center gap-3 text-base text-slate-600 font-semibold"> <span className='text-primary'><FaCheck />
+                  <p className="flex items-center gap-3 text-base text-gray-800 "> <span className='text-primary'><FaCheck />
                   </span> Javascript</p>
                 </div>
               </div>
@@ -245,7 +245,7 @@ const WebDev = () => {
       </div> */}
 
       <div className='grid justify-center py-30'>
-        <button className='btn-md lg:btn-lg cursor-pointer btn bg-blue-800 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>👋🏻Let&apos;s Build Your Dream Website!
+        <button className='btn-md lg:btn-lg cursor-pointer btn bg-blue-600 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>Let&apos;s Build Your Dream Website! ✨
 
 
 
@@ -267,7 +267,7 @@ const WebDev = () => {
                   <Image alt="" src={design} height="30" width="30" />
                 </div>
                 <h4 className="text-lg mt-6">Custom Web Design</h4>
-                <p className="text-base text-slate-600 leading-7 mt-2">Our creative team specializes in crafting custom web designs that align perfectly with your brand and audience.</p>
+                <p className="text-base text-gray-600 leading-7 mt-2">Our creative team specializes in crafting custom web designs that align perfectly with your brand and audience.</p>
               </div>
             </div>
 
@@ -278,7 +278,7 @@ const WebDev = () => {
 
                 </div>
                 <h4 className="text-lg mt-6">Front-End Development</h4>
-                <p className="text-base text-slate-600 leading-7 mt-2">We bring designs to life with cutting-edge front-end development technologies, ensuring a seamless user experience.</p>
+                <p className="text-base text-gray-600 leading-7 mt-2">We bring designs to life with cutting-edge front-end development technologies, ensuring a seamless user experience.</p>
               </div>
             </div>
 
@@ -288,7 +288,7 @@ const WebDev = () => {
                   <Image alt="" src={console} height="30" width="30" />
                 </div>
                 <h4 className="text-lg mt-6">Back-End Development</h4>
-                <p className="text-base text-slate-600 leading-7 mt-2">Our experienced developers build the engine that powers your website, ensuring it runs efficiently and securely.</p>
+                <p className="text-base text-gray-600 leading-7 mt-2">Our experienced developers build the engine that powers your website, ensuring it runs efficiently and securely.</p>
               </div>
             </div>
           </div>
@@ -300,7 +300,7 @@ const WebDev = () => {
 
                 </div>
                 <h4 className="text-lg mt-6">E-Commerce Solutions</h4>
-                <p className="text-base text-slate-600 leading-7 mt-2">From small online stores to large-scale e-commerce platforms, we tailor solutions that drive sales and conversions.</p>
+                <p className="text-base text-gray-600 leading-7 mt-2">From small online stores to large-scale e-commerce platforms, we tailor solutions that drive sales and conversions.</p>
               </div>
             </div>
 
@@ -311,7 +311,7 @@ const WebDev = () => {
 
                 </div>
                 <h4 className="text-lg mt-6">CMS</h4>
-                <p className="text-base text-slate-600 leading-7 mt-2">We implement user-friendly CMS platforms like WordPress and Drupal, giving you overalll control over website.</p>
+                <p className="text-base text-gray-600 leading-7 mt-2">We implement user-friendly CMS platforms like WordPress and Drupal, giving you overalll control over website.</p>
               </div>
             </div>
 
@@ -322,7 +322,7 @@ const WebDev = () => {
 
                 </div>
                 <h4 className="text-lg mt-6">Responsive Web Design</h4>
-                <p className="text-base text-slate-600 leading-7 mt-2">Your website will look and function flawlessly on all devices, from desktops to smartphones.</p>
+                <p className="text-base text-gray-600 leading-7 mt-2">Your website will look and function flawlessly on all devices, from desktops to smartphones.</p>
               </div>
             </div>
           </div>

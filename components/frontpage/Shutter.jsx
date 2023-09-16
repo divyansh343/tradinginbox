@@ -10,11 +10,11 @@ const Shutter = () => {
           <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692619763/g913wgIdETKmM6qz_ljjuiu.mp4" type="video/mp4" />
         </video>
 
-        <div className="grid justify-start space-y-4 lg:space-y-0  max-w-lg">
+        <div className="grid justify-start space-y-6 lg:space-y-0  max-w-lg">
           {/* <h2 className="text-base md:text-lg tracking-tight font-black md:text-start leading-tight md:leading-tight">Contact our team</h2> */}
           <h2 className="text-2xl md:text-5xl tracking-tight font-black md:text-start leading-tight md:leading-tight">What Are You Waiting For?</h2>
-          <h2 className="text-2xl md:text-4xl tracking-tight font-black text-primary md:text-start leading-tight md:leading-tight">Let’s Make Some Magic</h2>
-          <h2 className="text-2xl md:text-4xl tracking-tight font-black md:text-start leading-tight md:leading-tight">Together</h2>
+          {/* <h2 className="text-2xl md:text-4xl tracking-tight font-black text-primary md:text-start leading-tight md:leading-tight">Let’s Make Some Magic</h2>
+          <h2 className="text-2xl md:text-4xl tracking-tight font-black md:text-start leading-tight md:leading-tight">Together</h2> */}
 
           {/* <p className="text-base-content-secondary"> Identifying emerging trends, market sentiment shifts, and potential opportunities before they become widely known. Through in-depth technical and fundamental analysis.</p> */}
           <div className='grid justify-start'>
