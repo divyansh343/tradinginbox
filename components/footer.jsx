@@ -12,7 +12,8 @@ const Footer = () => {
         <div className="px-[2px] md:px-[36px] xl:px-0 mt-[70px]">
 
           {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
-          <div className=" grid gird-cols-1 gap-8 mb-10 md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
+          <div className=" grid gird-cols-1 gap-8 mb-10 md:grid-cols-2  xl:gap-[300px]">
+
             <div>
               <Image alt='' src={sheet} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="110" height="80">
               </Image>
@@ -24,38 +25,31 @@ const Footer = () => {
               <p className="text-sm cursor-pointer  text-white">contact@chareterdmedia.com
               </p> */}
             </div>
-            <div className='invisible'>
-              <h5 className="text-heading-5  font-bold text-white mb-5 text-sm">Our Services</h5>
-              <ul className=''>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Brand Collabration</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Influencer Marketing</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Regional Influencer Marketing</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Celebrity Marketing</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Niche Marketing</a></li>
-              </ul>
-            </div>
-         
-           
-            <div >
-              <h5 className="text-heading-5 uppercase tracking-wider  font-bold text-[#c0c0c0] mb-5 text-sm">BUSINESS AREAS</h5>
-              <ul>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Product Photography</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Art Photography</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Drone Photography</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Wildlife Photography</a></li>
-              </ul>
-            </div>
-            <div>
-            <h5 className="text-heading-5 uppercase tracking-wider  font-bold text-[#c0c0c0] mb-5 text-sm">Pages</h5>
-              <ul>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Our Blog</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Plans &amp; Pricing</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Knowledge Base</a></li>
-                <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Cookie Policy</a></li>
-                {/* <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Office Center</a></li>
+            <div className='grid grid-cols-2'>
+              <div >
+                <h5 className="text-heading-5 uppercase tracking-wider  font-bold text-[#c0c0c0] mb-5 text-sm">BUSINESS AREAS</h5>
+                <ul>
+                  <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Product Photography</a></li>
+                  <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Art Photography</a></li>
+                  <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Drone Photography</a></li>
+                  <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Wildlife Photography</a></li>
+                </ul>
+              </div>
+
+              <div>
+                <h5 className="text-heading-5 uppercase tracking-wider  font-bold text-[#c0c0c0] mb-5 text-sm">Pages</h5>
+                <ul>
+                  <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Our Blog</a></li>
+                  <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Plans &amp; Pricing</a></li>
+                  <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Knowledge Base</a></li>
+                  <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Cookie Policy</a></li>
+                  {/* <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">Office Center</a></li>
                 <li className="mb-2 text-sm lg:text-sm "><a className="transition-all duration-200 text-white pl-[3px]" href="#">News &amp; Events</a></li> */}
-              </ul>
+                </ul>
+              </div>
+
             </div>
+
           </div>
           <div className="w-full bg-black h-[1px] "></div>
           <div className='bg-[#ffffff]  md:px-[36px] opacity-10 h-[3px] mb-8 rounded'>
@@ -66,13 +60,13 @@ const Footer = () => {
             </p>
             <div className='flex gap-4'>
               <a target='_blank' rel='noreferrer' href="https://wa.me/916262812849">
-                <Image alt='' src={wp} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="30" height="30"></Image>
+                <Image alt='' src={wp} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
               </a>
               <a target='_blank' rel='noreferrer' href="https://www.youtube.com/@thatsarpit">
-                <Image alt='' src={yt} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="30" height="30"></Image>
+                <Image alt='' src={yt} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
               </a>
               <a target='_blank' rel='noreferrer' href="https://www.instagram.com/thatsarpit/">
-                <Image alt='' src={insta} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="30" height="30"></Image>
+                <Image alt='' src={insta} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
               </a>
 
             </div>

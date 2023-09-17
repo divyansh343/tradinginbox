@@ -2,9 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 import sheet from '../../assets/images/boxx.jpg'
 import { FaChartLine } from 'react-icons/fa'
-import one from '../../assets/images/portfolio/1.png'
-import two from '../../assets/images/portfolio/2.png'
-import three from '../../assets/images/portfolio/3.png'
+import one from '../../assets/images/portfolio/1.jpg'
+import two from '../../assets/images/portfolio/2.jpg'
+import three from '../../assets/images/portfolio/3.jpg'
 import four from '../../assets/images/portfolio/4.png'
 import Link from 'next/link'
 
@@ -12,7 +12,7 @@ const Sheet = () => {
   return (
     <div>
       <section className="bg-base-100 mt-20 py-16 md:py-32">
-        <div className="flex flex-col text-center w-full my-10">
+        <div className="flex flex-col text-center my-10">
           <div className="mb-3">
             <h2 className="text-4xl lg:text-5xl font-semibold text-white">Arpit&apos;s projects
             </h2>
@@ -22,30 +22,111 @@ const Sheet = () => {
             </h3>
           </div>
         </div>
-        <div className="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
-          <Link href="/project_1">
-            <Image alt='' src={one} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
-            </Image>
+        <div className='grid lg:grid-cols-2 mx-6 mt-10 lg:mx-10 gap-10 '>
+
+          <Link href="project_1" >
+          <a  className="group  bg-black">
+              <Image
+                alt="Developer"
+                src={one}
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div className="sm:p-6 lg:p-8">
+
+
+                <div className="">
+                  <div
+                    className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                  >
+                    <p className="text-md tracking-wide text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                      perferendis hic asperiores
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
           </Link>
-          {/* <div className="space-y-6 md:space-y-8 max-w-lg"> */}
-            <Link href="/project_2">
-              <Image alt='' src={two} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
-              </Image>
-            </Link>
-          {/* </div> */}
-        </div>
-        <div className="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
-        <Link href="/project_2">
-          <Image alt='' src={three} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
-          </Image>
+
+          <Link href="project_2" >
+            <a  className="group  bg-black">
+              <Image
+                alt="Developer"
+                src={two}
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div className="sm:p-6 lg:p-8">
+
+
+                <div className="">
+                  <div
+                    className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                  >
+                    <p className="text-md tracking-wide text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                      perferendis hic asperiores
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
           </Link>
-          {/* <div className="space-y-6 md:space-y-8 max-w-lg"> */}
-          <Link href="/project_2">
-            <Image alt='' src={four} className=" w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="360" height="450">
-            </Image>
-            </Link>
-          {/* </div> */}
+
+          <Link href="project_3" >
+            <a  className="group  bg-black">
+              <Image
+                alt="Developer"
+                src={four}
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div className="sm:p-6 lg:p-8">
+                <div className="">
+                  <div
+                    className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                  >
+                    <p className="text-md tracking-wide text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                      perferendis hic asperiores
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </Link>
+
+          <Link href="project_4" >
+            <a  className="group  bg-black">
+              <Image
+                alt="Developer"
+                src={three}
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div className="sm:p-6 lg:p-8">
+
+
+                <div className="">
+                  <div
+                    className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                  >
+                    <p className="text-md tracking-wide text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                      perferendis hic asperiores
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </Link>
+
         </div>
+        {/*  */}
+
+        {/*  */}
+
       </section>
     </div>
   )
