@@ -4,9 +4,9 @@ import VideoPlayer from "react-background-video-player";
 const Shutter = () => {
   return (
     <section className="bg-base-100 p-6  md:py-20">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
+      <div className="grid md:grid-cols-2 gap-8 px-10 md:gap-16">
 
-        <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[38rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
+        <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[38rem] border-2 md:border-4 border-base-content/20" width="900" height="600">
           <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692619763/g913wgIdETKmM6qz_ljjuiu.mp4" type="video/mp4" />
         </video>
 

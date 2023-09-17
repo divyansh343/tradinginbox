@@ -8,7 +8,7 @@ import sheet from '../assets/images/bcraft.png'
 const Footer = () => {
   return (
     <>
-      <div className='bg-blue-300/10' >
+      <div data-theme="dark" className='' >
         <div className="grid xxs:grid-cols-[16px_repeat(4,_1fr)_16px] ml-5 pt-10 lg:pt-0 lg:ml-20 xs:grid-cols-[6.865%_repeat(4,_1fr)_6.865%] relative bg-charcoal flex-[0_0_auto] xs:px-[0px] xxs:px-[16px] 2xl:pt-[160px] xl:pt-[108px] md:pt-[72px] xxs:pt-[48px] 2xl:pb-[160px] md:pb-[72px] xs:pb-[48px] xxs:pb-[28px]   xxs:pt-[40px]  xl:pb-[60px] xxs:pb-[40px]">
           <div className="col-span-6 xxs:col-span-4 xxs:col-start-2">
             <div className="col-start-1 md:row-start-1 xxs:row-start-auto md:col-span-4 xs:col-span-2 xxs:col-span-1 grid lg:grid-cols-4 xs:grid-cols-2 xxs:grid-cols-1 auto-rows-min relative">
