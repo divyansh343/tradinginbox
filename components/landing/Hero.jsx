@@ -20,9 +20,11 @@ const Hero = () => {
     return () => clearTimeout(intervalId);
   }, []);
 
-  
+
   return (
-    <div className='main'>
+    <>
+
+<div className='main'>
       <div className="overlay "></div>
       <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1692619781/-klI7zU73jD75DOy_vbnjls.mp4" autoPlay loop muted />
       <div className="content">
@@ -37,7 +39,10 @@ const Hero = () => {
         </div>
       </div>
     </div>
+     
+    </>
   )
 }
+
 
 export default Hero

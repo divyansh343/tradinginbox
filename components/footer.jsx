@@ -53,10 +53,8 @@ const Footer = () => {
 
                       <span>
                         <span className="relative z-[1]">Bhopal , Indore (M.P)</span></span></p><p className="min-h-base break-words duration-200 prose max-w-full min-h-[1em] relative marker:text-charcoal text-left text-base font-CircularStd tracking-normal prose-white">
-
                       <span>
                         <span className="relative z-[1]">India</span></span></p>
-
                   </div>
 
 
