@@ -22,7 +22,7 @@ const Sheet = () => {
             </h3>
           </div>
         </div>
-        <div className='grid lg:grid-cols-2 mx-6 mt-10 lg:mx-10 gap-10 '>
+        <div className='grid lg:grid-cols-3 mx-6 mt-28 lg:mx-10 gap-10 '>
 
           <Link href="project_1" >
           <a  className="group  bg-black">
@@ -60,29 +60,6 @@ const Sheet = () => {
               <div className="sm:p-6 lg:p-8">
 
 
-                <div className="">
-                  <div
-                    className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                  >
-                    <p className="text-md tracking-wide text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </Link>
-
-          <Link href="project_3" >
-            <a  className="group  bg-black">
-              <Image
-                alt="Developer"
-                src={four}
-                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-              />
-
-              <div className="sm:p-6 lg:p-8">
                 <div className="">
                   <div
                     className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
