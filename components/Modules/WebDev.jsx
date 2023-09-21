@@ -48,7 +48,7 @@ const WebDev = () => {
           <p className="mx-auto font-medium text-gradient-cold mb-4">Elevate Your Web Presence✨</p>
           <div className="mb-8">
             <h2 className="sm:text-4xl text-3xl font-bold text-base-content">
-             Web Development Service Pack!
+             Web Development Pack Includes!
             </h2>
           </div>
           {/* <div className="md:w-2/3 mx-auto leading-relaxed text-base text-base-content-secondary">begins with strategic selection.

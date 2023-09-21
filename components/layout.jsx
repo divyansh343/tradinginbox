@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import Footer from "./footer"
 import Label from "./landing/Label"
 import Navbar from "./navbar"
+import Announcement from "./frontpage/Announcement"
 
 const Layout = ({ children }) => {
   const [theme, settheme] = useState("emerlald")
@@ -19,7 +20,8 @@ const Layout = ({ children }) => {
     settheme(e.target.value);
   }
   return (
-    <div className="bg-base-100" data-theme={theme}>
+    <div className="" data-theme={theme}>
+      {/* <Announcement /> */}
       <Navbar ethmem={theme} handleChange={handleChange} />
       <div className="">
         {children}

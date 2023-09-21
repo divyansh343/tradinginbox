@@ -1,8 +1,9 @@
 import React from 'react'
+import Digitalpage from '../components/Modules/Digitalpage'
 
 const digital_marketing = () => {
   return (
-    <div>digital_marketing</div>
+    <Digitalpage/>
   )
 }
 

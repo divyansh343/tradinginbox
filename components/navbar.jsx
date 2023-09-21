@@ -128,8 +128,8 @@ const Navbar = ({ etheme, handleChange }) => {
   return (
     <>
       {/* <header className="sticky top-0 bg-base-[#fafaf7] backdrop-blur shadow z-40"> */}
-      <header className="sticky top-0 bg-base-100/90 backdrop-blur -pb-1 shadow z-40">
-        <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-2 md:py-2">
+      <header className="sticky top-0 bg-base-100/90 backdrop-blur shadow z-40">
+        <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-3 md:py-2">
           <Link href="/">
             <a aria-current="page" className="flex gap-2 items-center hover:bg-base-200 rounded">
               <div aria-current="page" aria-label="Homepage" className="flex-0 btn btn-ghost px-2" data-svelte-h="svelte-pw6yxt">
@@ -141,15 +141,15 @@ const Navbar = ({ etheme, handleChange }) => {
               {/* <strong className="font-semibold tracking-tight text-base md:text-lg">MakeLanding</strong> */}
             </a>
           </Link>
-          <div className="flex-1 hidden md:flex items-center justify-start gap-2  lg:gap-12 text-sm">
+          <div className="flex-1 hidden lg:flex -ml-6 items-center justify-start lg:gap-8 text-sm">
             {/* <a className="link link-hover text--content-secondary font-medium " >Examples</a> */}
             {/*    <a className="link link-hover text--content-secondary font-medium " >Pricing</a> */}
+            <Link href="/brand_magnet">
+              <a className="link link-hover text-md text-base font-medium  cursor-pointer border-secondary" >✨Branding Magnet<span className="badge mx-1 badge-primary text-xs">New</span></a>
+            </Link>
             <Link href="/web_development">
               <a className="link link-hover md:text-md text-base font-medium cursor-pointer" >Web Development</a>
             </Link>
-            {/* <Link href="/seo">
-              <a className=" text-lg font-medium  border-b-2 cursor-pointer border-secondary" >Branding 1233*</a>
-            </Link> */}
             <Link href="/seo">
               <a className="link link-hover md:text-md text-base font-medium cursor-pointer" >SEO Solutions</a>
             </Link>
@@ -166,21 +166,38 @@ const Navbar = ({ etheme, handleChange }) => {
               ))}
             </select> */}
           </div>
-          <div className="space-x-4 mt-1 hidden md:block">
-            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn bg-blue-600 hover:bg-primary normal-case text-white font-normal text-base tracking-base btn-md" href="tel:916263965062">Get  <span className='border-b-2'> Free 1 : 1 </span>Consultation</button>
+
+          <div className=" mt-1 hidden lg:block">
+            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn bg-blue-600 hover:bg-primary normal-case text-white font-normal text-base tracking-base btn-md" href="tel:916263965062">Get  <span className='border-b-2 '> Free 1 : 1 </span>Consultation</button>
           </div>
-          <div className="md:hidden mt-2">
-            {/* <select value={etheme} onChange={handleChange}
-              className="select select-sm select-primary w-full max-w-xs mx-1">
-              <option disabled selected>Choose Theme?</option>
-              {options.map((option) => (
-                <>
-                  <option value={option.value}>{option.label}</option>
-                </>
-              ))}
-            </select> */}
+          <div className="lg:hidden ">
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-ghost ">
+                <div className="w-10 ">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </div>
+              </label>
+              {/* <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" /> */}
+              <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li className='border-b-2  '><Link href="/brand_magnet"><a>Branding magent <span className="badge bg-gradient-to-r from-primary  to-secondary text-white text-xs">New</span></a></Link></li>
+                <li className='border-b-2 '>
+                <Link  href="/web_development">
+                  <a className="justify-between">
+                    Web devlopment
+                    
+                  </a>
+                </Link>
+                </li>
+                <li className='border-b-2 '><Link href="/seo"><a>Seo Solutions</a></Link></li>
+                <li className=' mb-1'><Link href="/digital_marketing"><a>Digital marketing</a></Link></li>
+              
+                <li className='bg-gradient-to-r from-primary  to-secondary text-white rounded-3xl'><button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Free consulation <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg></button></li>
+              </ul>
+            </div>
             {/* <Link href="/"> */}
-            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn normal-case text-white  bg-blue-600 hover:bg-primary font-normal btn-sm" ><span > 1 : 1 </span>Consultation</button>
+            {/* <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn normal-case text-white  bg-blue-600 hover:bg-primary font-normal btn-sm" ><span > 1 : 1 </span>Consultation</button> */}
             {/* </Link> */}
           </div>
         </div>

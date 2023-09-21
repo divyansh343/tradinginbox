@@ -1,10 +1,9 @@
 import React from 'react'
+import Seopage from '../components/Modules/Seopage'
 
 const seo = () => {
   return (
-    <div className='grid justify-center'>
-
-    </div>
+    <Seopage />
   )
 }
 

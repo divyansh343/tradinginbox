@@ -19,7 +19,7 @@ const Section = () => {
             <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
           </video>
 
-          <div className="space-y-6 md:space-y-8 max-w-lg"><h2 className="text-3xl md:text-5xl tracking-tight font-black leading-tight md:leading-tight">Time to stand out in <span className='border-b-2 '>digital space</span> </h2>
+          <div className="space-y-6 md:space-y-8 max-w-lg cursor-pointer"><h2 className="text-3xl md:text-5xl  font-black leading-tight md:leading-tight">Convert your vistors into <span className='border-b-2 text-primary'> Customers</span> </h2>
             <p className="text-base-content-secondary"> <span className='text-primary border-b border-1'>What you sell matters,</span> sure. But how you represent it, matters the most! The key is to find your audience&apos;s concerns and give them a solution.
 </p>
             <p className="text-base-content-secondary">Elevate Your Business with Expert Web Development and Swift Execution</p>

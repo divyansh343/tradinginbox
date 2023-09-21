@@ -10,7 +10,7 @@ const StageSection = () => {
             <div className="container">
                 <div className="text-center max-w-xl mx-auto">
                     {/* <h6 className="font-normal uppercase mb-2">How it <span className="font-semibold">Work</span></h6> */}
-                    <h2 className="text-3xl font-semibold mb-3">How does it work ?</h2>
+                    <h2 className="text-3xl font-semibold mb-3">How do we work ?</h2>
                     {/* <p className="text-base font-normal text-gray-500">Sed ut perspiciatis unde omnis iste natus error
                         voluptatem accusantium doloremque rem aperiam.</p> */}
                 </div>
@@ -20,7 +20,7 @@ const StageSection = () => {
                         <div>
                             <div className="relative">
                                 <div className="text-center cursor-pointer">
-                                    <span className="inline-flex rounded-2xl relative z-0 bg-blue-500/10 dark:bg-blue-100/5 h-24 w-24 items-center justify-center" >
+                                    <span className="inline-flex rounded-3xl relative z-0 bg-blue-500/10 dark:bg-blue-100/5 h-24 w-24 items-center justify-center" >
                                         <Image className=' ' src={pr1} height={60} width={60} alt='branding' />
                                     </span>
                                     <h5 className="text-xl font-semibold mb-3 mt-5">1. Crafting</h5>
@@ -37,7 +37,7 @@ const StageSection = () => {
                         <div>
                             <div className="relative">
                                 <div className="text-center cursor-pointer">
-                                    <span className="inline-flex rounded-2xl relative z-0 bg-emerald-500/10 dark:bg-emerald-100/5 h-24 w-24 items-center justify-center" >
+                                    <span className="inline-flex rounded-3xl relative z-0 bg-emerald-500/10 dark:bg-emerald-100/5 h-24 w-24 items-center justify-center" >
                                         <Image className=' ' src={pr2} height={60} width={60} alt='branding' />
                                     </span>
                                     <h5 className="text-xl font-semibold mb-3 mt-5">2. Branding</h5>
@@ -52,8 +52,8 @@ const StageSection = () => {
 
                         <div>
                             <div className="text-center cursor-pointer">
-                                <span className="inline-flex rounded-2xl  relative z-0 bg-amber-500/10 dark:bg-amber-100/5 h-24 w-24 items-center justify-center" >
-                                    <Image className=' ' src={pr3} height={60} width={60} alt='branding' />
+                                <span className="inline-flex rounded-3xl  relative z-0 bg-amber-500/10 dark:bg-amber-100/5 h-24 w-24 items-center justify-center" >
+                                    <Image className=' ' src={pr3} height={50} width={50} alt='branding' />
                                 </span>
                                 <h5 className="text-xl font-semibold mb-3 mt-5">3. Expanding</h5>
                                 <p className="text-gray-700 dark:text-gray-400">
