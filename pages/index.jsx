@@ -34,7 +34,7 @@ export default function Home() {
           <label className="swap swap-rotate p-2 mx-2">
 
             {/* <!-- this hidden checkbox controls the state --> */}
-            <input onChange={etheme === "lofi" ? () => settheme("halloween") : () => settheme("lofi")} type="checkbox" />
+            <input onChange={etheme === "lofi" ? () => settheme("coffee") : () => settheme("lofi")} type="checkbox" />
             <span className='swap-on text-xl text-primary'>
               <BsFillSunFill />
             </span>
@@ -196,6 +196,14 @@ export default function Home() {
 
                 Twitter</a>
 
+              <div className="h-[2px] w-[2px] bg-dark-200 mx-2 rounded-full">
+              </div>
+
+              <a className="flex items-center transition-all duration-300 border-b cursor-pointer text-dark-100 border-light-400 hover:border-dark-300 grayscale hover:grayscale-0" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/divyanshpal343/">
+
+                {/* <Image src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Spotify Logo" height="13" width="13" class="mr-2"> */}
+
+                LinkedIn</a>
               <div className="h-[2px] w-[2px] bg-dark-200 mx-2 rounded-full">
               </div>
 
