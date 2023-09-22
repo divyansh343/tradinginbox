@@ -30,7 +30,6 @@ export default function Home() {
       <Shutter />
       <Faq/>
       <Strip />
-      
     </div>
   )
 }

@@ -168,7 +168,7 @@ const Navbar = ({ etheme, handleChange }) => {
           </div>
 
           <div className=" mt-1 hidden lg:block">
-            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn bg-blue-600 hover:bg-primary normal-case text-white font-normal text-base tracking-base btn-md" href="tel:916263965062">Get  <span className='border-b-2 '> Free 1 : 1 </span>Consultation</button>
+            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn bg-blue-600 hover:bg-primary normal-case text-white font-normal text-base tracking-base btn-md" href="tel:916263965062">Get  <span className=' '> Free 1 : 1 </span>Consultation</button>
           </div>
           <div className="lg:hidden ">
             <div className="dropdown dropdown-end">
@@ -179,19 +179,20 @@ const Navbar = ({ etheme, handleChange }) => {
               </label>
               {/* <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" /> */}
               <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li className='border-b-2  '><Link href="/brand_magnet"><a>Branding magent <span className="badge bg-gradient-to-r from-primary  to-secondary text-white text-xs">New</span></a></Link></li>
-                <li className='border-b-2 '>
+              <li className='  '><Link href="/brand_magnet"><a className='text-base'>Branding magent 
+              </a></Link></li>
+                <li className=' '>
                 <Link  href="/web_development">
-                  <a className="justify-between">
+                  <a className="justify-between text-base">
                     Web devlopment
                     
                   </a>
                 </Link>
                 </li>
-                <li className='border-b-2 '><Link href="/seo"><a>Seo Solutions</a></Link></li>
-                <li className=' mb-1'><Link href="/digital_marketing"><a>Digital marketing</a></Link></li>
+                <li className=' '><Link href="/seo"><a className='text-base'>Seo Solutions</a></Link></li>
+                <li className=' mb-1'><Link href="/digital_marketing"><a className='text-base'>Digital marketing</a></Link></li>
               
-                <li className='bg-gradient-to-r from-primary  to-secondary text-white rounded-3xl'><button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Free consulation <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <li className='bg-gradient-to-r from-primary text-base to-secondary text-white rounded-3xl'><button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Free consulation <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg></button></li>
               </ul>

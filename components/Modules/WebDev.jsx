@@ -45,7 +45,7 @@ const WebDev = () => {
         {/* <p className="text-3xl mb-14 grid justify-center">
         Elevate Your Web Presence: Web Development Service Pack!        </p> */}
         <div className="flex flex-col text-center w-full my-6">
-          <p className="mx-auto font-medium text-gradient-cold mb-4">Elevate Your Web Presence✨</p>
+          <p className="mx-auto font-medium text-gradient-cold ">Elevate Your Web Presence✨</p>
           <div className="mb-8">
             <h2 className="sm:text-4xl text-3xl font-bold text-base-content">
              Web Development Pack Includes!

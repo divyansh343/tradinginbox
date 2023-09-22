@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import React from 'react'
+import React,{ useState } from 'react'
 import myImg from '../../assets/images/portraits/myimg.jpg'
 
 const Label = () => {
+  const [show, setShow] = useState(0)
   return (
     <>
 
@@ -25,18 +26,19 @@ const Label = () => {
         </div></a></div>
 
       {/* For Mobile */}
-      <div className="fixed block md:hidden inset-x-0 bottom-0 p-4">
+      {show === 0 ? <> <div className="fixed block md:hidden inset-x-0 bottom-0 p-4">
         <div
-          className="relative flex items-center justify-between gap-4 rounded-lg bg-gradient-to-r from-primary  to-secondary px-4 py-3 text-white shadow-lg"
+          className="relative flex items-center justify-between gap-4 rounded-3xl bg-gradient-to-r from-primary  to-secondary px-4 py-1 text-white shadow-lg"
         >
           <p className="text-sm  font-medium">
             <a href="#" className="inline-block mx-2 ">👋🏻Say Hello</a>
-          <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="underline underline-offset-2 decoration-2 pl-1 group-hover:decoration-4 duration-200">Get Free Consultation</button>
+          <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="underline underline-offset-2 decoration-2 pl-1 group-hover:decoration-4 duration-200">Get Free Consultation →</button>
           </p>
 
           <button
             aria-label="Close"
             className="shrink-0 rounded-lg bg-black/10 p-1 transition hover:bg-black/20"
+            onClick={()=>setShow(1)}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +54,8 @@ const Label = () => {
             </svg>
           </button>
         </div>
-      </div>
+      </div></> : null}
+     
     </>
   )
 }

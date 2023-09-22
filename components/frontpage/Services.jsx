@@ -77,7 +77,7 @@ const Services = () => {
               </div>
             </Link>
 
-            <Link href="/branding_101">
+            <Link href="/branding_magnet">
               <div data-aos="fade-up" data-aos-duration="1000" className="aos-init aos-animate">
                 <div className="group  rounded-3xl cursor-pointer border-primary bg-primary/10 p-6 shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] transition duration-500  hover:bg-primary/20 ">
                   <div className="grid grid-flow-col gap-0">

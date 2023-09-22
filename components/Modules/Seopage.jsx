@@ -7,11 +7,10 @@ const Seopage = () => {
         {/* <p className="text-3xl mb-14 grid justify-center">
         Elevate Your Web Presence: Web Development Service Pack!        </p> */}
         <div className="flex flex-col text-center w-full my-6">
-          <p className="mx-auto font-medium text-gradient-cold mb-4">Elevate Your Web Presence✨</p>
+          <p className="mx-auto font-medium text-gradient-cold">Elevate Your Web Presence✨</p>
           <div className="mb-8">
             <h2 className="sm:text-4xl text-3xl font-bold text-base-content">
-             Web Development Service Pack!
-            </h2>
+            Seo Services includes             </h2>
           </div>
           {/* <div className="md:w-2/3 mx-auto leading-relaxed text-base text-base-content-secondary">begins with strategic selection.
             <h3 className="">Launch your project today!
@@ -24,77 +23,69 @@ const Seopage = () => {
             Web development is the process of creating and maintaining websites. It plays a crucial role because:
 
           </p> */}
-          <p className=' text-lg text-gray-900 mx-2'>1. Custom Web Design:</p>
+          <p className=' text-lg text-gray-900 mx-2'>1. Keyword Research:</p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Tailor-made websites that align with a client&apos;s brand and business objectives.
-
-
+          Comprehensive keyword research to identify high-value keywords for your industry.
           </p>
-          <p className=' text-lg text-gray-900 mx-2'>2. Responsive Design: </p>
+          <p className=' text-lg text-gray-900 mx-2'>2. On-Page Optimization: </p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Ensuring the website is mobile-friendly and looks great on all devices.
-
+          Optimization of website content, meta tags, and structure for improved search engine visibility.
           </p>
-          <p className=' text-lg text-gray-900 mx-2'>3.  Content Management Systems (CMS):</p>
+          <p className=' text-lg text-gray-900 mx-2'>3. Quality Content Creation:</p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Offering CMS platforms like WordPress, Joomla, or Drupal for easy content updates.          </p>
+          Creation of high-quality, SEO-optimized content to engage users and rank well on search engines.       </p>
 
-          <p className=' text-lg text-gray-900 mx-2'>4. E-commerce Solutions: </p>
+          <p className=' text-lg text-gray-900 mx-2'>4. Backlink Building: </p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Developing robust online stores with features like cart, checkout, and payment gateway integration.          </p>
+          Strategic backlink acquisition to boost website authority and rankings.          </p>
 
-          <p className=' text-lg text-gray-900 mx-2'>5. SEO-Ready Development:  </p>
+          <p className=' text-lg text-gray-900 mx-2'>5. Technical SEO:  </p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Implementing on-page SEO best practices to make the site more search engine friendly.
-          </p>
+          In-depth technical audit and optimization to improve site speed, mobile-friendliness, and overall user experience.          </p>
 
-          <p className=' text-lg text-gray-900 mx-2'>6. UI/UX Design: </p>
+          <p className=' text-lg text-gray-900 mx-2'>6. Local SEO: </p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Creating intuitive and engaging user interfaces that offer a seamless user experience.
+          Optimization for local search results, including Google My Business setup and management.
 
           </p>
 
-          <p className=' text-lg text-gray-900 mx-2'>7. Web Analytics Setup: </p>
+          <p className=' text-lg text-gray-900 mx-2'>7. Competitor Analysis: </p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Installing and configuring Google Analytics or other analytics tools to track website performance.
+          Analysis of competitors&apos;s strategies to identify opportunities and stay ahead in your industry.          </p>
+
+          <p className=' text-lg text-gray-900 mx-2'>8. Regular SEO Audits: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
+          Ongoing audits and monitoring to ensure your website maintains optimal SEO performance.          </p>
+
+          <p className=' text-lg text-gray-900 mx-2'>9.  Analytics and Reporting: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
+          Detailed reports on keyword rankings, traffic, and conversions to track progress.      </p>
+
+          <p className=' text-lg text-gray-900 mx-2'>10. Content Marketing Strategy:  </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
+          Development of a content marketing plan to attract and retain a targeted audience.  </p>
+
+          <p className=' text-lg text-gray-900 mx-2'>11.  Mobile Optimization:</p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
+          Optimization for mobile devices to capture the growing mobile search market.   </p>
+
+          <p className=' text-lg text-gray-900 mx-2'>12. E-commerce SEO:</p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
+          Tailored SEO solutions for e-commerce businesses, including product optimization.</p>
+          <p className=' text-lg text-gray-900 mx-2'>13.    Social Media Integration: </p>
+          <p className="text-base text-gray-600 ml-2  mb-5">
+          Integration of SEO strategies with social media for a comprehensive online presence.
           </p>
 
-          <p className=' text-lg text-gray-900 mx-2'>8. Social Media Integration: </p>
+          <p className=' text-lg text-gray-900 mx-2'>14. White-Hat SEO: </p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Embedding social media feeds and share buttons to enhance online presence and user engagement.          </p>
-
-          <p className=' text-lg text-gray-900 mx-2'>9.  Web Security: </p>
-          <p className="text-base text-gray-600 ml-2  mb-5">
-            SSL certificates, secure coding practices, and other security features to protect against hacking and data breaches.       </p>
-
-          <p className=' text-lg text-gray-900 mx-2'>10. Fast Load Times:  </p>
-          <p className="text-base text-gray-600 ml-2  mb-5">
-            Optimizing for speed to ensure the website loads quickly, improving both user experience and SEO.   </p>
-
-          <p className=' text-lg text-gray-900 mx-2'>11.  Content Writing Services:</p>
-          <p className="text-base text-gray-600 ml-2  mb-5">
-            Providing keyword-rich, high-quality content that is both SEO-friendly and engages the audience.    </p>
-
-          <p className=' text-lg text-gray-900 mx-2'>12.         Multimedia Elements:</p>
-          <p className="text-base text-gray-600 ml-2  mb-5">
-            Adding video, interactive maps, and other multimedia elements to make the website more engaging.</p>
-
-          <p className=' text-lg text-gray-900 mx-2'>13.    API Integrations*: </p>
-          <p className="text-base text-gray-600 ml-2  mb-5">
-            Linking third-party services like CRMs, payment gateways, or email marketing tools via API.
-
-          </p>
-
-          <p className=' text-lg text-gray-900 mx-2'>14.  Progressive Web Apps (PWA): </p>
-          <p className="text-base text-gray-600 ml-2  mb-5">
-            Offering PWA development for a more app-like experience on the web.
-
+          Strict adherence to ethical SEO practices to ensure long-term success.
 
           </p>
 
-          <p className=' text-lg text-gray-900 mx-2'>15.          Ongoing Support and Maintenance: </p>
+          <p className=' text-lg text-gray-900 mx-2'>15.          Customized Packages: </p>
           <p className="text-base text-gray-600 ml-2  mb-5">
-            Regular updates, performance reviews, and 24/7 customer support to keep the website running smoothly.
+          Tailored SEO solutions to meet the unique needs and goals of your business.
           </p>
 
 

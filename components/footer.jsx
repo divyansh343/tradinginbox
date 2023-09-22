@@ -8,11 +8,11 @@ import sheet from '../assets/images/bcraft.png'
 const Footer = () => {
   return (
     <>
-      <div data-theme="dark" className='' >
+      <div data-theme="halloween" className='' >
         <div className="grid xxs:grid-cols-[16px_repeat(4,_1fr)_16px] ml-5 pt-10 lg:pt-0 lg:ml-20 xs:grid-cols-[6.865%_repeat(4,_1fr)_6.865%] relative bg-charcoal flex-[0_0_auto] xs:px-[0px] xxs:px-[16px] 2xl:pt-[160px] xl:pt-[108px] md:pt-[72px] xxs:pt-[48px] 2xl:pb-[160px] md:pb-[72px] xs:pb-[48px] xxs:pb-[28px]   xxs:pt-[40px]  xl:pb-[60px] xxs:pb-[40px]">
           <div className="col-span-6 xxs:col-span-4 xxs:col-start-2">
             <div className="col-start-1 md:row-start-1 xxs:row-start-auto md:col-span-4 xs:col-span-2 xxs:col-span-1 grid lg:grid-cols-4 xs:grid-cols-2 xxs:grid-cols-1 auto-rows-min relative">
-              <div className="flex flex-col justify-between pr-[10px] gap-[24px] md:col-span-1 xs:col-span-2">
+              <div className="flex flex-col justify-center pr-[10px] gap-[24px] md:col-span-1 xs:col-span-2">
                 <div>
 
 
@@ -59,7 +59,7 @@ const Footer = () => {
 
 
                 </div>
-                <ul className="flex md:gap-[10px] xxs:gap-[24px]"><li className=""><a href="https://www.linkedin.com/company/theothershq" aria-label="LinkedIn" className="btn">
+                <ul className="flex justify-center md:justify-start md:gap-[10px] xxs:gap-[24px]"><li className=""><a href="https://www.linkedin.com/company/theothershq" aria-label="LinkedIn" className="btn">
                   <span className="transition-colors duration-200 items-center inline-flex justify-center">
                     <span className=" whitespace-nowrap break-all"><svg width="30" height="30" className="inline transform -translate-y-px group-hover:prose-charcoal duration-200 w-[30px] h-[30px] prose-white" viewBox="0 0 30 30" fill="black" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M0.601562 14.9996C0.601562 7.04661 7.04856 0.599609 15.0016 0.599609C22.9546 0.599609 29.4016 7.04661 29.4016 14.9996C29.4016 22.9526 22.9546 29.3996 15.0016 29.3996C7.04856 29.3996 0.601562 22.9526 0.601562 14.9996ZM8.5625 20.968H11.4785V11.584H8.5625V20.968ZM10.0009 10.4316C9.07987 10.4316 8.48438 9.77913 8.48438 8.97213C8.48438 8.14862 9.09787 7.51562 10.0384 7.51562C10.9789 7.51562 11.5549 8.14862 11.5729 8.97213C11.5729 9.77913 10.9789 10.4316 10.0009 10.4316ZM19.209 20.9681H22.125V15.4196C22.125 12.6566 20.6865 11.3711 18.768 11.3711C17.1945 11.3711 16.254 12.2741 15.87 12.8861H15.8115L15.678 11.5826H13.1445C13.1835 12.4256 13.221 13.4051 13.221 14.5766V20.9666H16.1385V15.5561C16.1385 15.2876 16.158 15.0176 16.236 14.8271C16.4475 14.2916 16.926 13.7351 17.7315 13.7351C18.786 13.7351 19.209 14.5571 19.209 15.7676V20.9681Z" fill="currentColor"></path></svg></span></span></a></li><li className=""><a href="https://instagram.com/theothershq" aria-label="Instagram" className="btn">
                       <span className="transition-colors duration-200 items-center inline-flex justify-center">
@@ -69,7 +69,10 @@ const Footer = () => {
 
               </div>
 
-              <div className="mt-[48px] pr-[10px]"><h4 className="prose break-words max-w-title relative  xxs:text-lg font-bold prose-white font-CircularStd md:text-xl xxs:text-lg md:font-bold xxs:font-black">Services</h4><ul className="flex flex-col gap-4 md:mt-[28px] xxs:mt-[16px] md:gap-[28px] xxs:gap-[12px]"><li className="lg:-mb-4"><a className="prose group pb-0 hover:cursor-pointer duration-200 no-underline" href="/services/UX-research">
+              <div className="mt-[48px] pr-[10px] ">
+                <h4 className="prose break-words max-w-title relative  xxs:text-lg font-bold prose-white font-CircularStd md:text-xl xxs:text-lg md:font-bold xxs:font-black">Services</h4>
+                
+                <ul className="flex flex-col gap-4 md:mt-[28px] xxs:mt-[16px] md:gap-[28px] xxs:gap-[12px]"><li className="lg:-mb-4"><a className="prose group pb-0 hover:cursor-pointer duration-200 no-underline" href="/services/UX-research">
 
                 <span>
                   <span className="group-hover:prose-green md:prose-white xxs:prose-dark_gray break-words duration-200 prose max-w-full min-h-[1em] relative marker:text-charcoal text-left text-base font-normal font-SometypeMono tracking-normal prose-white">Research</span></span></a></li><li className="lg:-mb-4"><a className="prose group pb-0 hover:cursor-pointer duration-200 no-underline" href="/services/ux-ui-and-product-design">

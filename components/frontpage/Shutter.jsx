@@ -12,9 +12,9 @@ const Shutter = () => {
 
         <div className="grid justify-start space-y-2 lg:space-y-0  max-w-lg">
           {/* <p className="text-base md:text-lg tracking-tight font-black md:text-start">Contact our team</p> */}
-          <h2 className="text-lg md:text-3xl tracking-tight font-black md:text-start leading-tight md:leading-tight">What Are You Waiting For?</h2>
-          <h2 className="text-2xl md:text-5xl tracking-tight font-black text-primary md:text-start leading-tight md:leading-tight">Let’s Make Some Magic</h2>
-          <h2 className="text-2xl md:text-4xl tracking-tight font-black md:text-start leading-tight md:leading-tight">Together</h2>
+          <h2 className="text-2xl md:text-3xl tracking-tight font-black md:text-start leading-tight md:leading-tight">What Are You Waiting For?</h2>
+          <h2 className="text-4xl md:text-5xl tracking-tight font-black text-primary md:text-start leading-tight md:leading-tight">Let’s Make Some Magic</h2>
+          <h2 className="text-4xl tracking-tight font-black md:text-start leading-tight md:leading-tight">Together</h2>
 
           {/* <p className="text-base-content-secondary"> Identifying emerging trends, market sentiment shifts, and potential opportunities before they become widely known. Through in-depth technical and fundamental analysis.</p> */}
           <div className='grid justify-start'>
