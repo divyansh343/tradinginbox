@@ -7,15 +7,8 @@ const Label = () => {
   return (
     <>
 
-      <div className="hidden md:flex fixed left-4 bottom-4 md:left-8 bg-gradient-to-r from-primary  to-secondary text-white justify-center items-center z-50 rounded-2xl shadow-xl p-1.5 md:px-4 md:py-1"><a className="flex items-center justify-start gap-2 md:gap-3 cursor-pointer select-none group md:justify-center md:flex-1" href="https://www.producthunt.com/posts/workbookpdf/" target="_blank" rel="noreferrer">
-        {/* <Image
-      className='rounded'
-        alt='divyansh'
-        height="25"
-        src={myImg}
-        width="25"
-      >
-      </Image> */}
+      {/* <div className="hidden md:flex fixed left-4 bottom-4 md:left-8 bg-gradient-to-r from-primary  to-secondary text-white justify-center items-center z-50 rounded-2xl shadow-xl p-1.5 md:px-4 md:py-1"><a className="flex items-center justify-start gap-2 md:gap-3 cursor-pointer select-none group md:justify-center md:flex-1" href="https://www.producthunt.com/posts/workbookpdf/" target="_blank" rel="noreferrer">
+      
         <div className=" leading-tight md:leading-normal">
 
           <p className="font-medium"> <span className='animate-pulse'>👋🏻 </span>
@@ -23,14 +16,14 @@ const Label = () => {
           </p>
 
           <p className="text-sm opacity-90">Woud love to Hear 🫶</p>
-        </div></a></div>
+        </div></a></div> */}
 
       {/* For Mobile */}
-      {show === 0 ? <> <div className="fixed block md:hidden inset-x-0 bottom-0 p-4">
+      {show === 0 ? <> <div className="fixed inset-x-0 bottom-0 p-4 md:mx-44 lg:mx-80">
         <div
           className="relative flex items-center justify-between gap-4 rounded-3xl bg-gradient-to-r from-primary  to-secondary px-4 py-1 text-white shadow-lg"
         >
-          <p className="text-sm  font-medium">
+          <p className="text-xs md:text-base font-medium">
             <a href="#" className="inline-block mx-2 ">👋🏻Say Hello</a>
           <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="underline underline-offset-2 decoration-2 pl-1 group-hover:decoration-4 duration-200">Get Free Consultation →</button>
           </p>

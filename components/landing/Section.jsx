@@ -12,7 +12,7 @@ import sec4 from '../../assets/images/sec4.jpeg'
 const Section = () => {
   return (
     <div>
-      <section className="bg-base-100 p-6  md:py-20">
+      <section className="bg-blue-100/30 p-6  md:py-20">
         <div className="grid md:justify-center lg:grid-cols-2 gap-8 md:gap-16">
 
           <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[36rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
@@ -20,9 +20,15 @@ const Section = () => {
           </video>
 
           <div className="space-y-6 md:space-y-8 max-w-lg cursor-pointer"><h2 className="text-3xl md:text-5xl  font-black leading-tight md:leading-tight">Convert your visitors into <span className='border-b-2 text-primary'> Customers</span> </h2>
-            <p className="text-base-content-secondary"> <span className='text-primary border-b border-1'>What you sell matters,</span> sure. But how you represent it, matters the most! The key is to find your audience&apos;s concerns and give them a solution.
-</p>
-            <p className="text-base-content-secondary">Elevate Your Business with Expert Web Development and Swift Execution</p>
+            <p className="text-base-content-secondary text-base lg:text-lg">
+              {/* <span className='text-primary border-b border-1'>What you sell matters,</span>  */}
+              A well-designed and targeted landing page can increase conversion rates by 10% to 30% compared to sending visitors to a homepage or generic page.
+            </p>
+            <p className="text-base-content-secondary text-base lg:text-lg">
+              {/* <span className='text-primary border-b border-1'>What you sell matters,</span>  */}
+              Social media advertising can increase website conversion rates by up to 9%. (Source: HubSpot)
+            </p>
+            {/* <p className="text-base-content-secondary">Elevate Your Business with Expert Web Development and Swift Execution</p> */}
 
           </div>
         </div>
