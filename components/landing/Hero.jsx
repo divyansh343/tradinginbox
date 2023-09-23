@@ -95,12 +95,10 @@ const Hero = () => {
 
         <div className="mt-5 lg:mt-0 lg:col-span-5 flex">
           <Image src={pointy} height={600} weight={600} alt='hero image' />
-            {/* <img src="https://demo.themesberg.com/landwind/images/hero.png" alt="hero image"> */}
         </div>
 
     </div>
 </section>
-     
     </>
   )
 }

@@ -10,9 +10,7 @@ const Sheet = () => {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
 
           <Image alt='' src={sheet} className="rounded-3xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
-
           </Image>
-
 
           <div className="space-y-6 md:space-y-8 max-w-lg"><h2 className="text-3xl md:text-5xl tracking-tight font-black leading-tight md:leading-tight">
 
