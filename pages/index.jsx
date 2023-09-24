@@ -16,15 +16,15 @@ import Services from '../components/frontpage/Services'
 import Stars from '../components/frontpage/Stars'
 import BoxSection from '../components/frontpage/BoxSection'
 import Principles from '../components/frontpage/Principles'
+import Stats from '../components/frontpage/Stats'
 
 export default function Home() {
   return (
     <div className=''>
       <Hero/>
+      <Stats />
       <Section />
       <Services/>
-      <Principles />
-      <BoxSection/>
       <StageSection />
       <Stars />
       <Shutter />

@@ -23,7 +23,7 @@ const Label = () => {
         <div
           className="relative flex items-center justify-between gap-4 rounded-3xl bg-gradient-to-r from-primary  to-secondary px-4 py-1 text-white shadow-lg"
         >
-          <p className="text-xs md:text-base font-medium">
+          <p className="text-sm md:text-base font-medium">
             <a href="#" className="inline-block mx-2 ">👋🏻Say Hello</a>
           <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="underline underline-offset-2 decoration-2 pl-1 group-hover:decoration-4 duration-200">Get Free Consultation →</button>
           </p>
