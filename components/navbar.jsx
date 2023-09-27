@@ -128,8 +128,8 @@ const Navbar = ({ etheme, handleChange }) => {
   return (
     <>
       {/* <header className="sticky top-0 bg-base-[#fafaf7] backdrop-blur shadow z-40"> */}
-      <header className="sticky top-0 bg-base-100/90 backdrop-blur shadow z-40">
-        <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-3 md:py-2">
+      <header className="sticky top-0 bg-blue-100/30 backdrop-blur  z-40">
+        <div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-3 md:py-3">
           <Link href="/">
             <a aria-current="page" className="flex gap-2 items-center hover:bg-base-200 rounded">
               <div aria-current="page" aria-label="Homepage" className="flex-0 btn btn-ghost px-2" data-svelte-h="svelte-pw6yxt">
@@ -192,9 +192,7 @@ const Navbar = ({ etheme, handleChange }) => {
                 <li className=' '><Link href="/seo"><a className='text-base'>Seo Solutions</a></Link></li>
                 <li className=' mb-1'><Link href="/digital_marketing"><a className='text-base'>Digital marketing</a></Link></li>
               
-                <li className='bg-gradient-to-r from-primary text-base to-secondary text-white rounded-3xl'><button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Free consulation <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg></button></li>
+                <li className='bg-gradient-to-r from-primary text-base to-secondary text-white rounded-3xl'><button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Free consulation </button></li>
               </ul>
             </div>
             {/* <Link href="/"> */}

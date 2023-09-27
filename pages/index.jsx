@@ -29,7 +29,7 @@ export default function Home() {
       <Stars />
       <Shutter />
       <Faq/>
-      <Strip />
+      {/* <Strip /> */}
     </div>
   )
 }

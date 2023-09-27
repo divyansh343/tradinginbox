@@ -8,7 +8,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div id="service" className="bg-base-100  overflow-hidden">
-      <div className="py-24 px-4 max-w-7xl mx-auto">
+      <div className="py-24 px-4 max-w-7xl grid justify-center mx-auto">
         <div className="flex flex-col text-center w-full my-10">
           <div className="mb-4">
             <h2 className=" text-3xl md:text-4xl font-bold text-base-content">

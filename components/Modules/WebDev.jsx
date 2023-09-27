@@ -20,8 +20,8 @@ const WebDev = () => {
           Get your customized Website
           {/* <span className='text-primary' className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">showcase</span> your saas */}
         </p>
-        <p className=" grid justify-center  text-4xl lg:text-6xl text my-5">
-          @ Rs 5999/- only
+        <p className=" grid justify-center tracking-tight text-4xl lg:text-5xl text my-5">
+          That Converts.
         </p>
 
         <div className='grid justify-center my-5 md:my-0'>
@@ -30,7 +30,7 @@ const WebDev = () => {
         <p className=" grid justify-center text-blue-600 text-xl lg:text-3xl text mt-3">
           and @ 1 year Hosting for free
         </p>
-        <div className='lg:w-[700px] mt-10 grid justify-center'>
+        <div className='lg:w-[700px] mt-5 grid justify-center'>
           {/* <p className="text-lg  mb-5">
             Welcome, to our web development services, where innovation, creativity, and functionality converge to craft digital experiences that leave a lasting impact. In today&apos;s digital landscape, a compelling online presence is not just an option; it&apos;s a necessity.
 
