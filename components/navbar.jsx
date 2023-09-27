@@ -179,7 +179,7 @@ const Navbar = ({ etheme, handleChange }) => {
               </label>
               {/* <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" /> */}
               <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li className='  '><Link href="/brand_magnet"><a className='text-base'>Branding magent 
+              <li className='  '><Link href="/brand_magnet"><a className='text-lg'>Branding magent 
               </a></Link></li>
                 <li className=' '>
                 <Link  href="/web_development">
@@ -189,10 +189,10 @@ const Navbar = ({ etheme, handleChange }) => {
                   </a>
                 </Link>
                 </li>
-                <li className=' '><Link href="/seo"><a className='text-base'>Seo Solutions</a></Link></li>
-                <li className=' mb-1'><Link href="/digital_marketing"><a className='text-base'>Digital marketing</a></Link></li>
+                <li className=' '><Link href="/seo"><a className='text-lg'>Seo Solutions</a></Link></li>
+                <li className=' mb-1'><Link href="/digital_marketing"><a className='text-lg'>Digital marketing</a></Link></li>
               
-                <li className='bg-gradient-to-r from-primary text-base to-secondary text-white rounded-3xl'><button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Free consulation </button></li>
+                <li className='bg-gradient-to-r from-primary text-lg to-secondary text-white rounded-3xl'><button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Free consulation </button></li>
               </ul>
             </div>
             {/* <Link href="/"> */}
