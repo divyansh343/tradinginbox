@@ -24,7 +24,7 @@ const Sheet = () => {
         </div>
         <div className='grid lg:grid-cols-3 mx-6 mt-28 lg:mx-10 gap-10 '>
 
-          <Link href="project_1" >
+          <Link href="/project" >
           <a  className="group  bg-black">
               <Image
                 alt="Developer"
@@ -40,8 +40,7 @@ const Sheet = () => {
                     className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p className="text-md tracking-wide text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores
+                    Shot entirely on the Fujifilm X-T4, this footage demonstrates its prowess in outdoor landscapes,
                     </p>
                   </div>
                 </div>
@@ -49,7 +48,7 @@ const Sheet = () => {
             </a>
           </Link>
 
-          <Link href="project_2" >
+          <Link href="/heavyink" >
             <a  className="group  bg-black">
               <Image
                 alt="Developer"
@@ -65,8 +64,7 @@ const Sheet = () => {
                     className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p className="text-md tracking-wide text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores
+                     Tatto commercial video for Heavy ink Studios.
                     </p>
                   </div>
                 </div>
@@ -74,7 +72,7 @@ const Sheet = () => {
             </a>
           </Link>
 
-          <Link href="project_4" >
+          <Link href="/rhymon" >
             <a  className="group  bg-black">
               <Image
                 alt="Developer"
@@ -90,8 +88,7 @@ const Sheet = () => {
                     className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p className="text-md tracking-wide text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores
+                    Main Chala was a track that was produced by Rhymon.
                     </p>
                   </div>
                 </div>

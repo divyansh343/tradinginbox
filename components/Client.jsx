@@ -20,7 +20,7 @@ const Client = () => {
       <div className=" grid py-10 justify-center ">
         <div className="flex flex-wrap mx-4">
           <div className="w-full px-4">
-            <div className="flex items-center gap-10 md:gap-10 justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-10 justify-center">
               <Image
                 className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
                 width="500" height="250"
@@ -42,13 +42,6 @@ const Client = () => {
                 href="#"
                 Alt="Brand Image"
               />
-              {/* <Image
-                className=" aspect-square w-full border-2 md:border-4 border-base-content/20"
-                width="500" height="250"
-                src={sheet}
-                href="#"
-                Alt="Brand Image"
-              /> */}
             </div>
           </div>
         </div>

@@ -4,6 +4,8 @@ import sheet from '../assets/images/sign.png'
 import wp from '../assets/images/wp.png'
 import insta from '../assets/images/insta.png'
 import yt from '../assets/images/yt.png'
+import lkdin from '../assets/images/lkdin.png'
+import tree from '../assets/images/tree.png'
 
 const Footer = () => {
   return (
@@ -64,6 +66,12 @@ const Footer = () => {
               </a>
               <a target='_blank' rel='noreferrer' href="https://www.youtube.com/@thatsarpit">
                 <Image alt='' src={yt} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
+              </a>
+              <a target='_blank' rel='noreferrer' href="https://linktr.ee/arpitbajpai">
+                <Image alt='' src={tree} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
+              </a>
+              <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/arpit-bajpai-430907226">
+                <Image alt='' src={lkdin} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
               </a>
               <a target='_blank' rel='noreferrer' href="https://www.instagram.com/thatsarpit/">
                 <Image alt='' src={insta} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
