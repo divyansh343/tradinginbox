@@ -17,6 +17,7 @@ import Stars from '../components/frontpage/Stars'
 import BoxSection from '../components/frontpage/BoxSection'
 import Principles from '../components/frontpage/Principles'
 import Stats from '../components/frontpage/Stats'
+import Client from '../components/frontpage/Client'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Services/>
       <StageSection />
       <Stars />
+      <Client />
       <Shutter />
       <Faq/>
       {/* <Strip /> */}

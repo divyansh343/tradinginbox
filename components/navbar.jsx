@@ -168,7 +168,7 @@ const Navbar = ({ etheme, handleChange }) => {
           </div>
 
           <div className=" mt-1 hidden lg:block">
-            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn bg-blue-600 hover:bg-primary normal-case text-white font-normal text-base tracking-base btn-md" href="tel:916263965062">Get  <span className=' '> Free 1 : 1 </span>Consultation</button>
+            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn bg-blue-600 hover:bg-primary normal-case text-white font-normal text-base tracking-base btn-md" href="tel:916263965062">Get  Free <span className='border-b-2 '> Consultation →</span></button>
           </div>
           <div className="lg:hidden ">
             <div className="dropdown dropdown-end">

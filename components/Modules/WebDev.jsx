@@ -15,19 +15,19 @@ import Image from 'next/image';
 const WebDev = () => {
   return (
     <div className='bg-blue-50/10'>
-      <div className='py-20  lg:h-screen px-5 grid justify-center lg:px-20 '>
-        <p className=" grid justify-center text-center text-3xl lg:text-5xl text-primary ">
+      <div className='py-20   px-5 grid justify-center lg:px-20 '>
+        <p className=" grid justify-center font-bold text-center text-4xl lg:text-6xl text-primary ">
           Get your customized Website
           {/* <span className='text-primary' className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">showcase</span> your saas */}
         </p>
-        <p className=" grid justify-center tracking-tight text-4xl lg:text-5xl text my-5">
-          That Converts.
+        <p className=" grid justify-center font-bold tracking-tight text-4xl lg:text-5xl text my-8">
+         → That Converts.
         </p>
 
-        <div className='grid justify-center my-5 md:my-0'>
+        <div className='grid justify-center pt-8 md:my-0'>
           <button className='btn-md lg:btn-lg btn bg-blue-600 hover:bg-primary normal-case text-lg lg:text-2xl font-normal text-white'>Let&apos;s Begin ✨</button>
         </div>
-        <p className=" grid justify-center text-blue-600 text-xl lg:text-3xl text mt-3">
+        <p className=" grid justify-center text-blue-600 mt-10 text-xl lg:text-3xl text ">
           and @ 1 year Hosting for free
         </p>
         <div className='lg:w-[700px] mt-5 grid justify-center'>
@@ -35,12 +35,17 @@ const WebDev = () => {
             Welcome, to our web development services, where innovation, creativity, and functionality converge to craft digital experiences that leave a lasting impact. In today&apos;s digital landscape, a compelling online presence is not just an option; it&apos;s a necessity.
 
           </p> */}
-          <p className="text-lg  mb-5">
-            We are here to be your partner in turning your vision into a functional, user-friendly, and visually stunning website.
+          <p className="text-lg  text-center mb-5">
+            → We are here to be your partner in turning your vision into a functional, user-friendly, and visually stunning website.
           </p>
         </div>
       </div>
-
+      <div className='grid justify-center px-2'>
+        <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[52rem] border-2  border-base-content/20" width="1000" height="600">
+          <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1696059432/vid_t4a8rr.mp4" type="video/mp4" />
+        </video>
+       
+      </div>
       <div className='py-3 px-5  lg:px-20 grid justify-center'>
         {/* <p className="text-3xl mb-14 grid justify-center">
         Elevate Your Web Presence: Web Development Service Pack!        </p> */}
@@ -48,7 +53,7 @@ const WebDev = () => {
           <p className="mx-auto font-medium text-gradient-cold mb-2 ">Elevate Your Web Presence✨</p>
           <div className="mb-8">
             <h2 className="sm:text-4xl text-3xl font-bold text-base-content">
-             Web Development Pack Includes!
+              Web Development Pack Includes!
             </h2>
           </div>
           {/* <div className="md:w-2/3 mx-auto leading-relaxed text-base text-base-content-secondary">begins with strategic selection.

@@ -18,10 +18,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /* font-family: 'Poppins', sans-serif; */
-  /* font-family: "SuisseIntl"; */
   /* font-family: 'Plus Jakarta Sans', sans-serif; */
-  font-family: "CircularStd";
+  /* font-family: "CircularStd"; */
+  font-family: "Graphik";
+  /* font-family: "GT Walsheim"; */
   scroll-behavior: smooth;
                                                 
 }
@@ -63,6 +63,31 @@ a {
 @font-face {
   font-family: "SuisseIntl";
   src: url('../assets/fonts/SuisseIntl-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/GraphikBold.otf');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/GraphikMedium.otf');
+  font-weight: medium;
+  font-style: medium;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/GraphikRegular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim";
+  src: url('../assets/fonts/GT_Walsheim_Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }

@@ -10,7 +10,7 @@ const StageSection = () => {
             <div className="container">
                 <div className="text-center max-w-xl mx-auto">
                     {/* <h6 className="font-normal uppercase mb-2">How it <span className="font-semibold">Work</span></h6> */}
-                    <h2 className="text-3xl font-semibold mb-3">How do we work ?</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-3">How do we work ?</h2>
                     {/* <p className="text-base font-normal text-gray-500">Sed ut perspiciatis unde omnis iste natus error
                         voluptatem accusantium doloremque rem aperiam.</p> */}
                 </div>

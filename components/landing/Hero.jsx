@@ -33,15 +33,15 @@ const Hero = () => {
                 </div> */}
 
                 <h1 className="font-extrabold mt-5 md:mt-16 text-4xl lg:text-6xl tracking-tight md:-mb-4 flex flex-col gap-3 items-center lg:items-start">
-                    <span className="relative">Convert your visitors</span>
+                    <span className="relative">Convert visitors</span>
 
 
                     <span className=" relative ">
-                        <span className="mr-4 md:mr-5">into,</span>
+                        <span className="mr-4 md:mr-5">into</span>
                         <span className=" relative whitespace-nowrap">
                             <span className="absolute bg-primary -left-2 -top-1 -bottom-1 -right-2 md:-left-3 md:-top-0 md:-bottom-0 md:-right-3 -rotate-1">
                             </span>
-                            <span className="relative text-primary-content">Customers</span>
+                            <span className="relative text-primary-content">→ Customers</span>
                         </span>
                     </span>
                 </h1>
