@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const StageSection = () => {
     return (
-        <section className="py-24  px-10 md:px-36 lg:px-20 grid justify-center">
+        <section className="py-24 bg-base-100 px-10 md:px-36 lg:px-20 grid justify-center">
             <div className="container">
                 <div className="text-center max-w-xl mx-auto">
                     {/* <h6 className="font-normal uppercase mb-2">How it <span className="font-semibold">Work</span></h6> */}

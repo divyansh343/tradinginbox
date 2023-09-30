@@ -6,7 +6,7 @@ import { BsArrowDownRight, BsArrowDownRightSquare } from 'react-icons/bs'
 
 const Stats = () => {
   return (
-    <div className='grid justify-center bg-blue-100/30 py-24 px-5 lg:px-72'>
+    <div className='grid justify-center py-24 px-5 lg:px-72'>
       <p className="flex items-center my-4 text-xl gap-2">
         <span className='mx-3 text-primary' >
           <BsArrowDownRightSquare />

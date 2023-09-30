@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import FaqListItem from './FaqListItem'
 import Image from 'next/image'
-import pointy from '../../assets/images/hanging.png'
+import pointy from '../../assets/images/faq.png'
 
 
 const Faq = () => {

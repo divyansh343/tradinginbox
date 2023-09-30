@@ -20,7 +20,7 @@ import Stats from '../components/frontpage/Stats'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='bg-blue-100/30'>
       <Hero/>
       <Stats />
       <Section />

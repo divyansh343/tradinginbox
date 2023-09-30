@@ -20,8 +20,9 @@ body {
   margin: 0;
   /* font-family: 'Poppins', sans-serif; */
   /* font-family: "SuisseIntl"; */
+  /* font-family: 'Plus Jakarta Sans', sans-serif; */
   font-family: "CircularStd";
-  /* font-family: 'Questrial', sans-serif; */
+  scroll-behavior: smooth;
                                                 
 }
 

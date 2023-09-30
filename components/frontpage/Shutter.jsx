@@ -4,12 +4,12 @@ import { BsArrowDownRightSquare } from 'react-icons/bs';
 
 const Shutter = () => {
   return (
-    <div>
+    <div className='grid justify-center'>
       <section className="bg-blue-100/10 p-6  md:py-20">
         <div className="grid md:justify-center lg:grid-cols-2 gap-20 lg:px-10 ">
 
-          <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[38rem] border-2 md:border-4 border-base-content/20" width="900" height="600">
-            <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1692619763/g913wgIdETKmM6qz_ljjuiu.mp4" type="video/mp4" />
+          <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[36rem] border-2  border-base-content/20" width="1000" height="600">
+            <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1696059432/vid_t4a8rr.mp4" type="video/mp4" />
           </video>
 
           <div className="grid justify-start space-y-2 lg:space-y-0  max-w-lg">

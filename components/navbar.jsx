@@ -183,7 +183,7 @@ const Navbar = ({ etheme, handleChange }) => {
               </a></Link></li>
                 <li className=' '>
                 <Link  href="/web_development">
-                  <a className="justify-between text-base">
+                  <a className="justify-between text-lg">
                     Web devlopment
                     
                   </a>
@@ -192,7 +192,7 @@ const Navbar = ({ etheme, handleChange }) => {
                 <li className=' '><Link href="/seo"><a className='text-lg'>Seo Solutions</a></Link></li>
                 <li className=' mb-1'><Link href="/digital_marketing"><a className='text-lg'>Digital marketing</a></Link></li>
               
-                <li className='bg-gradient-to-r from-primary text-lg to-secondary text-white rounded-3xl'><button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Free consulation </button></li>
+                <li className='bg-gradient-to-r from-primary text-lg to-secondary text-white rounded-3xl'><button className='text-lg' data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">⚡Free consulation </button></li>
               </ul>
             </div>
             {/* <Link href="/"> */}

@@ -11,12 +11,12 @@ import sec4 from '../../assets/images/sec4.jpeg'
 
 const Section = () => {
   return (
-    <div>
-      <section className="bg-blue-100/30 p-6  md:py-20">
+    <div className='grid justify-center'>
+      <section className=" p-6  md:py-20">
         <div className="grid md:justify-center lg:grid-cols-2 gap-8 md:gap-16">
 
-          <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[36rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
-            <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691993547/krypto/web.mp4" type="video/mp4" />
+          <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[36rem] border-2 border-base-content/20" width="800" height="500">
+            <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1696059432/kozi_dvohi6.mp4" type="video/mp4" />
           </video>
 
           <div className="space-y-6 md:space-y-8 max-w-lg cursor-pointer"><h2 className="text-3xl md:text-5xl  font-black leading-tight md:leading-tight">Unlock your digital <span className='border-b-2 text-primary'> Potential</span> </h2>
