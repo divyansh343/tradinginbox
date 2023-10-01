@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import sheet from '../assets/images/bcraft.png'
+import sheet from '../assets/images/bcraftf.png'
 
 
 // import { HiTrendingUp } from 'react-icons/hi'
@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <p aria-current="page" className="flex gap-2 justify-center md:justify-start items-center" href="/#">
               <Image alt='brandcraft logo' className='' src={sheet} height={60} width={60} />
-              <strong className="font-bold text-base md:text-lg">BrandStart</strong></p>
+              <strong className="font-bold text-base md:text-lg">BrandStart.live</strong></p>
             <p className="mt-3 text-sm lg:text-base text-base-content/80"> Fueling Your Online Success</p>
             <p className="mt-3 link link-hover text-sm lg:text-base text-base-content/80"> +91 6263965062</p>
             <p href="mailto:marc@shipfa.st" target="_blank" rel="noreferrer" className=" link link-hover mt-3 text-sm lg:text-base text-base-content/80"> contact@brandstart.com</p>
