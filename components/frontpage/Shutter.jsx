@@ -37,9 +37,7 @@ const Shutter = () => {
 
             {/* <p className="text-base-content-secondary"> Identifying emerging trends, market sentiment shifts, and potential opportunities before they become widely known. Through in-depth technical and fundamental analysis.</p> */}
             <div className='grid justify-center'>
-              <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn bg-blue-600 hover:bg-primary normal-case text-white font-normal text-base btn-base lg:btn-lg">Get  <span className='border-b-2'>Free 1 : 1 </span>Consultation<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg></button>          </div>
+            <button data-tally-open="wA2MYD" data-tally-width="400" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="space-y-4"><button className="btn btn-primary group normal-case btn-wide  text-base plausible-event-name=Checkout">Get Free 1 : 1 Consultaion →</button></button>      </div>
           </div>
         </div>
         {/* <div className="grid md:justify-center lg:grid-cols-2 gap-20 lg:px-10 ">
