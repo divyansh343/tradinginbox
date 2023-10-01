@@ -1,5 +1,5 @@
 import { FaTelegram } from "react-icons/fa";
-import arr from '../../assets/images/portraits/seven.jpeg'
+import arr from '../../assets/images/portraits/seven.jpg'
 
 import React from 'react'
 import Link from "next/link";
