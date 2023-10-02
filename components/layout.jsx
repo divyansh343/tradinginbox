@@ -5,7 +5,7 @@ import Navbar from "./navbar"
 import Announcement from "./frontpage/Announcement"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("emerlald")
+  const [theme, settheme] = useState("light")
 
   // const listenScrollEvent = () => {
   //     window.scrollY > 800
