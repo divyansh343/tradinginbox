@@ -26,7 +26,7 @@ const Faq = () => {
       que: "Do you offer custom web design services?",
       ans: "Absolutely! We provide custom web design services that align with your brand identity, goals, and target audience. Our designs are unique, user-friendly, and optimized for mobile devices.",
     },
-  
+
     {
       id: 5,
       que: "How do you approach SEO to improve rankings?",
@@ -37,7 +37,7 @@ const Faq = () => {
       que: "Are you up-to-date with design and tech trends?",
       ans: " Absolutely, staying current with design and technology trends is integral to our agency's approach. We recognize that the digital landscape is ever-evolving, with new design & aesthetics. ",
     },
-  
+
     {
       id: 7,
       que: " How can I get in touch with you?",
@@ -45,7 +45,9 @@ const Faq = () => {
     },
   ]
   return (
-    <div className='px-5 lg:px-10 py-10 bg-blue-100/10 '> 
+    <div className='px-5 lg:px-10 py-10 bg-blue-100/10 '>
+      <div className='grid justify-center'>
+      </div>
       <div className="py-24 px-5 max-w-7xl mx-auto flex flex-col md:flex-row gap-12 md:gap-16">
         <div className="flex flex-col text-left basis-1/2">
           <p className="inline-block font-semibold text-gradient-warm mb-4">FAQ</p>

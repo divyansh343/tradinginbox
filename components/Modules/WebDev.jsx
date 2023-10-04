@@ -15,6 +15,7 @@ import Image from 'next/image';
 const WebDev = () => {
   return (
     <div className='bg-blue-50/10'>
+     
       <div className='py-20   px-5 grid justify-center lg:px-20 '>
         <p className=" grid justify-center font-bold text-center text-4xl lg:text-6xl text-primary ">
           Get your customized Website

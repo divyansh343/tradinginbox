@@ -8,7 +8,6 @@ import sec1 from '../../assets/images/sec1.png'
 import sec3 from '../../assets/images/sec3.png'
 import sec4 from '../../assets/images/sec4.jpeg'
 
-
 const Section = () => {
   return (
     <div className='grid justify-center'>
