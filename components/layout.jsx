@@ -2,8 +2,6 @@ import { useState, useEffect } from "react"
 import Footer from "./footer"
 import Label from "./landing/Label"
 import Navbar from "./navbar"
-import Announcement from "./frontpage/Announcement"
-
 const Layout = ({ children }) => {
   const [theme, settheme] = useState("light")
 

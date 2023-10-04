@@ -14,7 +14,7 @@ const Footer = () => {
             <p aria-current="page" className="flex gap-2 justify-center md:justify-start items-center" href="/#">
               <Image alt='brandcraft logo' className='' src={sheet} height={60} width={60} />
               <strong className="font-bold text-base md:text-lg">BrandStart.live</strong></p>
-            <p className="mt-3 text-sm lg:text-base text-base-content/80"> Fueling Your Online Success</p>
+            <p className="mt-3 text-sm lg:text-base text-base-content/80">Crafting your online sucess</p>
             <div className='mt-3'>
               <a className="mt-3 link link-hover text-sm lg:text-base text-base-content/80"> +91 6263965062</a>
             </div>
