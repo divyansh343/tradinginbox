@@ -63,11 +63,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full bg-gray-200 h-[1px] mb-[20px]"></div>
-          <div className="text-gray-400 flex items-center justify-between">
+          <div className="text-gray-400 flex  items-center justify-between">
               <p className="text-sm ">@CharterdMedia
               </p>
        
-              <a href='https://divyanshpal.netlify.app' target='_blank' rel='noreferrer' className=' text-sm hover:shadow-lg hover:underline cursor-pointer'>-by<span className='text-primary ml-1 '>Divyansh</span></a>
+              <a href='https://brandstart.live' target='_blank' rel='noreferrer' className=' text-md bg-blue-100/10 px-2 py-1 rounded-3xl hover:shadow-lg hover:drop-shadow-2xl cursor-pointer'>▶ Powerd by -<span className='text-primary ml-1 font-bold '>Brandstart</span></a>
           </div>
         </div>
       </div>
