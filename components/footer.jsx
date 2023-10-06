@@ -6,15 +6,16 @@ import insta from '../assets/images/insta.png'
 import yt from '../assets/images/yt.png'
 import lkdin from '../assets/images/lkdin.png'
 import tree from '../assets/images/tree.png'
+import bstart from '../assets/images/bstart.png'
 
 const Footer = () => {
   return (
-    <>
-      <div className='px-10 pb-5 bg-black a grid justify-center'>
-        <div className="px-[2px] md:px-[36px] xl:px-0 mt-[70px]">
+    <div className='max-w-7xl grid justify-center '>
+      <div className='px-4 pb-5 bg-black'>
+        <div className="mt-[70px]">
 
           {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
-          <div className=" grid gird-cols-1 gap-8 mb-10 md:grid-cols-2  xl:gap-[300px]">
+          <div className=" grid gird-cols-1 gap-12 mb-10 md:grid-cols-2  xl:gap-[300px]">
 
             <div>
               <Image alt='' src={sheet} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="110" height="80">
@@ -57,9 +58,9 @@ const Footer = () => {
           <div className='bg-[#ffffff]  md:px-[36px] opacity-10 h-[3px] mb-8 rounded'>
           </div>
           <div className="text-gray-400 flex items-center justify-between">
-            <p className="text-sm ">
-              I Love You
-            </p>
+            <a className="text-sm cursor-pointer hover:shadow-2xl hover:border-b">
+              Powered by -<span className=''> Brandstart</span>
+            </a>
             <div className='flex gap-4'>
               <a target='_blank' rel='noreferrer' href="https://wa.me/916262812849">
                 <Image alt='' src={wp} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
@@ -76,16 +77,13 @@ const Footer = () => {
               <a target='_blank' rel='noreferrer' href="https://www.instagram.com/thatsarpit/">
                 <Image alt='' src={insta} className="  hover:shadow-xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20 cursor-pointer" width="20" height="20"></Image>
               </a>
-
             </div>
-
-            {/* <a href='https://suprr.link/divyansh' target='_blank' rel='noreferrer' className=' text-sm shadow-lg underline cursor-pointer'>-Designed by<span className='text-primary ml-1 '>Divyansh</span></a> */}
           </div>
         </div>
         {/* <div className='bg-[#ffffff] opacity-10 mx-[36px] h-1 mb-8 mt-4 rounded'>
         </div> */}
       </div>
-    </>
+    </div>
   )
 }
 

@@ -19,7 +19,7 @@ const Hero = () => {
     return () => clearTimeout(intervalId);
   }, []);
   return (
-    <div className='main -mt-20'>
+    <div className='main max-w-7xl -mt-20'>
       <div className="overlay"></div>
       <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1693121720/ss2_zjqdo7.mp4" autoPlay loop muted />
       <div className="content pb-10">

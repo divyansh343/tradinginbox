@@ -14,7 +14,7 @@ const Cta = () => {
               <p className="text-[#c0c0c0] lg:text-md">Unlock the power of storytelling with our filmmaking expertise.
               </p>
             </div>
-            <a className="btn bg-white rounded-2xl text-base normal-case mt-6 tracking-wider font-bold text-black btn-md" href="/app/new">Get in touch</a>
+            <a className="btn bg-white rounded-2xl text-base normal-case mt-6 tracking-wider font-bold text-black btn-md" href="https://linktr.ee/arpitbajpai" target='_blank'rel='noreferrer' >Get in touch</a>
 
           </div>
         </div>

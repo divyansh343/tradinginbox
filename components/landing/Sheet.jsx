@@ -10,8 +10,8 @@ import Link from 'next/link'
 
 const Sheet = () => {
   return (
-    <div>
-      <section className="bg-base-100 mt-20 py-16 md:py-32">
+    <div className='grid justify-center '>
+      <section className="max-w-7xl bg-base-100 mt-20 py-16 md:py-32">
         <div className="flex flex-col text-center my-10">
           <div className="mb-3">
             <h2 className="text-4xl lg:text-5xl font-semibold text-white">Arpit&apos;s projects
@@ -22,9 +22,9 @@ const Sheet = () => {
             </h3>
           </div>
         </div>
-        <div className='grid lg:grid-cols-3 mx-6 mt-28 lg:mx-10 gap-10 '>
+        <div className='grid lg:grid-cols-2 mx-6 mt-28 lg:mx-10 gap-10 '>
 
-          <Link href="/project" >
+          {/* <Link href="/project" >
           <a  className="group  bg-black">
               <Image
                 alt="Developer"
@@ -46,7 +46,7 @@ const Sheet = () => {
                 </div>
               </div>
             </a>
-          </Link>
+          </Link> */}
 
           <Link href="/heavyink" >
             <a  className="group  bg-black">
@@ -61,7 +61,7 @@ const Sheet = () => {
 
                 <div className="">
                   <div
-                    className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                    className="translate-y-8 -mt-20 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p className="text-md tracking-wide text-white">
                      Tatto commercial video for Heavy ink Studios.
@@ -85,7 +85,7 @@ const Sheet = () => {
 
                 <div className="">
                   <div
-                    className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                    className="translate-y-8 -mt-20 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p className="text-md tracking-wide text-white">
                     Main Chala was a track that was produced by Rhymon.
