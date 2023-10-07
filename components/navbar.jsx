@@ -24,7 +24,7 @@ const Navbar = ({ etheme, handleChange }) => {
           <Link href="/">
             <a aria-current="page" className="flex gap-2 items-center rounded">
               <div aria-current="page" aria-label="Homepage" className="flex-0  px-2" data-svelte-h="svelte-pw6yxt">
-                <Image alt='' src={sheet} className=" aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="110" height="80">
+                <Image alt='' src={sheet} className=" aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="80" height="80">
                 </Image>
                 {/* <svg width="32" height="32" viewBox="0 0 415 415" xmlns="http://www.w3.org/2000/svg"><rect x="82.5" y="290" width="250" height="125" rx="62.5" fill="#1AD1A5"></rect><circle cx="207.5" cy="135" r="130" fill="black" fillOpacity=".3"></circle><circle cx="207.5" cy="135" r="125" fill="white"></circle><circle cx="207.5" cy="135" r="56" fill="#FF9903"></circle></svg>  */}
                 {/* <div className="font-title inline-flex font-normal text-white text-lg md:text-3xl"><span className="lowercase">apperture</span> <span className="lowercase text-white"></span>
