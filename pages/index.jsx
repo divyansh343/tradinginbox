@@ -3,11 +3,13 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { LuLocate } from 'react-icons/lu';
 
 import { useState } from 'react'
+import Cover from '../components/Cover';
 
 export default function Home() {
   const [etheme, settheme] = useState("lofi")
   return (
     <div data-theme={etheme} className=''>
+      {/* <Cover /> */}
       <div className=" h-full w-full min-h-screen flex items-center flex-col p-8 xl:p-28 lg:p-28 text-primary section">
 
         <div className="container w-full lg:w-[55%] xl:w-[55%] h-full"><h3 className="text-[11px] text-dark-200 flex items-center Menlo">
@@ -48,16 +50,17 @@ export default function Home() {
 
           <div className="mt-6">
 
-            <h1 className="text-[25px] font-[600] text-dark-100 Magnat-Head">Divyansh Pal</h1>
+            <h1 className="text-[25px] font-[600] text-dark-100 Magnat-Head">Danish Siddiqui </h1>
 
-            <p className="text-[15px] mt-[8px] font-[300] tracking-[0.25px] leading-[28px]">Full Stack developer, Designer</p><svg aria-hidden="true" width="80" height="16" viewBox="0 0 432 38" fill="none" className="my-4">
+            <p className="text-[15px] mt-[8px] font-[300] tracking-[0.25px] leading-[28px]">Dev-Ops Guy</p><svg aria-hidden="true" width="80" height="16" viewBox="0 0 432 38" fill="none" className="my-4">
 
               <path d="M402.74 37.59c-12.547 0-27.973-16.277-28.629-16.965-7.043-8.191-14.168-15.477-24.648-15.477-11.488 0-24.984 15.258-25.125 15.41l-1.168 1.273c-7.441 8.102-14.469 15.758-26.984 15.758-12.547 0-27.973-16.277-28.629-16.965-7.043-8.191-14.168-15.477-24.648-15.477-11.488 0-24.984 15.258-25.125 15.41l-1.101 1.16c-8.497 8.868-15.203 15.872-27.047 15.872-12.551 0-27.98-16.277-28.629-16.965-7.047-8.192-14.176-15.477-24.648-15.477-11.488 0-24.984 15.257-25.125 15.41l-1.18 1.285c-7.434 8.097-14.465 15.742-26.977 15.742-12.551 0-27.98-16.277-28.63-16.965C47.402 12.427 40.273 5.142 29.8 5.142A28.001 28.001 0 004.988 20.099a2.37 2.37 0 01-3.203.988A2.37 2.37 0 01.8 17.884C6.503 7.107 17.612.404 29.796.404c12.473 0 20.754 8.422 28.168 17.043 3.977 4.23 16.391 15.395 25.11 15.395 10.433 0 16.19-6.27 23.483-14.207l1.145-1.246C108.268 16.74 122.733.405 136.35.405c12.473 0 20.754 8.422 28.168 17.043 3.976 4.23 16.391 15.395 25.109 15.395 9.82 0 15.316-5.73 23.629-14.406l1.039-1.086c.535-.617 15-16.95 28.613-16.95 12.48 0 20.762 8.423 28.168 17.044 3.977 4.223 16.391 15.39 25.109 15.39 10.438 0 16.203-6.273 23.5-14.222l1.137-1.235c.566-.648 15.031-16.983 28.641-16.983 12.48 0 20.762 8.421 28.168 17.043 3.976 4.222 16.391 15.39 25.109 15.39 10.004 0 19.32-5.39 24.324-14.066a2.362 2.362 0 013.238-.87 2.372 2.372 0 01.871 3.234c-5.852 10.164-16.746 16.465-28.434 16.465l.001-.001z" fill="#e2e2e2"></path></svg>
 
             <p className="text-[15px] my-[8px] font-[300] tracking-[0.25px] leading-[32px]">
               {/* <a href="https://www.producthunt.com/stories/announcing-the-golden-kitty-awards-2021-winners#:~:text=%F0%9F%8F%86%20Savio%20Martin-,(WINNER),-Best%20Community%20Member" target="_blank" rel="noopener noreferrer" className="mx-[1px] font-medium text-dark-100 hover:border-dark-100 transition-all duration-500 border-b border-light-400 pb-[3px]">Maker of The Year 2021</a> */}
 
-              Hello, I&apos;m Divyansh, a Full stack developer with a knack for turning ideas into digital reality. I&apos;ve honed my skills through internships, freelancing, and serious projects.
+              Hello, I&apos;m Danish, I promote left wing ideology with a knack for turning ideas into digital reality. I am befriend with George Soros & Rahul gandhi I&apos;ve honed my skills through internships, freelancing, and serious projects.
+
             </p>
 
             <h1 className="text-[18px] my-6 font-[400] tracking-[0.25px] leading-[32px] text-dark-100">Tech Stack</h1>
