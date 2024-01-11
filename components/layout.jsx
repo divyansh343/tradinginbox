@@ -5,13 +5,13 @@ import Navbar from "./navbar"
 import Whole from "./Whole"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("winter")
+  const [theme, settheme] = useState("dracula")
 
   // const handleChange = (e) => {
   //   settheme(e.target.value);
   // }
   return (
-    <div className="bg-base-100" data-theme={theme}>
+    <div className="bg-base-100" data-theme="cmyk">
       {/* <Navbar ethmem={theme} handleChange={handleChange} /> */}
       {/* <Whole ethmem={theme} handleChange={handleChange}  /> */}
       <div className="">
