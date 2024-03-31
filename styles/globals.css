@@ -18,7 +18,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "adobe"
 }
 
 a {
@@ -47,6 +47,26 @@ a {
     background-position: 50% 20%;
   }
 } */
+
+/* Graphik font */
+
+@font-face {
+  font-family: "adobe";
+  src: url('../assets/fonts/Adobe\ Garamond\ Pro\ Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.containerSlide {
+  width: 650px;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.containerSlide img {
+  height: 500px;
+
+}
 
 .input {
   border-radius: 15px;

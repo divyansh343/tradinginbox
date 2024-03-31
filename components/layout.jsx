@@ -4,7 +4,7 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("luxury")
+  const [theme, settheme] = useState("mytheme")
 
   // const listenScrollEvent = () => {
   //     window.scrollY > 1100
@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
     settheme(e.target.value);
   }
   return (
-    <div className="bg-[#000000] " data-theme={theme}>
+    <div className="bg-base-100" data-theme={theme}>
       <Navbar ethmem={theme} handleChange={handleChange} />
       
       <div className="">

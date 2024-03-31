@@ -14,11 +14,11 @@ const Sheet = () => {
       <section className="max-w-7xl bg-base-100 mt-20 py-16 md:py-32">
         <div className="flex flex-col text-center my-10">
           <div className="mb-3">
-            <h2 className="text-4xl lg:text-5xl font-semibold text-white">Arpit&apos;s projects
+            <h2 className="text-4xl lg:text-5xl font-semibold text-primary">Arpit&apos;s projects
             </h2>
           </div>
-          <div className="md:w-2/3 mx-auto leading-relaxed text-base text-white">
-            <h3 className="text-[#c0c0c0] text-md">Here are few glimpse of previous videos
+          <div className="md:w-2/3 mx-auto leading-relaxed text-base text-primary">
+            <h3 className="text-primary text-md">Here are few glimpse of previous videos
             </h3>
           </div>
         </div>
@@ -39,7 +39,7 @@ const Sheet = () => {
                   <div
                     className="translate-y-8 -mt-28 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
-                    <p className="text-md tracking-wide text-white">
+                    <p className="text-md tracking-wide text-primary">
                     Shot entirely on the Fujifilm X-T4, this footage demonstrates its prowess in outdoor landscapes,
                     </p>
                   </div>
@@ -63,7 +63,7 @@ const Sheet = () => {
                   <div
                     className="translate-y-8 -mt-20 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
-                    <p className="text-md tracking-wide text-white">
+                    <p className="text-md tracking-wide text-primary">
                      Tatto commercial video for Heavy ink Studios.
                     </p>
                   </div>
@@ -87,7 +87,7 @@ const Sheet = () => {
                   <div
                     className="translate-y-8 -mt-20 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
-                    <p className="text-md tracking-wide text-white">
+                    <p className="text-md tracking-wide text-primary">
                     Main Chala was a track that was produced by Rhymon.
                     </p>
                   </div>

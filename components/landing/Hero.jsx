@@ -22,7 +22,7 @@ const Hero = () => {
     <div className=''>
       <div className='main  -mt-20'>
         <div className="overlay"></div>
-        <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1693121720/ss2_zjqdo7.mp4" autoPlay loop muted />
+        <video className='vid' src="https://res.cloudinary.com/the-social-charts/video/upload/v1711876056/Raina_and_Darshan_Athens-vimeo-812050933-dash-fastly_skyfire_sep-video-ab9a8cfb_wuklfs.mp4" autoPlay loop muted />
         <div className="content pb-10">
           <div className='py-3'>
             <p className='text-md text-[#c0c0c0] lg:text-md  drop-shadow-2xl px-5'>Filmmaker & Photographer</p>

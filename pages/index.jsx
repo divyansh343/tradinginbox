@@ -21,6 +21,7 @@ import Cta from '../components/Cta'
 import Client from '../components/Client'
 import Hero from '../components/landing/Hero'
 import Para from '../components/Para'
+import Slideshow from '../components/slide'
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
         <div></div>
         <Image alt='' src={wide2} className=" aspect-auto w-full border-2 md:border-4 border-base-content" width="1300" height="550">
         </Image>
+        {/* <Slideshow /> */}
+        <Section />
       </div>
       {/* wide 2 */}
       <Client />
