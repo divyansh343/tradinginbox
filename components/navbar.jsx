@@ -40,7 +40,7 @@ const Navbar = ({ etheme, handleChange }) => {
             <a className=" hover:opacity-25 cursor-pointer text-white text-sm" >
               Business areas
             </a>
-            <a className=" hover:opacity-25 cursor-pointer text-white text-sm" >Gear cage</a>
+            <a className=" hover:opacity-25 cursor-pointer text-white text-sm" >Weddings</a>
             <a className=" hover:opacity-25 cursor-pointer text-white text-sm" >contact</a>
             {/* <select value={etheme} onChange={handleChange}
             className="select select-sm select-primary w-full max-w-xs mx-1">
